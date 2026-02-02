@@ -1,6 +1,7 @@
 package View;
 
 import java.time.LocalDate;
+import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
 
 public class RunnableClock implements Runnable{
@@ -16,17 +17,19 @@ public class RunnableClock implements Runnable{
 
     @Override
     public void run() {
-        for (int i = 0; i < -1; i++) {
-            LocalDate time=LocalDate.now();
-            System.out.println(time.format(timeFormatter));
+        for (int i = 0; i > -1; i++) {
+            LocalTime time=LocalTime.now();
+           String timeString=time.format(timeFormatter);
+           temperatureViewController.showTime(timeString);
+            System.out.println(timeString);
 
-            temperatureViewController.showTime(time.format(timeFormatter));
+            try {
+                Thread.sleep(1000);
+            } catch (InterruptedException e) {
+
+            }
 
         }
-        try {
-            Thread.sleep(1000);
-        } catch (InterruptedException e) {
 
-        }
     }
 }

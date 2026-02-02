@@ -9,7 +9,7 @@
 <?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.layout.VBox?>
 
-<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="277.0" prefWidth="383.0" stylesheets="@../../../../../OneDrive/Desktop/VIA/sem1/sep/Sep1ProjektVia/Design/GUI.css" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View.TemperatureViewController">
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="277.0" prefWidth="383.0" stylesheets="/View/GUI.css" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View.TemperatureViewController">
     <children>
         <GridPane prefHeight="84.0" prefWidth="616.0">
             <columnConstraints>
@@ -23,10 +23,10 @@
             </rowConstraints>
             <children>
                 <Label id="Tem" alignment="CENTER" contentDisplay="CENTER" prefHeight="34.0" prefWidth="78.0" text="Temperatur" textAlignment="CENTER" />
-                <TextField id="textInput" prefHeight="25.0" prefWidth="109.0" GridPane.rowIndex="1" />
+                <TextField fx:id="textInput" prefHeight="25.0" prefWidth="109.0" GridPane.rowIndex="1" />
                 <Button id="ToC" contentDisplay="CENTER" mnemonicParsing="false" onAction="#ToC" prefHeight="25.0" prefWidth="94.0" text="To celcius" textAlignment="CENTER" GridPane.columnIndex="1" />
                 <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#ToF" prefHeight="25.0" prefWidth="95.0" text="To Fahrenheit" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="1" />
-                <Label id="labelTimer" alignment="CENTER" contentDisplay="CENTER" prefHeight="17.0" prefWidth="81.0" text="00:00:00" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+                <Label fx:id="labelTimer" alignment="CENTER" contentDisplay="CENTER" prefHeight="17.0" prefWidth="81.0" text="00:00:00" GridPane.columnIndex="2" GridPane.rowIndex="1" />
             </children>
             <VBox.margin>
                 <Insets top="100.0" />
@@ -35,6 +35,6 @@
                 <Insets bottom="20.0" />
             </padding>
         </GridPane>
-        <Label id="labelOutput" alignment="CENTER" prefHeight="84.0" prefWidth="167.0" text="24 celcius=75.2 Fahrenheit" textFill="RED" />
+        <Label fx:id="labelOutput" alignment="CENTER" prefHeight="84.0" prefWidth="167.0" text="24 celcius=75.2 Fahrenheit" textFill="RED" />
     </children>
 </VBox>
