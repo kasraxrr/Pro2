@@ -7,10 +7,12 @@ import javafx.stage.Stage;
 import model.TemperatureModel;
 
 public class ViewHandler {
-    private TemperatureViewController temperatureViewController;
-    private TemperatureModel temperatureModel;
+
     private Stage primaryStage;
     private Scene currentScene;
+    private TemperatureViewController temperatureViewController;
+    private TemperatureModel temperatureModel;
+
     public ViewHandler(TemperatureModel model)
     {
         this.temperatureModel = model;
@@ -29,7 +31,7 @@ public class ViewHandler {
         switch (id)
         {
             case "TemperatureView":
-                root = loadTemperatureConverter(id +".fxml");
+                root = loadTemperatureView(id +".fxml");
                 break;
         }
 

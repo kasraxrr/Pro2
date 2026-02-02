@@ -1,18 +1,17 @@
 package View;
 
-import external.RunnableClock;
 import javafx.application.Platform;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.scene.control.Label;
+import javafx.scene.control.TextField;
 import javafx.scene.layout.Region;
 import model.TemperatureModel;
 
-import java.awt.*;
-
 public class TemperatureViewController {
     @FXML private TextField textInput;
-    @FXML private Label labelTimer;
     @FXML private Label labelOutput;
+    @FXML private Label labelTimer;
     private Region root;
     private ViewHandler viewHandler;
     private TemperatureModel temperatureModel;
@@ -32,7 +31,7 @@ public class TemperatureViewController {
     public void reset(){
         labelTimer.setText("");
         labelOutput.setText("");
-         textInput.setText("");
+        textInput.setText("");
     }
     public Region getRoot(){
         return root;

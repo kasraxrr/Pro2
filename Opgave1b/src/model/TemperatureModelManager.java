@@ -1,6 +1,7 @@
 package model;
 
 public class TemperatureModelManager implements TemperatureModel {
+
     private Temperature temperature;
 
 

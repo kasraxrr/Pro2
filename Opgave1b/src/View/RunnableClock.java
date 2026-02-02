@@ -1,11 +1,10 @@
-package external;
-
-import View.TemperatureViewController;
+package View;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 
 public class RunnableClock implements Runnable{
+
     private DateTimeFormatter timeFormatter;
     private TemperatureViewController temperatureViewController;
 
