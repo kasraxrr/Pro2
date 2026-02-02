@@ -1,5 +1,7 @@
 package View;
 
+import external.RunnableClock;
+import javafx.application.Platform;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.layout.Region;
@@ -21,6 +23,11 @@ public class TemperatureViewController {
         this.viewHandler=viewHandler;
         this.temperatureModel=temperatureModel;
         this.root=root;
+
+        RunnableClock runnableClock = new RunnableClock(this);
+        Thread t1 = new Thread(runnableClock);
+        t1.setDaemon(true);
+        t1.start();
     }
     public void reset(){
         labelTimer.setText("");
@@ -32,9 +39,20 @@ public class TemperatureViewController {
     }
 
     public void ToC(ActionEvent actionEvent) {
-        double cel=(double)textInput.getInputContext()/33.8;
+        if(textInput.getText() != null && Integer.parseInt(textInput.getText()) >= 0)
+        {
+            labelOutput.setText(textInput.getText()+" °F is "+temperatureModel.toCelsius(Double.parseDouble(textInput.getText()))+" °C");
+        }
     }
 
     public void ToF(ActionEvent actionEvent) {
+        if(textInput.getText() != null && Integer.parseInt(textInput.getText()) >= 0)
+        {
+            labelOutput.setText(textInput.getText()+" °C is "+temperatureModel.toFahrenheit(Double.parseDouble(textInput.getText()))+" °F");
+        }
+    }
+    public void showTime(String timeString)
+    {
+        Platform.runLater(() ->     labelTimer.setText(timeString));
     }
 }
