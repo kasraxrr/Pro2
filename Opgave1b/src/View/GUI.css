@@ -1,0 +1,44 @@
+.table-view .column-header,
+.table-view .column-header .filler,
+.table-view .column-header-background .filler {
+    -fx-background-color: #6f6161;
+}
+
+.table-view .column-header {
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.8), 5, 0, 1, 0);
+}
+
+.tab-pane .tab-header-area .tab-header-background {
+    -fx-background-color: white;
+}
+
+.tab-pane {
+    -fx-tab-min-width: 90px;
+    -fx-background-color: white;
+}
+
+.tab {
+    -fx-background-insets: 0 1 0 1, 0, 0;
+}
+
+.tab-pane .tab {
+    -fx-background-color: rgb(238, 238, 238);
+    -fx-border-radius: 5px;
+}
+
+.tab-pane .tab:selected {
+    -fx-background-color: #008cff;
+    -fx-text-base-color: white;
+}
+
+.button {
+    -fx-background-color: #008cff;
+    -fx-text-fill: white;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.2), 10, 0, 0, 0);
+}
+
+.text-field {
+    -fx-background-color: -fx-text-box-border, rgb(238, 238, 238);
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-background-radius: 3px;
+}
