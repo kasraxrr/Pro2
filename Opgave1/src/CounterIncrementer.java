@@ -11,8 +11,9 @@ public class CounterIncrementer implements Runnable{
     public void run() {
         for (int i = 0; i < 200000; i++) {
             counter.increment();
-            System.out.println(counter.getValue());
+
         }
+        System.out.println(Thread.currentThread().getName()+" "+counter.getValue());
 
     }
 }

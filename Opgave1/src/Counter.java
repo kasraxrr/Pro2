@@ -5,10 +5,16 @@ public class Counter {
         this.value=0;
     }
     public void increment(){
-        value++;
+        synchronized (this){
+            value++;
+        }
+
     }
     public long getValue(){
-        return value;
+        synchronized (this){
+            return value;
+        }
+
     }
 
 }
