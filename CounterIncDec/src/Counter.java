@@ -11,25 +11,30 @@ public class Counter {
     public synchronized void increment(){
         while (value>=max){
             try {
+                System.out.println(value+Thread.currentThread().getName()+" is waiting");
                 wait();
+
             }catch (InterruptedException e){
 
             }
 
         }
             value++;
+        System.out.println(value+Thread.currentThread().getName()+" is done");
         notifyAll();
 
     }
     public synchronized void decrement() {
         while (value<=min){
             try {
+                System.out.println(value+Thread.currentThread().getName()+" is waiting");
                 wait();
             }catch (InterruptedException e){
 
             }
         }
             value--;
+        System.out.println(value+Thread.currentThread().getName()+" is done");
 
         notifyAll();
 
