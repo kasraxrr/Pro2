@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/CounterIncDec/CounterIncDec.iml" filepath="$PROJECT_DIR$/CounterIncDec/CounterIncDec.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FairBurgerBar/FairBurgerBar.iml" filepath="$PROJECT_DIR$/FairBurgerBar/FairBurgerBar.iml" />
       <module fileurl="file://$PROJECT_DIR$/MailboxAndProgram/MailboxAndProgram.iml" filepath="$PROJECT_DIR$/MailboxAndProgram/MailboxAndProgram.iml" />
       <module fileurl="file://$PROJECT_DIR$/Opgave1/Opgave1.iml" filepath="$PROJECT_DIR$/Opgave1/Opgave1.iml" />
       <module fileurl="file://$PROJECT_DIR$/Pro2.iml" filepath="$PROJECT_DIR$/Pro2.iml" />
