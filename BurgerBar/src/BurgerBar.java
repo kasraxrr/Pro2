@@ -17,12 +17,12 @@ public class BurgerBar {
 
         }
         numberOfBurgers++;
-        System.out.println("made a burger");
+        System.out.println(Thread.currentThread().getName()+"made a burger and have "+numberOfBurgers+" burgers");
     }
     public synchronized void eatBurger(String who){
         while (numberOfBurgers<=0){
             try {
-                System.out.println("cant make any more now");
+                System.out.println("cant sell any more now");
                 wait();
             }catch (InterruptedException e){
 
@@ -30,7 +30,7 @@ public class BurgerBar {
 
         }
         numberOfBurgers--;
-        System.out.println("made a burger");
+        System.out.println(Thread.currentThread().getName()+" is ready to eat a burger and "+numberOfBurgers+" is left");
     }
 
     public synchronized int getNumberOfBurgers(){
