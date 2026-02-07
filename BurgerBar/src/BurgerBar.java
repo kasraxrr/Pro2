@@ -32,4 +32,8 @@ public class BurgerBar {
         numberOfBurgers--;
         System.out.println("made a burger");
     }
+
+    public synchronized int getNumberOfBurgers(){
+        return numberOfBurgers;
+    }
 }
