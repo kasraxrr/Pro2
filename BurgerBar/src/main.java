@@ -2,7 +2,7 @@ public class main
 {
     public static void main(String[] args) {
 
-        BurgerBar burgerBar=new BurgerBar(1000);
+        BurgerBar burgerBar=new BurgerBar(100);
         BurgerBarEmployee e1=new BurgerBarEmployee("Devin",burgerBar);
         BurgerBarEmployee e2=new BurgerBarEmployee("Victor",burgerBar);
         BurgerBarCustomer c1=new BurgerBarCustomer("1",burgerBar,1);
@@ -19,6 +19,9 @@ public class main
         Thread t6=new Thread(c4,"c4");
         Thread t7=new Thread(c5,"c5");
 
+        t1.setDaemon(true);
+        t2.setDaemon(true);
+
         t1.start();
         t2.start();
         t3.start();
@@ -28,8 +31,7 @@ public class main
         t7.start();
 
         try {
-            t1.join();
-            t2.join();
+
             t3.join();
             t4.join();
             t5.join();

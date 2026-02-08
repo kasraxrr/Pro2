@@ -3,7 +3,7 @@ public class BurgerBar {
     private int numberOfBurgers;
 
     public BurgerBar(int maxNumberOfBurgers){
-        this.numberOfBurgers=100;
+        this.numberOfBurgers=0;
         this.maxNumberOfBurgers=maxNumberOfBurgers;
     }
     public synchronized void makeBurger(String employeeName){

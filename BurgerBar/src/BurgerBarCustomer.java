@@ -17,7 +17,7 @@ public class BurgerBarCustomer implements Runnable{
             {
                 burgerBar.eatBurger(name);
                 try {
-                    Thread.sleep(4000);
+                    Thread.sleep(10000);
                 } catch (InterruptedException e) {
 
                 }
