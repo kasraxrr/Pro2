@@ -11,13 +11,16 @@ public class BurgerBarCustomer implements Runnable{
 
 
     @Override
-    public void run(){
-        while (true){
-            burgerBar.eatBurger(name);
-            try {
-                Thread.sleep(4000);
-            }catch (InterruptedException e){
+    public void run() {
+        for (int i = 0; i < burgersToEat; i++) {
 
+            {
+                burgerBar.eatBurger(name);
+                try {
+                    Thread.sleep(4000);
+                } catch (InterruptedException e) {
+
+                }
             }
         }
     }

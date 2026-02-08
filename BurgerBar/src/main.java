@@ -2,7 +2,7 @@ public class main
 {
     public static void main(String[] args) {
 
-        BurgerBar burgerBar=new BurgerBar(100);
+        BurgerBar burgerBar=new BurgerBar(1000);
         BurgerBarEmployee e1=new BurgerBarEmployee("Devin",burgerBar);
         BurgerBarEmployee e2=new BurgerBarEmployee("Victor",burgerBar);
         BurgerBarCustomer c1=new BurgerBarCustomer("1",burgerBar,1);
