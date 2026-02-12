@@ -2,7 +2,9 @@ public abstract class DoorState {
 
     public abstract void click(Door door);
 
-    public void complete(Door door){}
+    public void complete(Door door){
+
+    }
 
     public void timeOut(Door door){}
 

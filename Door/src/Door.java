@@ -3,8 +3,11 @@ public class Door {
     public Door(){
         state=new DoorClosed();
     }
-    public void complete(){
+    public void click(){
         state.click(this);
+    }
+    public void complete(){
+        state.complete(this);
     }
     public void setState(DoorState state){
         this.state=state;
