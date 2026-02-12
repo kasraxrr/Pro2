@@ -12,14 +12,10 @@ public class Phone {
         state.click(this);
     }
     public void volumeUp(){
-        if (volume<MAX_VOLUME){
-            volume++;
-        }
+    state.volumeUp(this);
     }
     public void volumeDown(){
-        if (volume>MAX_VOLUME){
-            volume--;
-        }
+    state.volumeDown(this);
     }
     public int getVolume(){
         return volume;
@@ -31,15 +27,20 @@ public class Phone {
         this.state=state;
     }
     public void incrementVolume(){
-
+        if (volume<MAX_VOLUME){
+            volume++;
+        }
     }
     public void decrementVolume(){
-
+        if (volume>MAX_VOLUME){
+            volume--;
+        }
     }
     public void setMinVolume(){
-
+    volume=MIN_VOLUME;
     }
-    public void setMaxVolume(){
-
+    public void setMediumVolume(){
+    volume=MAX_VOLUME/2;
     }
+
 }
