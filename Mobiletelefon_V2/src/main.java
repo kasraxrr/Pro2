@@ -29,14 +29,14 @@ public class main {
         System.out.println("Klik (Sound -> Vibration)");
         phone.clickSoundButton();
         System.out.println("Alert:");
-        phone.receive("Kasra har brug for hjælp");
+        phone.receive("Victor har brug for hjælp");
         System.out.println();
 
         // Test 5: Klik fra Vibration -> Silent
         System.out.println("Klik (Vibration -> Silent)");
         phone.clickSoundButton();
         System.out.println("Alert:");
-        phone.receive("Kasra og Devin har brug for hjælp");
+        phone.receive("Victor og Devin har brug for hjælp");
         System.out.println();
 
         // Test 6: VolumeDown ved minimum
