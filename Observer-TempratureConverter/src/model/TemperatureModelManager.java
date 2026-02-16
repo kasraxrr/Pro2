@@ -1,0 +1,19 @@
+package model;
+
+public class TemperatureModelManager implements TemperatureModel{
+    private Temperature temperature;
+
+    public TemperatureModelManager(){
+        this.temperature=new Temperature();
+    }
+
+    @Override
+    public double toCelsius(double fahrenheit) {
+        return ;
+    }
+
+    @Override
+    public double toFahrenheit(double celsius) {
+        return ;
+    }
+}

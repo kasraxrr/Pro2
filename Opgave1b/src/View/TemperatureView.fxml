@@ -22,11 +22,26 @@
                 <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
             </rowConstraints>
             <children>
-                <Label id="Tem" alignment="CENTER" contentDisplay="CENTER" prefHeight="34.0" prefWidth="78.0" text="Temperatur" textAlignment="CENTER" />
-                <TextField fx:id="textInput" prefHeight="25.0" prefWidth="109.0" GridPane.rowIndex="1" />
-                <Button id="ToC" contentDisplay="CENTER" mnemonicParsing="false" onAction="#ToC" prefHeight="25.0" prefWidth="94.0" text="To celcius" textAlignment="CENTER" GridPane.columnIndex="1" />
-                <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#ToF" prefHeight="25.0" prefWidth="95.0" text="To Fahrenheit" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="1" />
-                <Label fx:id="labelTimer" alignment="CENTER" contentDisplay="CENTER" prefHeight="17.0" prefWidth="81.0" text="00:00:00" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+                <Label id="Tem" alignment="CENTER" contentDisplay="CENTER" prefHeight="34.0" prefWidth="78.0" text="Temperatur" textAlignment="CENTER">
+               <GridPane.margin>
+                  <Insets left="10.0" />
+               </GridPane.margin></Label>
+                <TextField fx:id="textInput" prefHeight="25.0" prefWidth="109.0" GridPane.rowIndex="1">
+               <GridPane.margin>
+                  <Insets left="10.0" right="10.0" />
+               </GridPane.margin></TextField>
+                <Button id="ToC" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#ToC" prefHeight="25.0" prefWidth="94.0" text="To celcius" textAlignment="CENTER" GridPane.columnIndex="1">
+               <GridPane.margin>
+                  <Insets bottom="10.0" left="30.0" />
+               </GridPane.margin></Button>
+                <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#ToF" prefHeight="25.0" prefWidth="95.0" text="To Fahrenheit" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <GridPane.margin>
+                  <Insets left="30.0" />
+               </GridPane.margin></Button>
+                <Label fx:id="labelTimer" alignment="CENTER" contentDisplay="CENTER" prefHeight="17.0" prefWidth="81.0" text="00:00:00" GridPane.columnIndex="2" GridPane.rowIndex="1">
+               <GridPane.margin>
+                  <Insets left="30.0" />
+               </GridPane.margin></Label>
             </children>
             <VBox.margin>
                 <Insets top="100.0" />
@@ -35,6 +50,9 @@
                 <Insets bottom="20.0" />
             </padding>
         </GridPane>
-        <Label fx:id="labelOutput" alignment="CENTER" prefHeight="84.0" prefWidth="167.0" text="24 celcius=75.2 Fahrenheit" textFill="RED" />
+        <Label fx:id="labelOutput" alignment="CENTER" prefHeight="84.0" prefWidth="167.0" text="24 celcius=75.2 Fahrenheit" textFill="RED">
+         <VBox.margin>
+            <Insets left="100.0" />
+         </VBox.margin></Label>
     </children>
 </VBox>
