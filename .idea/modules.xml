@@ -2,20 +2,21 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/BurgerBar/BurgerBar.iml" filepath="$PROJECT_DIR$/BurgerBar/BurgerBar.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Clock/Clock.iml" filepath="$PROJECT_DIR$/Clock/Clock.iml" />
-      <module fileurl="file://$PROJECT_DIR$/CounterIncDec/CounterIncDec.iml" filepath="$PROJECT_DIR$/CounterIncDec/CounterIncDec.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Door/Door.iml" filepath="$PROJECT_DIR$/Door/Door.iml" />
-      <module fileurl="file://$PROJECT_DIR$/FairBurgerBar/FairBurgerBar.iml" filepath="$PROJECT_DIR$/FairBurgerBar/FairBurgerBar.iml" />
-      <module fileurl="file://$PROJECT_DIR$/MailboxAndProgram/MailboxAndProgram.iml" filepath="$PROJECT_DIR$/MailboxAndProgram/MailboxAndProgram.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Mobiletelefon/Mobiletelefon.iml" filepath="$PROJECT_DIR$/Mobiletelefon/Mobiletelefon.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Mobiletelefon_V2/Mobiletelefon_V2.iml" filepath="$PROJECT_DIR$/Mobiletelefon_V2/Mobiletelefon_V2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Observer-BusStop/Observer-BusStop.iml" filepath="$PROJECT_DIR$/Observer-BusStop/Observer-BusStop.iml" />
       <module fileurl="file://$PROJECT_DIR$/Observer-Football/Observer-Football.iml" filepath="$PROJECT_DIR$/Observer-Football/Observer-Football.iml" />
       <module fileurl="file://$PROJECT_DIR$/Observer-TempratureConverter/Observer-TempratureConverter.iml" filepath="$PROJECT_DIR$/Observer-TempratureConverter/Observer-TempratureConverter.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Opgave1/Opgave1.iml" filepath="$PROJECT_DIR$/Opgave1/Opgave1.iml" />
       <module fileurl="file://$PROJECT_DIR$/Pro2.iml" filepath="$PROJECT_DIR$/Pro2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/SimpleCounter/SimpleCounter.iml" filepath="$PROJECT_DIR$/SimpleCounter/SimpleCounter.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Opgave1b/TemperatureConverterPlusClock.iml" filepath="$PROJECT_DIR$/Opgave1b/TemperatureConverterPlusClock.iml" />
+      <module fileurl="file://$PROJECT_DIR$/State-Door/State-Door.iml" filepath="$PROJECT_DIR$/State-Door/State-Door.iml" />
+      <module fileurl="file://$PROJECT_DIR$/State-Mobiletelefon/State-Mobiletelefon.iml" filepath="$PROJECT_DIR$/State-Mobiletelefon/State-Mobiletelefon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/State-Mobiletelefon_V2/State-Mobiletelefon_V2.iml" filepath="$PROJECT_DIR$/State-Mobiletelefon_V2/State-Mobiletelefon_V2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Threads/TemperatureConverterPlusClock.iml" filepath="$PROJECT_DIR$/Threads/TemperatureConverterPlusClock.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Thread/Thread.iml" filepath="$PROJECT_DIR$/Thread/Thread.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Thread-BurgerBar/Thread-BurgerBar.iml" filepath="$PROJECT_DIR$/Thread-BurgerBar/Thread-BurgerBar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Thread-Clock/Thread-Clock.iml" filepath="$PROJECT_DIR$/Thread-Clock/Thread-Clock.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Thread-CounterIncDec/Thread-CounterIncDec.iml" filepath="$PROJECT_DIR$/Thread-CounterIncDec/Thread-CounterIncDec.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Thread-FairBurgerBar/Thread-FairBurgerBar.iml" filepath="$PROJECT_DIR$/Thread-FairBurgerBar/Thread-FairBurgerBar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Thread-MailboxAndProgram/Thread-MailboxAndProgram.iml" filepath="$PROJECT_DIR$/Thread-MailboxAndProgram/Thread-MailboxAndProgram.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Thread-SimpleCounter/Thread-SimpleCounter.iml" filepath="$PROJECT_DIR$/Thread-SimpleCounter/Thread-SimpleCounter.iml" />
     </modules>
   </component>
 </project>

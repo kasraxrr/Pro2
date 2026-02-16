@@ -9,11 +9,11 @@ public class TemperatureModelManager implements TemperatureModel{
 
     @Override
     public double toCelsius(double fahrenheit) {
-        return ;
+        return temperature.fahrenheitToCelsius(fahrenheit);
     }
 
     @Override
     public double toFahrenheit(double celsius) {
-        return ;
+        return temperature.celsiusToFahrenheit(celsius);
     }
 }
