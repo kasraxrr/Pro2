@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/MVVM-Uppercase/MVVM-Uppercase.iml" filepath="$PROJECT_DIR$/MVVM-Uppercase/MVVM-Uppercase.iml" />
       <module fileurl="file://$PROJECT_DIR$/Observer-BusStop/Observer-BusStop.iml" filepath="$PROJECT_DIR$/Observer-BusStop/Observer-BusStop.iml" />
       <module fileurl="file://$PROJECT_DIR$/Observer-Football/Observer-Football.iml" filepath="$PROJECT_DIR$/Observer-Football/Observer-Football.iml" />
       <module fileurl="file://$PROJECT_DIR$/Observer-TempratureConverter/Observer-TempratureConverter.iml" filepath="$PROJECT_DIR$/Observer-TempratureConverter/Observer-TempratureConverter.iml" />
