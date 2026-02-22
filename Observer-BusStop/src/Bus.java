@@ -1,14 +1,54 @@
+import java.beans.PropertyChangeListener;
 import java.beans.PropertyChangeSupport;
-
-public class Bus implements UnnamedPropertyChangeSubject{
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.Set;
+public class Bus implements UnnamedPropertyChangeSubject
+{
     private String info;
-    private PropertyChangeSupport property;
     private Set<BusPassenger> passengers;
-
-    public Bus(){
+    private PropertyChangeSupport property;
+    public Bus()
+    {
+        passengers = new HashSet<BusPassenger>();
+        this.info = "eXpress " + hashCode() % 100;
         property=new PropertyChangeSupport(this);
     }
-    public void passengerGettingIn(BusPassenger p){
+    public void passengerGettingIn(BusPassenger p)
+    {
+        Iterator<BusPassenger> it = passengers.iterator();
+        while (it.hasNext())
+            it.next().showMessage("Enter:"+p.getName());
+        passengers.add(p);
+        property.firePropertyChange("Enter"+p.getName(),null,p);
+    }
+    public void passengerGettingOut(BusPassenger p)
+    {
+        passengers.remove(p);
+        Iterator<BusPassenger> it = passengers.iterator();
+        while (it.hasNext())
+            it.next().showMessage("Leave:"+p.getName());
+        property.firePropertyChange("Leave"+p.getName(),null,p);
+    }
+    public String toString()
+    {
+        return info;
+    }
+    public boolean equals(Object obj)
+    {
+        if (!(obj instanceof Bus))
+            return false;
+        Bus b = (Bus) obj;
+        return info.equals(b.info);
+    }
 
+    @Override
+    public void addListener(PropertyChangeListener listener) {
+        property.addPropertyChangeListener(listener);
+    }
+
+    @Override
+    public void removeListener(PropertyChangeListener listener) {
+    property.removePropertyChangeListener(listener);
     }
 }
