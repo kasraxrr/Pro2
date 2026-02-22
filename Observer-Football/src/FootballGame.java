@@ -52,12 +52,12 @@ public class FootballGame implements NamedPropertyChangeSubject
 
     @Override
     public void addListener(String propertyName,PropertyChangeListener listener) {
-    property.addPropertyChangeListener(listener);
+    property.addPropertyChangeListener(propertyName,listener);
     }
 
     @Override
     public void removeListener(String propertyName,PropertyChangeListener listener) {
-    property.removePropertyChangeListener(listener);
+    property.removePropertyChangeListener(propertyName,listener);
     }
 
 

@@ -5,6 +5,7 @@ public class FootballFan implements PropertyChangeListener {
     private String myName;
     private String myTeam;
     private FootballGame game;
+
     public FootballFan(String myName, FootballGame game,boolean homeTeamFan)
     {
         this.myName = myName;

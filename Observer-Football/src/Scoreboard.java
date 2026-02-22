@@ -14,7 +14,6 @@ public class Scoreboard implements PropertyChangeListener {
     {
         System.out.println("SCOREBOARD: " + score);
     }
-
     @Override
     public void propertyChange(PropertyChangeEvent evt) {
         showScore(evt.getNewValue().toString());
