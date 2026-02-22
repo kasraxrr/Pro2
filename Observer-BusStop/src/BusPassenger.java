@@ -1,8 +1,12 @@
-public class BusPassenger
+import java.beans.PropertyChangeEvent;
+import java.beans.PropertyChangeListener;
+
+public class BusPassenger implements PropertyChangeListener
 {
     private String name;
     private Bus bus;
     private boolean newPassenger;
+
     public BusPassenger(String name)
     {
         this.name = name;
@@ -65,5 +69,10 @@ public class BusPassenger
             reply += split[1];
         }
         System.out.println(name + "> " + reply);
+    }
+
+    @Override
+    public void propertyChange(PropertyChangeEvent evt) {
+        showMessage(evt.getPropertyName());
     }
 }
