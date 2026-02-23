@@ -26,17 +26,7 @@ public class ConvertViewController {
 
 
 
-        Bindings.bindBidirectional(requestField.textProperty(), viewModel.requestProperty(), new StringConverter<Number>() {
-            @Override
-            public String toString(Number object) {
-                return object.toString();
-            }
-
-            @Override
-            public int fromString(String s) {
-                return Integer.parseInt(s);
-            }
-        });
+        requestField.textProperty().bindBidirectional(viewModel.requestProperty());
         replyField.textProperty().bind(viewModel.replyProperty());
         errorLabel.textProperty().bind(viewModel.errorProperty());
     }
