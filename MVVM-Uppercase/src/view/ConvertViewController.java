@@ -1,10 +1,12 @@
 package view;
 
+import javafx.beans.binding.Bindings;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.Region;
+import javafx.util.StringConverter;
 import viewmodel.ConvertViewModel;
 
 import java.awt.*;
@@ -23,7 +25,18 @@ public class ConvertViewController {
         this.root=root;
 
 
-        requestField.textProperty().bindBidirectional(viewModel.requestProperty());
+
+        Bindings.bindBidirectional(requestField.textProperty(), viewModel.requestProperty(), new StringConverter<Number>() {
+            @Override
+            public String toString(Number object) {
+                return object.toString();
+            }
+
+            @Override
+            public int fromString(String s) {
+                return Integer.parseInt(s);
+            }
+        });
         replyField.textProperty().bind(viewModel.replyProperty());
         errorLabel.textProperty().bind(viewModel.errorProperty());
     }
