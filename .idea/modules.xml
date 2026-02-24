@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/MVVM-Auction/MVVM-Auction.iml" filepath="$PROJECT_DIR$/MVVM-Auction/MVVM-Auction.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MVVM-Exercises/MVVM-Exercises.iml" filepath="$PROJECT_DIR$/MVVM-Exercises/MVVM-Exercises.iml" />
       <module fileurl="file://$PROJECT_DIR$/MVVM-Uppercase/MVVM-Uppercase.iml" filepath="$PROJECT_DIR$/MVVM-Uppercase/MVVM-Uppercase.iml" />
       <module fileurl="file://$PROJECT_DIR$/Observer-BusStop/Observer-BusStop.iml" filepath="$PROJECT_DIR$/Observer-BusStop/Observer-BusStop.iml" />
       <module fileurl="file://$PROJECT_DIR$/Observer-Football/Observer-Football.iml" filepath="$PROJECT_DIR$/Observer-Football/Observer-Football.iml" />
