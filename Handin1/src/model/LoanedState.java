@@ -5,8 +5,10 @@ public class LoanedState extends LPState{
     private boolean flag;
 
     public LoanedState(LP lp,String person,boolean flag){
+        super(flag);
         this.loanedTo=person;
         this.flag=flag;
+
     }
     public void returnLP(LP lp){
         lp.setState(new AvailableState(lp,flag));

@@ -1,12 +1,16 @@
 package model;
 
+import java.io.File;
+
 public class ReservedState extends LPState{
     private String reservedBy;
     private boolean flag;
 
     public ReservedState(LP lp, String person, boolean flag){
+        super(flag);
         this.reservedBy=person;
         this.flag=flag;
+
     }
 
     public void cancelReservation(LP lp){

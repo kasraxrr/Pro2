@@ -4,6 +4,7 @@ public class AvailableState extends LPState{
     private boolean flag;
 
     public AvailableState(LP lp , boolean flag){
+        super(flag);
     this.flag=flag;
     if (flag){
         remove(lp);

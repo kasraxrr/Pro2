@@ -6,6 +6,7 @@ public class LoanedAndReservedState extends LPState{
     private boolean flag;
 
     public LoanedAndReservedState(LP lp,String loanedTo,String reservedBy,boolean flag){
+        super(flag);
     this.reservedBy=reservedBy;
     this.loanedTo=loanedTo;
     this.flag=flag;

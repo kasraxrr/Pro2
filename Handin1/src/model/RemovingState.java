@@ -1,8 +1,10 @@
 package model;
 
 public class RemovingState extends LPState{
-    public RemovingState(LP lp){
-        LPLibrary.remove(lp);
+private LPLibrary lpLibrary;
+
+    public RemovingState(LP lp) {
+        super(true);
     }
 
     public String getStatusString(){
