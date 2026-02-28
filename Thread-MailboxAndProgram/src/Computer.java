@@ -12,12 +12,15 @@ public class Computer {
             threads[i]=new Thread(programs[i]);
             threads[i].start();
         }
-        threads[4]=new Thread(mailbox);
-        threads[4].start();
+
+        Thread t1=new Thread(mailbox);
+        t1.start();
+        t1.join();
 
         for (int i = 0; i < threads.length; i++) {
             threads[i].join();
         }
+
         System.out.println("turning off the computer");
     }
 }

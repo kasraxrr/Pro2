@@ -14,7 +14,7 @@ public class Mailbox implements Runnable{
         try {
             Thread.sleep(maxFrequency);
         }catch (InterruptedException e ){
-
+            System.out.println(e.getMessage());
         }
 
     }

@@ -105,3 +105,16 @@
     -fx-background-color: #007bff;
     -fx-text-fill: white;
 }
+.rounded-image {
+    -fx-background-radius: 15;
+    -fx-border-radius: 15;
+    -fx-border-color: transparent;
+    -fx-background-color: transparent;
+}
+.rounded-image {
+    -fx-background-radius: 15;
+    -fx-border-radius: 15;
+    -fx-border-color: transparent;
+    -fx-background-color: transparent;
+    -fx-clip-shape: "M0,0 h200 a15,15 0 0 1 15,15 v200 a15,15 0 0 1 -15,15 h-200 a15,15 0 0 1 -15,-15 v-200 a15,15 0 0 1 15,-15 z";
+}
