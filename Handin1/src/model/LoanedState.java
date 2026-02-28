@@ -2,16 +2,15 @@ package model;
 
 public class LoanedState extends LPState{
     private String loanedTo;
-    private boolean flag;
+
 
     public LoanedState(LP lp,String person,boolean flag){
         super(flag);
         this.loanedTo=person;
-        this.flag=flag;
 
     }
     public void returnLP(LP lp){
-        lp.setState(new AvailableState(lp,flag));
+        lp.setState(new AvailableState(lp,super.getFlag()));
     }
 
     @Override
@@ -21,13 +20,13 @@ public class LoanedState extends LPState{
 
 
     public boolean getFlag() {
-        return flag;
+        return super.getFlag();
     }
     public void remove(LP lp){
-        this.flag=true;
+        super.setFlag(true);
     }
     public void reserve(LP lp,String person){
-        if (!flag){
+        if (!super.getFlag()&&super.getReservedBy()==null){
             lp.setState(new LoanedAndReservedState(lp,loanedTo,person,false));
         }
         else {

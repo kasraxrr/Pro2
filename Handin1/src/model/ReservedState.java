@@ -4,17 +4,15 @@ import java.io.File;
 
 public class ReservedState extends LPState{
     private String reservedBy;
-    private boolean flag;
 
     public ReservedState(LP lp, String person, boolean flag){
         super(flag);
         this.reservedBy=person;
-        this.flag=flag;
 
     }
 
     public void cancelReservation(LP lp){
-    lp.setState(new AvailableState(lp,flag));
+    lp.setState(new AvailableState(lp,super.getFlag()));
     }
 
     @Override
@@ -24,11 +22,11 @@ public class ReservedState extends LPState{
 
     @Override
     public boolean getFlag() {
-        return flag;
+        return super.getFlag();
     }
 
     public void remove(LP lp){
-    this.flag=true;
+    super.setFlag(true);
     }
 
     public void setReservedBy(String reservedBy) {
@@ -40,7 +38,7 @@ public class ReservedState extends LPState{
     }
     public void loan(LP lp,String person){
         if (person.equals(reservedBy)){
-            lp.setState(new LoanedState(lp,person,flag));
+            lp.setState(new LoanedState(lp,person,super.getFlag()));
         }
     }
 }

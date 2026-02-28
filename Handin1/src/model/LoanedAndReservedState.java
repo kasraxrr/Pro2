@@ -3,13 +3,12 @@ package model;
 public class LoanedAndReservedState extends LPState{
     private String loanedTo;
     private String reservedBy;
-    private boolean flag;
+
 
     public LoanedAndReservedState(LP lp,String loanedTo,String reservedBy,boolean flag){
         super(flag);
     this.reservedBy=reservedBy;
     this.loanedTo=loanedTo;
-    this.flag=flag;
     }
 
     @Override
@@ -19,11 +18,11 @@ public class LoanedAndReservedState extends LPState{
 
     @Override
     public boolean getFlag() {
-        return flag;
+        return super.getFlag();
     }
 
     public void remove(LP lp){
-    this.flag=true;
+    super.setFlag(true);
     }
 
     public void setLoanedTo(String loanedTo) {
@@ -42,7 +41,7 @@ public class LoanedAndReservedState extends LPState{
         return reservedBy;
     }
     public void returnLP(LP lp){
-       AvailableState a1=new AvailableState(lp,flag);
+       AvailableState a1=new AvailableState(lp,super.getFlag());
         lp.setState(a1);
        a1.reserve(lp,reservedBy);
 

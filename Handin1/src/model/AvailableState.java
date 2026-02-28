@@ -1,11 +1,10 @@
 package model;
 
 public class AvailableState extends LPState{
-    private boolean flag;
 
     public AvailableState(LP lp , boolean flag){
         super(flag);
-    this.flag=flag;
+
     if (flag){
         remove(lp);
     }
@@ -27,6 +26,6 @@ public class AvailableState extends LPState{
         return getClass().getSimpleName();
     }
     public boolean getFlag(){
-        return flag;
+        return super.getFlag();
     }
 }
