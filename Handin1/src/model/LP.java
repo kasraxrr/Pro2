@@ -49,38 +49,23 @@ public class LP {
         return state.getStatusString();
     }
     public void loan(String person){
-        if (getState() instanceof AvailableState || getState() instanceof ReservedState && state.getReservedBy().equals(person)){
-            this.state=new LoanedState(this,person,state.getFlag());
-        }
+
+            this.state.loan(this,person);
+
     }
 
     public void reserve(String person){
-        if (getState() instanceof AvailableState && !state.getFlag()){
-            this.state=new ReservedState(this,person,state.getFlag());
-        } else if (getState() instanceof LoanedState && !(getState() instanceof LoanedAndReservedState) && !state.getFlag()) {
-            this.state=new LoanedAndReservedState(this,state.getLoanedTo(),person,state.getFlag());
-        }
+            this.state.reserve(this,person);
     }
 
     public void cancelReservation(){
-        if (getState() instanceof ReservedState){
-            this.state=new AvailableState(this,state.getFlag());
-        }
-        else if (getState() instanceof  LoanedAndReservedState) {
-            this.state=new LoanedState(this,state.getLoanedTo(),state.getFlag());
-        }
+            this.state.cancelReservation(this);
+
     }
     public void returnLP(){
-        if (getState() instanceof LoanedState){
-            this.state=new AvailableState(this,state.getFlag());
-        }
-        if (getState() instanceof LoanedAndReservedState && !state.getFlag()){
-            this.state=new AvailableState(this,state.getFlag());
-            reserve(state.getReservedBy());
-        }
-        if (getState() instanceof LoanedAndReservedState && state.getFlag()){
-            this.state=new AvailableState(this,state.getFlag());
-        }
+
+            this.state.returnLP(this);
+
     }
     public String toString(){
       return   title+artist+year+state+state.getFlag();

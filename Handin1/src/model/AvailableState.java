@@ -10,7 +10,7 @@ public class AvailableState extends LPState{
     }
     }
     public void loan(LP lp,String person){
-        lp.setState(new LoanedState(lp,person,false));
+        lp.setState(new LoanedState(lp,person,super.getFlag()));
     }
     public void remove(LP lp) {
 
@@ -19,7 +19,7 @@ public class AvailableState extends LPState{
     }
 
     public void reserve(LP lp,String person){
-        lp.setState(new ReservedState(lp,person,false));
+        lp.setState(new ReservedState(lp,person,super.getFlag()));
     }
 
     @Override
