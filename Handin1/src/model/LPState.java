@@ -41,18 +41,13 @@ public void setFlag(Boolean flag){
         LPState other=(LPState) obj;
         return this.getFlag()== other.getFlag() && this.getReservedBy().equals(other.getReservedBy()) && this.getLoanedTo().equals(other.getLoanedTo());
     }
-    public void loan(LP lp, String person) {
-    }
+    public abstract void loan(LP lp, String person) ;
 
-    public void reserve(LP lp, String person) {
-    }
+    public abstract void reserve(LP lp, String person) ;
 
-    public void returnLP(LP lp) {
-    }
+    public abstract void returnLP(LP lp) ;
 
-    public void cancelReservation(LP lp) {
-    }
+    public abstract void cancelReservation(LP lp) ;
 
-    public void remove(LP lp) {
-    }
+    public abstract void remove(LP lp) ;
 }

@@ -41,4 +41,14 @@ public class ReservedState extends LPState{
             lp.setState(new LoanedState(lp,person,super.getFlag()));
         }
     }
+
+    @Override
+    public void reserve(LP lp, String person) {
+
+    }
+
+    @Override
+    public void returnLP(LP lp) {
+
+    }
 }

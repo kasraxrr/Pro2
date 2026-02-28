@@ -29,6 +29,16 @@ public class LoanedAndReservedState extends LPState{
         this.loanedTo = loanedTo;
     }
 
+    @Override
+    public void loan(LP lp, String person) {
+
+    }
+
+    @Override
+    public void reserve(LP lp, String person) {
+
+    }
+
     public String getLoanedTo() {
         return loanedTo;
     }
@@ -44,6 +54,11 @@ public class LoanedAndReservedState extends LPState{
        AvailableState a1=new AvailableState(lp,super.getFlag());
         lp.setState(a1);
        a1.reserve(lp,reservedBy);
+
+    }
+
+    @Override
+    public void cancelReservation(LP lp) {
 
     }
 }

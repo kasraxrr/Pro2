@@ -21,6 +21,17 @@ public class AvailableState extends LPState{
     public void reserve(LP lp,String person){
         lp.setState(new ReservedState(lp,person,false));
     }
+
+    @Override
+    public void returnLP(LP lp) {
+
+    }
+
+    @Override
+    public void cancelReservation(LP lp) {
+
+    }
+
     @Override
     public String getStatusString(){
         return getClass().getSimpleName();

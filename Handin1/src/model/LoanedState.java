@@ -14,6 +14,11 @@ public class LoanedState extends LPState{
     }
 
     @Override
+    public void cancelReservation(LP lp) {
+
+    }
+
+    @Override
     public String getStatusString() {
         return getClass().getSimpleName();
     }
@@ -37,6 +42,12 @@ public class LoanedState extends LPState{
     public void setLoanedTo(String person ){
         this.loanedTo=person;
     }
+
+    @Override
+    public void loan(LP lp, String person) {
+
+    }
+
     public String getLoanedTo(){
         return loanedTo;
     }
