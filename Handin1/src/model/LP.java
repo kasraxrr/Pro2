@@ -44,8 +44,11 @@ public class LP {
     public LPState getState(){
         return state;
     }
-    public void loan(){
-        this.state=new
+    public void loan(LP lp,String person){
+        if (getState() instanceof AvailableState || getState() instanceof ReservedState && ){
+            this.state=new LoanedState(this,person,flagged);
+        }
+
     }
 
 }

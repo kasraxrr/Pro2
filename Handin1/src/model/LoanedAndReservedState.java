@@ -40,4 +40,10 @@ public class LoanedAndReservedState extends LPState{
     public String getReservedBy() {
         return reservedBy;
     }
+    public void returnLP(LP lp){
+       AvailableState a1=new AvailableState(lp,flag);
+        lp.setState(a1);
+       a1.reserve(lp,reservedBy);
+
+    }
 }

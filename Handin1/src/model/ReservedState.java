@@ -34,4 +34,9 @@ public class ReservedState extends LPState{
     public String getReservedBy() {
         return reservedBy;
     }
+    public void loan(LP lp,String person){
+        if (person.equals(reservedBy)){
+            lp.setState(new LoanedState(lp,person,flag));
+        }
+    }
 }
