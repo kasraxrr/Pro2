@@ -92,8 +92,8 @@ public class ViewHandler
                 loader.setLocation(getClass().getResource(fxmlFile));
                 Region root = loader.load();
                 detailViewController = loader.getController();
-                detailViewController
-                        .init(this, viewModelFactory.getDetailViewModel(), root);
+                detailViewController.init(this, viewModelFactory.getDetailViewModel(), root);
+                detailViewController.reset();
             }
             catch (Exception e)
             {

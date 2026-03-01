@@ -15,12 +15,12 @@
       <TableView fx:id="table" prefHeight="349.0" prefWidth="707.0">
         <columns>
           <TableColumn fx:id="titleColumn" prefWidth="110.0" text="Title" />
-          <TableColumn fx:id="artistColumn" prefWidth="103.0" text="Artist" />
-            <TableColumn fx:id="yearColumn" prefWidth="79.0" text="Year" />
-            <TableColumn fx:id="stateColumn" prefWidth="60.0" text="State" />
-            <TableColumn fx:id="flaggedColumn" prefWidth="75.0" text="Flagged" />
+          <TableColumn fx:id="artistColumn" prefWidth="82.0" text="Artist" />
+            <TableColumn fx:id="yearColumn" prefWidth="74.0" text="Year" />
+            <TableColumn fx:id="stateColumn" prefWidth="112.5" text="State" />
+            <TableColumn fx:id="flaggedColumn" prefWidth="68.5" text="Flagged" />
             <TableColumn fx:id="LoanedByColumn" prefWidth="95.5" text="Loaned by" />
-            <TableColumn fx:id="ReservedByColumn" prefWidth="105.0" text="Reserved by" />
+            <TableColumn fx:id="ReservedByColumn" prefWidth="108.0" text="Reserved by" />
         </columns>
       </TableView>
       <GridPane prefHeight="66.0" prefWidth="600.0">
@@ -63,7 +63,7 @@
                <GridPane.margin>
                   <Insets bottom="10.0" />
                </GridPane.margin></Button>
-            <Label fx:id="errorLabel" prefHeight="17.0" prefWidth="48.0" text="Error" textFill="RED" />
+            <Label fx:id="errorLabel" prefHeight="28.0" prefWidth="183.0" text="Error" textFill="RED" />
             <Button fx:id="cancelButton" mnemonicParsing="false" onAction="#cancelButtonPressed" text="Cancel" GridPane.columnIndex="5" GridPane.rowIndex="1">
                <GridPane.margin>
                   <Insets bottom="10.0" />

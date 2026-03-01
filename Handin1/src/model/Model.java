@@ -13,6 +13,7 @@ public void cancel(LP lp);
 public void loan(LP lp,String person);
 public void returnLP(LP lp);
 public void flagForRemove(LP lp);
+public void unflag(LP lp);
 public void flagFoeRemove(int index);
 
 }

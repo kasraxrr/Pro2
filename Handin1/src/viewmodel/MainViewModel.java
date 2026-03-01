@@ -42,12 +42,13 @@ public class MainViewModel implements PropertyChangeListener {
     }
     public void loadFromModel()
     {
-        ArrayList<LP> modelList = model.getAllLPs();
-        list.clear();
-        for (int i = 0; i < modelList.size(); i++)
-        {
-            list.add(new SimpleLPViewModel(modelList.get(i)));
-        }
+        Platform.runLater(() -> {
+            ArrayList<LP> modelList = model.getAllLPs();
+            list.clear();
+            for (LP lp : modelList) {
+                list.add(new SimpleLPViewModel(lp));
+            }
+        });
     }
 
     public void remove()
@@ -56,7 +57,11 @@ public class MainViewModel implements PropertyChangeListener {
         {
             LP lp = model.getLP(selectedLPProperty.get().getTitleProperty().get(),
                     selectedLPProperty.get().getArtistProperty().get());
-            if (lp.getStateString().equals("Available"))
+            if (selectedLPProperty.get().getFlaggedProperty().get()) {
+                model.unflag(lp);
+            }
+
+            else if (lp.getStateString().equals("AvailableState"))
             {
                 model.removeLP(lp);
             }else
@@ -146,6 +151,7 @@ public class MainViewModel implements PropertyChangeListener {
             viewState.setArtist(lpViewModel.getArtistProperty().get());
         }else
         {
+            selectedLPProperty.set(null);
             viewState.setTitle(null);
             viewState.setArtist(null);
         }
@@ -169,15 +175,16 @@ public class MainViewModel implements PropertyChangeListener {
     @Override public void propertyChange(PropertyChangeEvent evt)
     {
         Platform.runLater(() -> {
+            System.out.println("Received event from Model: " + evt.getPropertyName());
             switch(evt.getPropertyName())
             {
-                case "remove":
+                case "lpRemoved":
                     removeSimpleLP((LP) evt.getNewValue());
                     break;
-                case "add":
+                case "lpAdded":
                     addSimpleLP((LP) evt.getNewValue());
                     break;
-                case "loan", "reserve", "flag", "return", "cancel":
+                case "lpLoaned", "lpReserved", "lpFlagged","lpUnFlagged", "lpReturned", "lpStateCanceled":
                     System.out.println("loading model");
                     loadFromModel();
                     break;

@@ -15,9 +15,9 @@ public class LPLibrary {
         list.add(lp);
     }
     public void remove(LP lp){
-        if (lp.getState() instanceof RemovingState){
+
             list.remove(lp);
-        }
+
     }
     public void remove(int index){
         list.remove(index);
@@ -71,6 +71,15 @@ public class LPLibrary {
             }
         }
     }
+
+    public void unflag(LP lp){
+        for (int i = 0; i < list.size(); i++) {
+            if (list.get(i).equals(lp)){
+                list.get(i).setFlagged(false);
+            }
+        }
+    }
+
     public void flagRemoveLP(int index){
         list.get(index).setFlagged(true);
     }

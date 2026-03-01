@@ -1,5 +1,7 @@
 package model;
 
+import java.util.Objects;
+
 public abstract class LPState {
     private boolean flag;
     private String reservedBy;
@@ -36,10 +38,12 @@ public void setFlag(Boolean flag){
 
     @Override
     public boolean equals(Object obj) {
-        if (this == obj)return true;
-        if ( obj==null||this.getClass()!=obj.getClass())return false;
-        LPState other=(LPState) obj;
-        return this.getFlag()== other.getFlag() && this.getReservedBy().equals(other.getReservedBy()) && this.getLoanedTo().equals(other.getLoanedTo());
+        if (this == obj) return true;
+        if (obj == null || this.getClass() != obj.getClass()) return false;
+        LPState other = (LPState) obj;
+        return this.getFlag() == other.getFlag() &&
+                Objects.equals(this.getReservedBy(), other.getReservedBy()) &&
+                Objects.equals(this.getLoanedTo(), other.getLoanedTo());
     }
     public abstract void loan(LP lp, String person) ;
 

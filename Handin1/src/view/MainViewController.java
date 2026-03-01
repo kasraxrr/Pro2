@@ -1,5 +1,6 @@
 package view;
 
+import javafx.collections.ListChangeListener;
 import javafx.fxml.FXML;
 import javafx.scene.control.*;
 import javafx.scene.layout.Region;
@@ -76,7 +77,7 @@ public class MainViewController {
                     }
                     else
                     {
-                        addButton.setText("Details");
+                        addButton.setText("Info");
 
                         removeButton.setDisable(false);
                         if(newSelection.getFlaggedProperty().get())
@@ -89,27 +90,34 @@ public class MainViewController {
 
                         switch (newSelection.getStateProperty().get())
                         {
-                            case "LoanedAndReserved":
+                            case "LoanedAndReservedState":
                                 cancelButton.setDisable(false);
                                 returnButton.setDisable(false);
                                 break;
-                            case "Loaned":
+                            case "LoanedState":
                                 reserveButton.setDisable(false);
                                 returnButton.setDisable(false);
                                 break;
-                            case "Reserved":
+                            case "ReservedState":
                                 loanButton.setDisable(false);
                                 cancelButton.setDisable(false);
                                 break;
-                            case "Available":
+                            case "AvailableState":
                                 removeButton.setText("Remove");
                                 reserveButton.setDisable(false);
                                 loanButton.setDisable(false);
                                 break;
+                            default:
+                                System.out.println("Unknown state encountered: " );
+                                break;
                         }
                     }
                 });
+        mainViewModel.getAll().addListener((ListChangeListener<SimpleLPViewModel>) change -> {
+            table.refresh();
+        });
     }
+
 
     public void reset()
     {
@@ -124,6 +132,7 @@ public class MainViewController {
     @FXML private void addButtonPressed()
     {
         viewHandler.openView("detail");
+        table.getSelectionModel().clearSelection();
     }
 
     @FXML private void removeButtonPressed()

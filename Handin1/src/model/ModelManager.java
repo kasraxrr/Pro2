@@ -31,43 +31,43 @@ public class ModelManager implements Model{
 
     @Override
     public void removeLP(LP lp) {
-        library.remove(lp);
-        property.firePropertyChange("lpRemoved", lp, null);
+        lp.getState().remove(lp);
+        property.firePropertyChange("lpFlagged", null, lp);
     }
 
     @Override
     public void remove(int index) {
         LP lp = library.getLP(index);
         library.remove(index);
-        property.firePropertyChange("lpRemoved", lp, null);
+        property.firePropertyChange("remove", null, lp);
     }
 
     @Override
     public void reserve(LP lp, String person) {
         String oldState = lp.getStateString();
         library.reserve(lp, person);
-        property.firePropertyChange("lpStateChanged", oldState, lp.getStateString());
+        property.firePropertyChange("lpReserved", oldState, lp.getStateString());
     }
 
     @Override
     public void cancel(LP lp) {
         String oldState = lp.getStateString();
         library.cancel(lp);
-        property.firePropertyChange("lpStateChanged", oldState, lp.getStateString());
+        property.firePropertyChange("lpStateCanceled", oldState, lp.getStateString());
     }
 
     @Override
     public void loan(LP lp, String person) {
         String oldState = lp.getStateString();
         library.loan(lp,person);
-        property.firePropertyChange("lpStateChanged", oldState, lp.getStateString());
+        property.firePropertyChange("lpLoaned", oldState, lp.getStateString());
     }
 
     @Override
     public void returnLP(LP lp) {
         String oldState = lp.getStateString();
         library.returnLP(lp);
-        property.firePropertyChange("lpStateChanged", oldState, lp.getStateString());
+        property.firePropertyChange("lpReturned", oldState, lp.getStateString());
 
     }
 
@@ -78,10 +78,17 @@ public class ModelManager implements Model{
     }
 
     @Override
+    public void unflag(LP lp) {
+        library.unflag(lp);
+        property.firePropertyChange("lpUnFlagged", true, false);
+    }
+
+    @Override
     public void flagFoeRemove(int index) {
         library.flagRemoveLP(index);
         property.firePropertyChange("lpFlagged", false, true);
     }
+
 
     @Override
     public void addListener(PropertyChangeListener listener) {

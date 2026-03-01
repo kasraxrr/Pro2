@@ -26,32 +26,32 @@ public class UserSimulator implements Runnable, PropertyChangeListener {
 
 
             try {
-                // Step 1: reserve
+
                 tryReserve();
-                Thread.sleep(300);
+                Thread.sleep(2000);
 
-                // Step 2: loan the reservation
+
                 tryLoan();
-                Thread.sleep(300);
+                Thread.sleep(2000);
 
-                // Step 3: return the LP
+
                 tryReturn();
-                Thread.sleep(300);
+                Thread.sleep(2000);
 
             } catch (InterruptedException e) {
                 Thread.currentThread().interrupt();
                 System.out.println("[" + name + "] Simulation stopped.");
+
             }
 
     }
 
     private void tryReserve() {
-        ArrayList<LP> lps = model.getAllLPs();
+        ArrayList<LP> lps = new ArrayList<>(model.getAllLPs());
         if (lps == null || lps.isEmpty()) return;
 
         for (LP lp : lps) {
-            if ((lp.getState() instanceof AvailableState || lp.getState() instanceof LoanedState)
-                    && !lp.isFlagged()) {
+            if (lp.getState() instanceof AvailableState && !lp.isFlagged()) {
                 System.out.println("[" + name + "] Reserving: " + lp.getTitle());
                 model.reserve(lp, name);
                 return;
@@ -60,8 +60,8 @@ public class UserSimulator implements Runnable, PropertyChangeListener {
         System.out.println("[" + name + "] Nothing to reserve.");
     }
 
-    private void tryLoan() {
-        ArrayList<LP> lps = model.getAllLPs();
+    public void tryLoan() {
+        ArrayList<LP> lps = new ArrayList<>(model.getAllLPs());
         if (lps == null || lps.isEmpty()) return;
 
         for (LP lp : lps) {
@@ -79,8 +79,8 @@ public class UserSimulator implements Runnable, PropertyChangeListener {
         System.out.println("[" + name + "] Nothing to loan.");
     }
 
-    private void tryReturn() {
-        ArrayList<LP> lps = model.getAllLPs();
+    public void tryReturn() {
+        ArrayList<LP> lps = new ArrayList<>(model.getAllLPs());
         if (lps == null || lps.isEmpty()) return;
 
         for (LP lp : lps) {

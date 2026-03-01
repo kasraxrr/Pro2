@@ -56,4 +56,12 @@ public class SimpleLPViewModel
     {
         return flaggedProperty;
     }
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj) return true;
+        if (obj == null || getClass() != obj.getClass()) return false;
+        SimpleLPViewModel other = (SimpleLPViewModel) obj;
+        return titleProperty.get().equals(other.titleProperty.get()) &&
+                artistProperty.get().equals(other.artistProperty.get());
+    }
 }

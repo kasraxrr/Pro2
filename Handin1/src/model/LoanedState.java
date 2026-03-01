@@ -10,7 +10,11 @@ public class LoanedState extends LPState{
 
     }
     public void returnLP(LP lp){
-        lp.setState(new AvailableState(lp,super.getFlag()));
+        if (this.getFlag()) {
+            lp.setState(new RemovingState(lp));
+        } else {
+            lp.setState(new AvailableState(lp, false));
+        }
     }
 
     @Override
@@ -30,15 +34,15 @@ public class LoanedState extends LPState{
     public void remove(LP lp){
         super.setFlag(true);
     }
-    public void reserve(LP lp,String person){
-        if (!super.getFlag()&&super.getReservedBy()==null){
-            lp.setState(new LoanedAndReservedState(lp,loanedTo,person,false));
+    @Override
+    public void reserve(LP lp, String person) {
+        if (!super.getFlag() && super.getReservedBy() == null) {
+            lp.setState(new LoanedAndReservedState(lp, this.getLoanedTo(), person, false));
+        } else {
+            throw new IllegalStateException("Cannot reserve this LP");
         }
-        else {
-            throw new IllegalStateException();
-        }
-
     }
+
     public void setLoanedTo(String person ){
         this.loanedTo=person;
     }
