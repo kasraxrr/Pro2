@@ -11,7 +11,7 @@
 <?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.layout.VBox?>
 
-<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" stylesheets="@../styles.css" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1">
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" stylesheets="@../styles.css" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.DetailViewController">
    <children>
       <Label />
       <GridPane prefHeight="316.0" prefWidth="600.0">
@@ -53,21 +53,21 @@
                </rowConstraints>
                <children>
                   <Label text="Title" />
-                  <TextField GridPane.rowIndex="1" />
+                  <TextField fx:id="titleField" GridPane.rowIndex="1" />
                   <Label text="artist" GridPane.rowIndex="2" />
-                  <TextField GridPane.rowIndex="3" />
+                  <TextField fx:id="artistField" GridPane.rowIndex="3" />
                   <Label text="year" GridPane.rowIndex="4" />
-                  <TextField GridPane.rowIndex="5" />
+                  <TextField fx:id="yearField" GridPane.rowIndex="5" />
                   <Label text="reserved by" GridPane.rowIndex="6" />
-                  <TextField GridPane.rowIndex="7" />
+                  <TextField fx:id="reservedBy" GridPane.rowIndex="7" />
                   <Label text="loaned by" GridPane.rowIndex="8" />
-                  <TextField prefHeight="34.0" prefWidth="540.0" GridPane.rowIndex="9" />
-                  <Label text="State" GridPane.rowIndex="10" />
+                  <TextField fx:id="loanedBy" prefHeight="34.0" prefWidth="540.0" GridPane.rowIndex="9" />
+                  <Label fx:id="state" text="State" GridPane.rowIndex="10" />
                </children>
             </GridPane>
             <ImageView fitHeight="280.0" fitWidth="271.0" pickOnBounds="true" preserveRatio="true" styleClass="rounded-image" GridPane.columnIndex="1">
                <image>
-                  <Image url="@../../../../../Downloads/Gemini_Generated_Image_1ts5cn1ts5cn1ts5.png" />
+                  <Image url="@../Gemini_Generated_Image_1ts5cn1ts5cn1ts5.png" />
                </image>
                <GridPane.margin>
                   <Insets left="10.0" />
@@ -84,11 +84,12 @@
           <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
         </rowConstraints>
          <children>
-            <Button mnemonicParsing="false" text="Submit" />
-            <Button mnemonicParsing="false" prefHeight="44.0" prefWidth="79.0" text="Cancle">
+            <Button fx:id="submitButton" mnemonicParsing="false" onAction="#submitButtonPressed" text="Submit" />
+            <Button fx:id="cancelButton" mnemonicParsing="false" onAction="#cancelButtonPressed" prefHeight="44.0" prefWidth="79.0" text="Cancle">
                <GridPane.margin>
                   <Insets left="200.0" />
                </GridPane.margin></Button>
+            <Label fx:id="errorLabel" prefHeight="28.0" prefWidth="187.0" text="error" GridPane.columnIndex="1" />
          </children>
       </GridPane>
    </children>

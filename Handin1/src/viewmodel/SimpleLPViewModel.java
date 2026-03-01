@@ -9,6 +9,8 @@ public class SimpleLPViewModel
     private StringProperty artistProperty;
     private IntegerProperty yearProperty;
     private StringProperty statusProperty;
+    private StringProperty reservedByProperty;
+    private StringProperty loanedToProperty;
     private BooleanProperty flaggedProperty;
 
     public SimpleLPViewModel(LP lp)
@@ -17,6 +19,8 @@ public class SimpleLPViewModel
         artistProperty = new SimpleStringProperty(lp.getArtist());
         yearProperty = new SimpleIntegerProperty(lp.getYear());
         statusProperty = new SimpleStringProperty(lp.getStateString());
+        reservedByProperty = new SimpleStringProperty(lp.getState().getReservedBy());
+        loanedToProperty = new SimpleStringProperty(lp.getState().getLoanedTo());
         flaggedProperty = new SimpleBooleanProperty(lp.getState().getFlag());
     }
 
@@ -28,6 +32,14 @@ public class SimpleLPViewModel
     public StringProperty getArtistProperty()
     {
         return artistProperty;
+    }
+
+    public StringProperty getLoanedToProperty() {
+        return loanedToProperty;
+    }
+
+    public StringProperty getReservedByProperty() {
+        return reservedByProperty;
     }
 
     public IntegerProperty getYearProperty()
