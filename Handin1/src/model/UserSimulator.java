@@ -24,16 +24,14 @@ public class UserSimulator implements Runnable, PropertyChangeListener {
     public void run() {
         System.out.println("[" + name + "] Simulation started.");
 
-
+        // THIS LOOP KEEPS THE THREAD ALIVE FOREVER
+        while (!Thread.currentThread().isInterrupted()) {
             try {
-
                 tryReserve();
                 Thread.sleep(2000);
 
-
                 tryLoan();
                 Thread.sleep(2000);
-
 
                 tryReturn();
                 Thread.sleep(2000);
@@ -41,9 +39,9 @@ public class UserSimulator implements Runnable, PropertyChangeListener {
             } catch (InterruptedException e) {
                 Thread.currentThread().interrupt();
                 System.out.println("[" + name + "] Simulation stopped.");
-
+                break; // Exit the loop if the thread is killed
             }
-
+        }
     }
 
     private void tryReserve() {
