@@ -11,6 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/Observer-TempratureConverter/Observer-TempratureConverter.iml" filepath="$PROJECT_DIR$/Observer-TempratureConverter/Observer-TempratureConverter.iml" />
       <module fileurl="file://$PROJECT_DIR$/Pro2.iml" filepath="$PROJECT_DIR$/Pro2.iml" />
       <module fileurl="file://$PROJECT_DIR$/Singleton-Counter/Singleton-Counter.iml" filepath="$PROJECT_DIR$/Singleton-Counter/Singleton-Counter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Singleton-Multiton-Counter/Singleton-Multiton-Counter.iml" filepath="$PROJECT_DIR$/Singleton-Multiton-Counter/Singleton-Multiton-Counter.iml" />
       <module fileurl="file://$PROJECT_DIR$/State-BillyCar/State-BillyCar.iml" filepath="$PROJECT_DIR$/State-BillyCar/State-BillyCar.iml" />
       <module fileurl="file://$PROJECT_DIR$/State-Door/State-Door.iml" filepath="$PROJECT_DIR$/State-Door/State-Door.iml" />
       <module fileurl="file://$PROJECT_DIR$/State-Mobiletelefon/State-Mobiletelefon.iml" filepath="$PROJECT_DIR$/State-Mobiletelefon/State-Mobiletelefon.iml" />
