@@ -28,13 +28,13 @@ public class UserSimulator implements Runnable, PropertyChangeListener {
         while (!Thread.currentThread().isInterrupted()) {
             try {
                 tryReserve();
-                Thread.sleep(2000);
+                Thread.sleep(20000);
 
                 tryLoan();
-                Thread.sleep(2000);
+                Thread.sleep(20000);
 
                 tryReturn();
-                Thread.sleep(2000);
+                Thread.sleep(20000);
 
             } catch (InterruptedException e) {
                 Thread.currentThread().interrupt();
