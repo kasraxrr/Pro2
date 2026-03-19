@@ -7,7 +7,5 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="MVVM-Exercises" />
-    <orderEntry type="library" name="XmlJsonParser-1.6" level="project" />
   </component>
 </module>
