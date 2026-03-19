@@ -1,11 +1,11 @@
-package mediator;
+package server.model;
 
-public class User
+public class UserPackage
 {
   private String user;
   private String password;
 
-  public User(String user, String password)
+  public UserPackage(String user, String password)
   {
     this.user = user;
     this.password = password;
@@ -23,6 +23,6 @@ public class User
 
   @Override public String toString()
   {
-    return "ClientUser: " + user + ", " + password;
+    return "UserPackage: " + user + ", " + password;
   }
 }

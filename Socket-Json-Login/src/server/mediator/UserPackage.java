@@ -1,4 +1,4 @@
-package mediator;
+package server.mediator;
 
 public class UserPackage
 {

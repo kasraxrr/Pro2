@@ -1,5 +1,7 @@
-import model.Model;
-import model.ModelManager;
+package server;
+
+import server.model.Model;
+import server.model.ModelManager;
 
 public class UserServerTest
 {
