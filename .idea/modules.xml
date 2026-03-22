@@ -17,7 +17,9 @@
       <module fileurl="file://$PROJECT_DIR$/Socket-Register/Socket-Register.iml" filepath="$PROJECT_DIR$/Socket-Register/Socket-Register.iml" />
       <module fileurl="file://$PROJECT_DIR$/Socket-SimpleUppercase/Socket-SimpleUppercase.iml" filepath="$PROJECT_DIR$/Socket-SimpleUppercase/Socket-SimpleUppercase.iml" />
       <module fileurl="file://$PROJECT_DIR$/Socket-Tasklist/Socket-Tasklist.iml" filepath="$PROJECT_DIR$/Socket-Tasklist/Socket-Tasklist.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Socket-UDP-Uppercase/Socket-UDP-Uppercase.iml" filepath="$PROJECT_DIR$/Socket-UDP-Uppercase/Socket-UDP-Uppercase.iml" />
       <module fileurl="file://$PROJECT_DIR$/Socket-chat/Socket-chat.iml" filepath="$PROJECT_DIR$/Socket-chat/Socket-chat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Soket-Chat/Soket-Chat.iml" filepath="$PROJECT_DIR$/Soket-Chat/Soket-Chat.iml" />
       <module fileurl="file://$PROJECT_DIR$/State-BillyCar/State-BillyCar.iml" filepath="$PROJECT_DIR$/State-BillyCar/State-BillyCar.iml" />
       <module fileurl="file://$PROJECT_DIR$/State-Door/State-Door.iml" filepath="$PROJECT_DIR$/State-Door/State-Door.iml" />
       <module fileurl="file://$PROJECT_DIR$/State-Mobiletelefon/State-Mobiletelefon.iml" filepath="$PROJECT_DIR$/State-Mobiletelefon/State-Mobiletelefon.iml" />
