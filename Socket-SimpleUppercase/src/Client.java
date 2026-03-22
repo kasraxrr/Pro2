@@ -7,28 +7,34 @@ import java.util.Scanner;
 
 public class Client {
 
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args)  {
         final int port=7;
         final String host="192.168.8.104";
 
         Scanner scanner=new Scanner(System.in);
 
-        Socket socket=new Socket(host,port);
+        try {
+            Socket socket=new Socket(host,port);
 
-        BufferedReader in=new BufferedReader(new InputStreamReader(socket.getInputStream()));
+            BufferedReader in=new BufferedReader(new InputStreamReader(socket.getInputStream()));
 
-        PrintWriter out=new PrintWriter(socket.getOutputStream());
+            PrintWriter out=new PrintWriter(socket.getOutputStream(),true);
 
-        System.out.println("send your first message to server");
-        String req=scanner.nextLine();
-        out.println(req);
+            System.out.println("send your first message to server");
+            String req=scanner.nextLine();
+            out.println(req);
 
-        System.out.println("server said : "+in.readLine());
+            System.out.println("server said : "+in.readLine());
 
-        System.out.println("send your request");
-        String req2=scanner.nextLine();
-        out.println(req2);
-        System.out.println("server said : "+in.readLine());
-        socket.close();
+            System.out.println("send your request");
+            String req2=scanner.nextLine();
+            out.println(req2);
+
+            System.out.println("server said : "+in.readLine());
+            socket.close();
+        } catch (Exception e) {
+            throw new RuntimeException(e);
+        }
+
     }
 }

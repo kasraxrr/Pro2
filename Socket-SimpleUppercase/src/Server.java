@@ -15,13 +15,18 @@ public class Server {
         while (true){
             System.out.println("Wating for requests...");
             Socket socket=welcome.accept();
-            System.out.println(Arrays.toString(socket.getLocalAddress().getAddress()));
+
             BufferedReader in=new BufferedReader(new InputStreamReader(socket.getInputStream()));
-            PrintWriter out=new PrintWriter(socket.getOutputStream());
+            PrintWriter out=new PrintWriter(socket.getOutputStream(),true);
+
             String req=in.readLine();
+            System.out.println("Client said"+req);
             out.println("welcome to my Uppercase converter");
+
             String question=in.readLine();
+            System.out.println("Client said"+question);
             out.println("here is your uppercase : "+question.toUpperCase());
+            socket.close();
         }
 
     }
