@@ -107,6 +107,10 @@ public class MainViewController {
                                 reserveButton.setDisable(false);
                                 loanButton.setDisable(false);
                                 break;
+                            case "RemovingState":
+                                cancelButton.setDisable(true);
+                                removeButton.setDisable(true);
+
                             default:
                                 System.out.println("Unknown state encountered: " );
                                 break;
