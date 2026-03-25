@@ -1,7 +1,7 @@
 package server.mediator;
 
 import server.model.Model;
-import server.model.UserClientHandler;
+
 
 import java.io.IOException;
 import java.net.ServerSocket;
