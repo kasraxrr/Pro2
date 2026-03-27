@@ -1,0 +1,120 @@
+/* --- Global Styling --- */
+.root {
+    -fx-background-color: #f4f6f8;
+    -fx-font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    -fx-font-size: 14px;
+}
+
+/* --- Labels --- */
+.label {
+    -fx-text-fill: #333333;
+    -fx-font-weight: bold;
+    -fx-padding: 5 0 5 0;
+}
+
+/* Use this specific class for your 'Error' label at the bottom */
+.error-label {
+    -fx-text-fill: #dc3545; /* Red color for errors */
+    -fx-font-weight: bold;
+}
+
+/* --- TextFields (DetailView) --- */
+.text-field {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #ced4da;
+    -fx-border-radius: 6;
+    -fx-background-radius: 6;
+    -fx-padding: 8 12 8 12;
+    -fx-text-fill: #495057;
+}
+
+.text-field:focused {
+    -fx-border-color: #80bdff;
+    -fx-border-width: 2;
+    -fx-background-insets: -1;
+}
+
+/* --- Buttons --- */
+.button {
+    -fx-background-color: #007bff;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 6;
+    -fx-padding: 8 16 8 16;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: #0056b3;
+}
+
+.button:pressed {
+    -fx-background-color: #004085;
+}
+
+/* Optional: A separate class for secondary buttons like "Cancel" or "Return" */
+.secondary-button {
+    -fx-background-color: #6c757d;
+}
+
+.secondary-button:hover {
+    -fx-background-color: #5a6268;
+}
+
+/* --- TableView (MainView) --- */
+.table-view {
+    -fx-background-color: transparent;
+    -fx-border-color: #e0e0e0;
+    -fx-border-radius: 8;
+    -fx-background-radius: 8;
+    -fx-padding: -1; /* Hides the default outer border */
+}
+
+.table-view .column-header-background {
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 8 8 0 0;
+    -fx-border-color: transparent transparent #e0e0e0 transparent;
+}
+
+.table-view .column-header, .table-view .filler {
+    -fx-background-color: transparent;
+    -fx-size: 40px; /* Thicker, more modern headers */
+}
+
+.table-view .column-header .label {
+    -fx-text-fill: #495057;
+    -fx-font-weight: bold;
+    -fx-alignment: center-left;
+}
+
+.table-row-cell {
+    -fx-background-color: #ffffff;
+    -fx-border-color: transparent transparent #f0f0f0 transparent;
+    -fx-cell-size: 38px; /* Taller rows for readability */
+}
+
+.table-row-cell:odd {
+    -fx-background-color: #fafbfc;
+}
+
+.table-row-cell:hover {
+    -fx-background-color: #f1f8ff;
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #007bff;
+    -fx-text-fill: white;
+}
+.rounded-image {
+    -fx-background-radius: 15;
+    -fx-border-radius: 15;
+    -fx-border-color: transparent;
+    -fx-background-color: transparent;
+}
+.rounded-image {
+    -fx-background-radius: 15;
+    -fx-border-radius: 15;
+    -fx-border-color: transparent;
+    -fx-background-color: transparent;
+    -fx-clip-shape: "M0,0 h200 a15,15 0 0 1 15,15 v200 a15,15 0 0 1 -15,15 h-200 a15,15 0 0 1 -15,-15 v-200 a15,15 0 0 1 15,-15 z";
+}

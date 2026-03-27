@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Handin1/Handin1.iml" filepath="$PROJECT_DIR$/Handin1/Handin1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Handin2/Handin2.iml" filepath="$PROJECT_DIR$/Handin2/Handin2.iml" />
       <module fileurl="file://$PROJECT_DIR$/MVVM-Auction/MVVM-Auction.iml" filepath="$PROJECT_DIR$/MVVM-Auction/MVVM-Auction.iml" />
       <module fileurl="file://$PROJECT_DIR$/MVVM-Exercises/MVVM-Exercises.iml" filepath="$PROJECT_DIR$/MVVM-Exercises/MVVM-Exercises.iml" />
       <module fileurl="file://$PROJECT_DIR$/MVVM-Uppercase/MVVM-Uppercase.iml" filepath="$PROJECT_DIR$/MVVM-Uppercase/MVVM-Uppercase.iml" />
@@ -13,10 +14,10 @@
       <module fileurl="file://$PROJECT_DIR$/Singleton-Counter/Singleton-Counter.iml" filepath="$PROJECT_DIR$/Singleton-Counter/Singleton-Counter.iml" />
       <module fileurl="file://$PROJECT_DIR$/Singleton-Multiton-Counter/Singleton-Multiton-Counter.iml" filepath="$PROJECT_DIR$/Singleton-Multiton-Counter/Singleton-Multiton-Counter.iml" />
       <module fileurl="file://$PROJECT_DIR$/Socket-Json-Login/Socket-Json-Login.iml" filepath="$PROJECT_DIR$/Socket-Json-Login/Socket-Json-Login.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Socket-Json-Tasklist/Socket-Json-Tasklist.iml" filepath="$PROJECT_DIR$/Socket-Json-Tasklist/Socket-Json-Tasklist.iml" />
       <module fileurl="file://$PROJECT_DIR$/Socket-Login/Socket-Login.iml" filepath="$PROJECT_DIR$/Socket-Login/Socket-Login.iml" />
       <module fileurl="file://$PROJECT_DIR$/Socket-Register/Socket-Register.iml" filepath="$PROJECT_DIR$/Socket-Register/Socket-Register.iml" />
       <module fileurl="file://$PROJECT_DIR$/Socket-SimpleUppercase/Socket-SimpleUppercase.iml" filepath="$PROJECT_DIR$/Socket-SimpleUppercase/Socket-SimpleUppercase.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Socket-Tasklist/Socket-Tasklist.iml" filepath="$PROJECT_DIR$/Socket-Tasklist/Socket-Tasklist.iml" />
       <module fileurl="file://$PROJECT_DIR$/Socket-UDP-Uppercase/Socket-UDP-Uppercase.iml" filepath="$PROJECT_DIR$/Socket-UDP-Uppercase/Socket-UDP-Uppercase.iml" />
       <module fileurl="file://$PROJECT_DIR$/Socket-chat/Socket-chat.iml" filepath="$PROJECT_DIR$/Socket-chat/Socket-chat.iml" />
       <module fileurl="file://$PROJECT_DIR$/Soket-Chat/Soket-Chat.iml" filepath="$PROJECT_DIR$/Soket-Chat/Soket-Chat.iml" />
