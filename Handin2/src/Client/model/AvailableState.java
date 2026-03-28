@@ -1,9 +1,9 @@
 package Client.model;
 
-import model.LP;
-import model.LPState;
-import model.LoanedState;
-import model.RemovingState;
+import Client.model.LP;
+import Client.model.LPState;
+import Client.model.LoanedState;
+import Client.model.RemovingState;
 
 public class AvailableState extends LPState {
 

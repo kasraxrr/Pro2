@@ -1,7 +1,7 @@
 package Client.model;
 
-import model.LP;
-import model.LPLibrary;
+import Client.model.LP;
+import Client.model.LPLibrary;
 
 public class RemovingState extends LPState{
 private LPLibrary lpLibrary;

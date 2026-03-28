@@ -1,7 +1,7 @@
 package Client.model;
 
-import model.LP;
-import model.UnnamedPropertyChangeSubject;
+import Client.model.LP;
+import Client.model.UnnamedPropertyChangeSubject;
 
 import java.util.ArrayList;
 

@@ -1,6 +1,6 @@
 package Client.model;
 
-import model.LP;
+import Client.model.LP;
 
 import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangeListener;

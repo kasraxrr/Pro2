@@ -1,6 +1,6 @@
 package Client.viewmodel;
 
-import model.LP;
+import Client.model.LP;
 
 public class ViewState {
     private LP selectedLP;

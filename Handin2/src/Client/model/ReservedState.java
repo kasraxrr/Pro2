@@ -1,9 +1,9 @@
 package Client.model;
 
-import model.AvailableState;
-import model.LP;
-import model.LPState;
-import model.LoanedState;
+import Client.model.AvailableState;
+import Client.model.LP;
+import Client.model.LPState;
+import Client.model.LoanedState;
 
 public class ReservedState extends LPState {
     private String reservedBy;

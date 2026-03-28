@@ -1,9 +1,9 @@
 package Server.viewmodel;
 
 import javafx.beans.property.*;
-import model.LP;
-import model.Model;
-import viewmodel.ViewState;
+import Server.model.LP;
+import Server.model.Model;
+import Server.viewmodel.ViewState;
 
 public class DetailViewModel {
 

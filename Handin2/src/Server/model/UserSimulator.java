@@ -1,8 +1,8 @@
 package Server.model;
 
-import model.LP;
-import model.LoanedAndReservedState;
-import model.LoanedState;
+import Server.model.LP;
+import Server.model.LoanedAndReservedState;
+import Server.model.LoanedState;
 
 import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangeListener;

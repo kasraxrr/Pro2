@@ -1,6 +1,6 @@
 package Server.model;
 
-import model.LP;
+import Server.model.LP;
 
 public class RemovingState extends LPState{
 private LPLibrary lpLibrary;

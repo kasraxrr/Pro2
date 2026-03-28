@@ -1,7 +1,7 @@
 package Client.viewmodel;
 
 import javafx.beans.property.*;
-import model.LP;
+import Client.model.LP;
 
 public class SimpleLPViewModel
 {

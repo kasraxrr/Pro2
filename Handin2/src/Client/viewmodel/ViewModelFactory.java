@@ -1,9 +1,9 @@
 package Client.viewmodel;
 
-import model.Model;
-import viewmodel.DetailViewModel;
-import viewmodel.MainViewModel;
-import viewmodel.ViewState;
+import Client.model.Model;
+import Client.viewmodel.DetailViewModel;
+import Client.viewmodel.MainViewModel;
+import Client.viewmodel.ViewState;
 
 public class ViewModelFactory {
     private MainViewModel mainModel;

@@ -8,9 +8,9 @@ import javafx.beans.property.StringProperty;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.scene.control.TextInputDialog;
-import model.LP;
-import model.Model;
-import viewmodel.ViewState;
+import Server.model.LP;
+import Server.model.Model;
+import Server.viewmodel.ViewState;
 
 import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangeListener;

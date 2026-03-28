@@ -1,10 +1,12 @@
+package Client;
+
+import Client.model.Model;
+import Client.model.ModelManager;
+import Client.model.UserSimulator;
+import Client.view.ViewHandler;
+import Client.viewmodel.ViewModelFactory;
 import javafx.application.Application;
 import javafx.stage.Stage;
-import model.Model;
-import model.ModelManager;
-import model.UserSimulator;
-import view.ViewHandler;
-import viewmodel.ViewModelFactory;
 
 public class MyApplication extends Application
 {

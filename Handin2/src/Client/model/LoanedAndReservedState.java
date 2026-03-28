@@ -1,8 +1,8 @@
 package Client.model;
 
-import model.AvailableState;
-import model.LP;
-import model.LPState;
+import Client.model.AvailableState;
+import Client.model.LP;
+import Client.model.LPState;
 
 public class LoanedAndReservedState extends LPState {
     private String loanedTo;

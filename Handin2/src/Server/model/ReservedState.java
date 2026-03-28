@@ -1,9 +1,9 @@
 package Server.model;
 
-import model.AvailableState;
-import model.LP;
-import model.LPState;
-import model.LoanedState;
+import Server.model.AvailableState;
+import Server.model.LP;
+import Server.model.LPState;
+import Server.model.LoanedState;
 
 public class ReservedState extends LPState {
     private String reservedBy;

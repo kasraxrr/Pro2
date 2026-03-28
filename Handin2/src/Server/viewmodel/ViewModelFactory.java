@@ -1,8 +1,8 @@
 package Server.viewmodel;
 
-import model.Model;
-import viewmodel.MainViewModel;
-import viewmodel.ViewState;
+import Server.model.Model;
+import Server.viewmodel.MainViewModel;
+import Server.viewmodel.ViewState;
 
 public class ViewModelFactory {
     private MainViewModel mainModel;

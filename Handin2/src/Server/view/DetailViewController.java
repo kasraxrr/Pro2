@@ -1,12 +1,12 @@
-package Client.view;
+package Server.view;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.Region;
-import utility.StringConverter;
-import Client.viewmodel.DetailViewModel;
+import Server.viewmodel.DetailViewModel;
+
 public class DetailViewController {
 
     @FXML private TextField titleField;

@@ -1,8 +1,8 @@
 package Client.viewmodel;
 
 import javafx.beans.property.*;
-import model.LP;
-import model.Model;
+import Client.model.LP;
+import Client.model.Model;
 
 public class DetailViewModel {
 

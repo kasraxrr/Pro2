@@ -7,8 +7,8 @@ import javafx.scene.control.Label;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.scene.layout.Region;
-import viewmodel.MainViewModel;
-import viewmodel.SimpleLPViewModel;
+import Client.viewmodel.MainViewModel;
+import Client.viewmodel.SimpleLPViewModel;
 
 public class MainViewController {
     @FXML private TableView<SimpleLPViewModel> table;

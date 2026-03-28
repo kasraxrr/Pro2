@@ -1,6 +1,6 @@
 package Client.model;
 
-import model.LP;
+import Client.model.LP;
 
 public class LoanedState extends LPState{
     private String loanedTo;

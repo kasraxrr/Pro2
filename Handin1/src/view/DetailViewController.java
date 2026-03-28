@@ -3,6 +3,7 @@ package view;
 import javafx.fxml.FXML;
 import javafx.scene.control.*;
 import javafx.scene.layout.Region;
+import javafx.util.StringConverter;
 import utility.IntStringConverter;
 import viewmodel.DetailViewModel;
 public class DetailViewController {
@@ -35,7 +36,7 @@ public class DetailViewController {
         artistField.textProperty().bindBidirectional(detailViewModel.getArtistFieldProperty());
         yearField.textProperty().bindBidirectional(
                 detailViewModel.getYearFieldProperty(),
-                new IntStringConverter()
+                new utility.StringConverter()
         );
 
         detailViewModel.getAddingProperty().addListener((obs, oldValue, newValue) -> {

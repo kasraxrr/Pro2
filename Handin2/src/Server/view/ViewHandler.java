@@ -4,9 +4,9 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.scene.layout.Region;
 import javafx.stage.Stage;
-import view.DetailViewController;
-import view.MainViewController;
-import viewmodel.ViewModelFactory;
+import Server.view.DetailViewController;
+import Server.view.MainViewController;
+import Server.viewmodel.ViewModelFactory;
 
 public class ViewHandler
 {

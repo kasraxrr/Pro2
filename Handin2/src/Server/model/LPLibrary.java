@@ -1,6 +1,6 @@
 package Server.model;
 
-import model.LP;
+import Server.model.LP;
 
 import java.util.ArrayList;
 

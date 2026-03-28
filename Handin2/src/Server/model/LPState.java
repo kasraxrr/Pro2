@@ -1,6 +1,6 @@
-package Client.model;
+package Server.model;
 
-import Client.model.LP;
+import Server.model.LP;
 
 import java.util.Objects;
 

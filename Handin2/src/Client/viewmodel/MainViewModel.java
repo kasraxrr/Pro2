@@ -8,10 +8,10 @@ import javafx.beans.property.StringProperty;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.scene.control.TextInputDialog;
-import model.LP;
-import model.Model;
-import viewmodel.SimpleLPViewModel;
-import viewmodel.ViewState;
+import Client.model.LP;
+import Client.model.Model;
+import Client.viewmodel.SimpleLPViewModel;
+import Client.viewmodel.ViewState;
 
 import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangeListener;
