@@ -18,11 +18,13 @@ public class ModelManager implements Model,PropertyChangeListener{
 
     @Override
     public ArrayList<LP> getAllLPs() {
+
         return library.getAllLPs();
     }
 
     @Override
     public LP getLP(String title, String artist) {
+
         return library.getLP(title,artist);
     }
 

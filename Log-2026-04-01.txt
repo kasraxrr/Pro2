@@ -1,0 +1,76 @@
+LogLine{text='Simulated reserve of LP', time=01/04/2026 13:45:03}
+LogLine{text='Simulated reserve of LP', time=01/04/2026 13:45:03}
+LogLine{text='LP added: hotel californiaeagels1980Server.model.AvailableState@1441aa6dfalse', time=01/04/2026 13:45:11}
+LogLine{text='Simulated loan of LP', time=01/04/2026 13:45:23}
+LogLine{text='Simulated loan of LP', time=01/04/2026 13:45:23}
+LogLine{text='LP added: bang bangFrank sinatra1950Server.model.AvailableState@115c5f16false', time=01/04/2026 13:45:30}
+LogLine{text='Simulated return of LP', time=01/04/2026 13:45:43}
+LogLine{text='Simulated return of LP', time=01/04/2026 13:45:43}
+LogLine{text='LP reserved: hotel californiaeagels1980Server.model.ReservedState@1f01bfb4false', time=01/04/2026 13:45:43}
+LogLine{text='LP reserved: hotel californiaeagels1980Server.model.ReservedState@1f01bfb4false', time=01/04/2026 13:45:43}
+LogLine{text='LP added: helloAdel2015Server.model.AvailableState@6acdbe07false', time=01/04/2026 13:45:46}
+LogLine{text='LP reserved: bang bangFrank sinatra1950Server.model.ReservedState@68ad0fb6false', time=01/04/2026 13:45:57}
+LogLine{text='LP flagged: bang bangFrank sinatra1950Server.model.ReservedState@68ad0fb6true', time=01/04/2026 13:46:03}
+LogLine{text='Simulated reserve of LP', time=01/04/2026 13:46:03}
+LogLine{text='Simulated reserve of LP', time=01/04/2026 13:46:03}
+LogLine{text='LP loaned: helloAdel2015Server.model.LoanedState@47e06f84false', time=01/04/2026 13:46:03}
+LogLine{text='LP loaned: hotel californiaeagels1980Server.model.LoanedState@4c0bf307false', time=01/04/2026 13:46:03}
+LogLine{text='LP loaned: bang bangFrank sinatra1950Server.model.LoanedState@36a746actrue', time=01/04/2026 13:46:10}
+LogLine{text='LP unflagged: bang bangFrank sinatra1950Server.model.LoanedState@36a746acfalse', time=01/04/2026 13:46:15}
+LogLine{text='LP returned: bang bangFrank sinatra1950Server.model.AvailableState@28a669aafalse', time=01/04/2026 13:46:20}
+LogLine{text='Simulated loan of LP', time=01/04/2026 13:46:23}
+LogLine{text='Simulated loan of LP', time=01/04/2026 13:46:23}
+LogLine{text='LP returned: helloAdel2015Server.model.AvailableState@746dd399false', time=01/04/2026 13:46:23}
+LogLine{text='LP returned: hotel californiaeagels1980Server.model.AvailableState@5c6d5ffcfalse', time=01/04/2026 13:46:23}
+LogLine{text='Simulated return of LP', time=01/04/2026 13:46:43}
+LogLine{text='Simulated return of LP', time=01/04/2026 13:46:43}
+LogLine{text='LP reserved: hotel californiaeagels1980Server.model.ReservedState@20eb3554false', time=01/04/2026 13:46:43}
+LogLine{text='LP reserved: hotel californiaeagels1980Server.model.ReservedState@20eb3554false', time=01/04/2026 13:46:43}
+LogLine{text='Simulated reserve of LP', time=01/04/2026 13:47:03}
+LogLine{text='Simulated reserve of LP', time=01/04/2026 13:47:03}
+LogLine{text='LP loaned: hotel californiaeagels1980Server.model.LoanedState@66032ebffalse', time=01/04/2026 13:47:03}
+LogLine{text='LP loaned: bang bangFrank sinatra1950Server.model.LoanedState@115cc8adfalse', time=01/04/2026 13:47:03}
+LogLine{text='Simulated loan of LP', time=01/04/2026 13:47:23}
+LogLine{text='Simulated loan of LP', time=01/04/2026 13:47:23}
+LogLine{text='LP returned: bang bangFrank sinatra1950Server.model.AvailableState@2dc924afalse', time=01/04/2026 13:47:23}
+LogLine{text='LP returned: hotel californiaeagels1980Server.model.AvailableState@461bcc71false', time=01/04/2026 13:47:23}
+LogLine{text='Simulated return of LP', time=01/04/2026 13:47:44}
+LogLine{text='Simulated return of LP', time=01/04/2026 13:47:44}
+LogLine{text='LP reserved: hotel californiaeagels1980Server.model.ReservedState@2c31779false', time=01/04/2026 13:47:44}
+LogLine{text='LP reserved: hotel californiaeagels1980Server.model.ReservedState@2c31779false', time=01/04/2026 13:47:44}
+LogLine{text='Simulated reserve of LP', time=01/04/2026 13:48:04}
+LogLine{text='Simulated reserve of LP', time=01/04/2026 13:48:04}
+LogLine{text='LP loaned: bang bangFrank sinatra1950Server.model.LoanedState@3478bf52false', time=01/04/2026 13:48:04}
+LogLine{text='LP loaned: hotel californiaeagels1980Server.model.LoanedState@18a8fda3false', time=01/04/2026 13:48:04}
+LogLine{text='Simulated loan of LP', time=01/04/2026 13:48:24}
+LogLine{text='Simulated loan of LP', time=01/04/2026 13:48:24}
+LogLine{text='LP returned: hotel californiaeagels1980Server.model.AvailableState@67a14edffalse', time=01/04/2026 13:48:24}
+LogLine{text='LP returned: bang bangFrank sinatra1950Server.model.AvailableState@4dc06d1cfalse', time=01/04/2026 13:48:24}
+LogLine{text='Simulated return of LP', time=01/04/2026 13:48:44}
+LogLine{text='Simulated return of LP', time=01/04/2026 13:48:44}
+LogLine{text='LP reserved: hotel californiaeagels1980Server.model.ReservedState@3a2ecda9false', time=01/04/2026 13:48:44}
+LogLine{text='LP reserved: hotel californiaeagels1980Server.model.ReservedState@3a2ecda9false', time=01/04/2026 13:48:44}
+LogLine{text='Simulated reserve of LP', time=01/04/2026 13:49:04}
+LogLine{text='Simulated reserve of LP', time=01/04/2026 13:49:04}
+LogLine{text='LP loaned: hotel californiaeagels1980Server.model.LoanedState@7f416e1efalse', time=01/04/2026 13:49:04}
+LogLine{text='LP loaned: bang bangFrank sinatra1950Server.model.LoanedState@5c864664false', time=01/04/2026 13:49:04}
+LogLine{text='Simulated loan of LP', time=01/04/2026 13:49:24}
+LogLine{text='Simulated loan of LP', time=01/04/2026 13:49:24}
+LogLine{text='LP returned: bang bangFrank sinatra1950Server.model.AvailableState@2df5f089false', time=01/04/2026 13:49:24}
+LogLine{text='LP returned: hotel californiaeagels1980Server.model.AvailableState@6523c650false', time=01/04/2026 13:49:24}
+LogLine{text='Simulated return of LP', time=01/04/2026 13:49:44}
+LogLine{text='Simulated return of LP', time=01/04/2026 13:49:44}
+LogLine{text='LP reserved: hotel californiaeagels1980Server.model.ReservedState@3ab96ab2false', time=01/04/2026 13:49:44}
+LogLine{text='LP reserved: hotel californiaeagels1980Server.model.ReservedState@3ab96ab2false', time=01/04/2026 13:49:44}
+LogLine{text='Simulated reserve of LP', time=01/04/2026 13:50:04}
+LogLine{text='Simulated reserve of LP', time=01/04/2026 13:50:04}
+LogLine{text='LP loaned: bang bangFrank sinatra1950Server.model.LoanedState@57831c8cfalse', time=01/04/2026 13:50:04}
+LogLine{text='LP loaned: hotel californiaeagels1980Server.model.LoanedState@6393d0a6false', time=01/04/2026 13:50:04}
+LogLine{text='Simulated loan of LP', time=01/04/2026 13:50:24}
+LogLine{text='Simulated loan of LP', time=01/04/2026 13:50:24}
+LogLine{text='LP returned: bang bangFrank sinatra1950Server.model.AvailableState@23c6b9fcfalse', time=01/04/2026 13:50:24}
+LogLine{text='LP returned: hotel californiaeagels1980Server.model.AvailableState@2f9c0af8false', time=01/04/2026 13:50:24}
+LogLine{text='Simulated return of LP', time=01/04/2026 13:50:44}
+LogLine{text='Simulated return of LP', time=01/04/2026 13:50:44}
+LogLine{text='LP reserved: hotel californiaeagels1980Server.model.ReservedState@58acea92false', time=01/04/2026 13:50:44}
+LogLine{text='LP reserved: hotel californiaeagels1980Server.model.ReservedState@58acea92false', time=01/04/2026 13:50:44}

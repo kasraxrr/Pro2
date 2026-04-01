@@ -21,6 +21,7 @@ public class LoanedAndReservedState extends LPState{
         return super.getFlag();
     }
 
+    @Override
     public void remove(LP lp){
     super.setFlag(true);
     }
@@ -50,6 +51,7 @@ public class LoanedAndReservedState extends LPState{
     public String getReservedBy() {
         return reservedBy;
     }
+    @Override
     public void returnLP(LP lp){
        AvailableState a1=new AvailableState(lp,super.getFlag());
         lp.setState(a1);

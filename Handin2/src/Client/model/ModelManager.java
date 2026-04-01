@@ -6,6 +6,7 @@ import Client.model.LP;
 import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangeListener;
 import java.beans.PropertyChangeSupport;
+import java.io.IOException;
 import java.util.ArrayList;
 
 public class ModelManager implements Model , PropertyChangeListener{
@@ -13,15 +14,15 @@ public class ModelManager implements Model , PropertyChangeListener{
     private PropertyChangeSupport property;
     private final static String HOST="192.168.8.104";
     private final static int PORT=6767;
-    private LPClient lpclient;
+    private LPClient lpClient;
 
 
-    public ModelManager(){
+    public ModelManager() throws IOException {
         this.library  = new LPLibrary();
         this.property = new PropertyChangeSupport(this);
         this.lpClient = new LPClient(this, HOST, PORT);
 
-        lpclient.addListener(this);
+        lpClient.addListener(this);
     }
 
     @Override

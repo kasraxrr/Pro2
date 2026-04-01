@@ -12,16 +12,20 @@ public class AvailableState extends LPState {
 
 
     }
+    @Override
     public void loan(LP lp,String person){
         lp.setState(new LoanedState(lp,person,super.getFlag()));
     }
+    @Override
     public void remove(LP lp) {
 
          lp.setState(new RemovingState(lp));
 
     }
 
+    @Override
     public void reserve(LP lp,String person){
+
         lp.setState(new ReservedState(lp,person,super.getFlag()));
     }
 
@@ -34,6 +38,7 @@ public class AvailableState extends LPState {
     public void cancelReservation(LP lp) {
 
     }
+
 
     @Override
     public String getStatusString(){
