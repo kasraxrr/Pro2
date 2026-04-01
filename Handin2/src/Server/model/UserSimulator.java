@@ -33,12 +33,15 @@ public class UserSimulator implements Runnable, PropertyChangeListener {
             try {
                 tryReserve();
                 Thread.sleep(20000);
+                Log.getInstance("simulator").addLog("Simulated reserve of LP");
 
                 tryLoan();
                 Thread.sleep(20000);
+                Log.getInstance("simulator").addLog("Simulated loan of LP");
 
                 tryReturn();
                 Thread.sleep(20000);
+                Log.getInstance("simulator").addLog("Simulated return of LP");
 
             } catch (InterruptedException e) {
                 Thread.currentThread().interrupt();

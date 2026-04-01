@@ -1,18 +1,27 @@
 package Client.model;
 
+import Client.mediator.LPClient;
 import Client.model.LP;
 
+import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangeListener;
 import java.beans.PropertyChangeSupport;
 import java.util.ArrayList;
 
-public class ModelManager implements Model{
+public class ModelManager implements Model , PropertyChangeListener{
     private LPLibrary library;
     private PropertyChangeSupport property;
+    private final static String HOST="192.168.8.104";
+    private final static int PORT=6767;
+    private LPClient lpclient;
+
 
     public ModelManager(){
         this.library  = new LPLibrary();
         this.property = new PropertyChangeSupport(this);
+        this.lpClient = new LPClient(this, HOST, PORT);
+
+        lpclient.addListener(this);
     }
 
     @Override
@@ -100,5 +109,10 @@ public class ModelManager implements Model{
     @Override
     public void removeListener(PropertyChangeListener listener) {
         property.removePropertyChangeListener(listener);
+    }
+
+    @Override
+    public void propertyChange(PropertyChangeEvent evt) {
+
     }
 }
