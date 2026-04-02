@@ -1,0 +1,361 @@
+LogLine{text='Simulated reserve of LP', time=02/04/2026 12:55:30}
+LogLine{text='Simulated reserve of LP', time=02/04/2026 12:55:30}
+LogLine{text='Simulated loan of LP', time=02/04/2026 12:55:50}
+LogLine{text='Simulated loan of LP', time=02/04/2026 12:55:50}
+LogLine{text='Simulated return of LP', time=02/04/2026 12:56:10}
+LogLine{text='Simulated return of LP', time=02/04/2026 12:56:10}
+LogLine{text='LP added: hgdut0Server.model.AvailableState@293f18f1false', time=02/04/2026 13:01:09}
+LogLine{text='Simulated reserve of LP', time=02/04/2026 13:01:19}
+LogLine{text='Simulated reserve of LP', time=02/04/2026 13:01:19}
+LogLine{text='LP loaned: hgdut0Server.model.LoanedState@14ffcbb3false', time=02/04/2026 13:01:19}
+LogLine{text='Simulated loan of LP', time=02/04/2026 13:01:40}
+LogLine{text='Simulated loan of LP', time=02/04/2026 13:01:40}
+LogLine{text='LP returned: hgdut0Server.model.AvailableState@65a7e1f4false', time=02/04/2026 13:01:40}
+LogLine{text='Simulated return of LP', time=02/04/2026 13:02:00}
+LogLine{text='LP reserved: hgdut0Server.model.ReservedState@7bba7df0false', time=02/04/2026 13:02:00}
+LogLine{text='Simulated return of LP', time=02/04/2026 13:02:00}
+LogLine{text='Simulated reserve of LP', time=02/04/2026 13:02:20}
+LogLine{text='Simulated reserve of LP', time=02/04/2026 13:02:20}
+LogLine{text='LP loaned: hgdut0Server.model.LoanedState@7ec1b53efalse', time=02/04/2026 13:02:20}
+LogLine{text='Simulated loan of LP', time=02/04/2026 13:02:40}
+LogLine{text='Simulated loan of LP', time=02/04/2026 13:02:40}
+LogLine{text='LP returned: hgdut0Server.model.AvailableState@775118f7false', time=02/04/2026 13:02:40}
+LogLine{text='Simulated return of LP', time=02/04/2026 13:03:00}
+LogLine{text='LP reserved: hgdut0Server.model.ReservedState@3ca72134false', time=02/04/2026 13:03:00}
+LogLine{text='Simulated return of LP', time=02/04/2026 13:03:00}
+LogLine{text='Simulated reserve of LP', time=02/04/2026 13:03:20}
+LogLine{text='Simulated reserve of LP', time=02/04/2026 13:03:20}
+LogLine{text='LP loaned: hgdut0Server.model.LoanedState@56efd740false', time=02/04/2026 13:03:20}
+LogLine{text='Simulated reserve of LP', time=02/04/2026 13:06:34}
+LogLine{text='Simulated reserve of LP', time=02/04/2026 13:06:34}
+LogLine{text='Simulated loan of LP', time=02/04/2026 13:06:54}
+LogLine{text='Simulated loan of LP', time=02/04/2026 13:06:54}
+LogLine{text='Simulated return of LP', time=02/04/2026 13:07:14}
+LogLine{text='Simulated return of LP', time=02/04/2026 13:07:14}
+LogLine{text='Simulated reserve of LP', time=02/04/2026 13:07:34}
+LogLine{text='Simulated reserve of LP', time=02/04/2026 13:07:34}
+LogLine{text='Simulated loan of LP', time=02/04/2026 13:07:54}
+LogLine{text='Simulated loan of LP', time=02/04/2026 13:07:54}
+LogLine{text='Simulated return of LP', time=02/04/2026 13:08:14}
+LogLine{text='Simulated return of LP', time=02/04/2026 13:08:14}
+LogLine{text='Simulated reserve of LP', time=02/04/2026 13:08:34}
+LogLine{text='Simulated reserve of LP', time=02/04/2026 13:08:34}
+LogLine{text='Simulated loan of LP', time=02/04/2026 13:08:54}
+LogLine{text='Simulated loan of LP', time=02/04/2026 13:08:54}
+LogLine{text='Simulated return of LP', time=02/04/2026 13:09:14}
+LogLine{text='Simulated return of LP', time=02/04/2026 13:09:14}
+LogLine{text='Simulated reserve of LP', time=02/04/2026 13:09:34}
+LogLine{text='Simulated reserve of LP', time=02/04/2026 13:09:34}
+LogLine{text='Simulated loan of LP', time=02/04/2026 13:09:54}
+LogLine{text='Simulated loan of LP', time=02/04/2026 13:09:54}
+LogLine{text='Simulated return of LP', time=02/04/2026 13:10:14}
+LogLine{text='Simulated return of LP', time=02/04/2026 13:10:14}
+LogLine{text='Simulated reserve of LP', time=02/04/2026 13:10:34}
+LogLine{text='Simulated reserve of LP', time=02/04/2026 13:10:34}
+LogLine{text='Simulated loan of LP', time=02/04/2026 13:10:54}
+LogLine{text='Simulated loan of LP', time=02/04/2026 13:10:54}
+LogLine{text='Simulated return of LP', time=02/04/2026 13:11:14}
+LogLine{text='Simulated return of LP', time=02/04/2026 13:11:14}
+LogLine{text='Simulated reserve of LP', time=02/04/2026 13:11:34}
+LogLine{text='Simulated reserve of LP', time=02/04/2026 13:11:34}
+LogLine{text='Simulated loan of LP', time=02/04/2026 13:11:54}
+LogLine{text='Simulated loan of LP', time=02/04/2026 13:11:54}
+LogLine{text='Simulated return of LP', time=02/04/2026 13:12:14}
+LogLine{text='Simulated return of LP', time=02/04/2026 13:12:14}
+LogLine{text='Simulated reserve of LP', time=02/04/2026 13:12:34}
+LogLine{text='Simulated reserve of LP', time=02/04/2026 13:12:34}
+LogLine{text='Simulated loan of LP', time=02/04/2026 13:12:54}
+LogLine{text='Simulated loan of LP', time=02/04/2026 13:12:54}
+LogLine{text='Simulated return of LP', time=02/04/2026 13:13:14}
+LogLine{text='Simulated return of LP', time=02/04/2026 13:13:14}
+LogLine{text='Simulated reserve of LP', time=02/04/2026 13:13:34}
+LogLine{text='Simulated reserve of LP', time=02/04/2026 13:13:34}
+LogLine{text='Simulated loan of LP', time=02/04/2026 13:13:54}
+LogLine{text='Simulated loan of LP', time=02/04/2026 13:13:54}
+LogLine{text='Simulated return of LP', time=02/04/2026 13:14:14}
+LogLine{text='Simulated return of LP', time=02/04/2026 13:14:14}
+LogLine{text='Simulated reserve of LP', time=02/04/2026 13:14:34}
+LogLine{text='Simulated reserve of LP', time=02/04/2026 13:14:34}
+LogLine{text='Simulated loan of LP', time=02/04/2026 13:14:54}
+LogLine{text='Simulated loan of LP', time=02/04/2026 13:14:54}
+LogLine{text='Simulated return of LP', time=02/04/2026 13:15:14}
+LogLine{text='Simulated return of LP', time=02/04/2026 13:15:14}
+LogLine{text='Simulated reserve of LP', time=02/04/2026 13:15:34}
+LogLine{text='Simulated reserve of LP', time=02/04/2026 13:15:34}
+LogLine{text='Simulated loan of LP', time=02/04/2026 13:15:54}
+LogLine{text='Simulated loan of LP', time=02/04/2026 13:15:54}
+LogLine{text='Simulated return of LP', time=02/04/2026 13:16:14}
+LogLine{text='Simulated return of LP', time=02/04/2026 13:16:14}
+LogLine{text='Simulated reserve of LP', time=02/04/2026 13:16:34}
+LogLine{text='Simulated reserve of LP', time=02/04/2026 13:16:34}
+LogLine{text='Simulated loan of LP', time=02/04/2026 13:16:54}
+LogLine{text='Simulated loan of LP', time=02/04/2026 13:16:54}
+LogLine{text='Simulated return of LP', time=02/04/2026 13:17:14}
+LogLine{text='Simulated return of LP', time=02/04/2026 13:17:14}
+LogLine{text='Simulated reserve of LP', time=02/04/2026 13:17:34}
+LogLine{text='Simulated reserve of LP', time=02/04/2026 13:17:34}
+LogLine{text='Simulated loan of LP', time=02/04/2026 13:17:54}
+LogLine{text='Simulated loan of LP', time=02/04/2026 13:17:54}
+LogLine{text='Simulated return of LP', time=02/04/2026 13:18:14}
+LogLine{text='Simulated return of LP', time=02/04/2026 13:18:14}
+LogLine{text='LP added: vuv0Server.model.AvailableState@293f18f1false', time=02/04/2026 13:18:31}
+LogLine{text='Simulated reserve of LP', time=02/04/2026 13:18:34}
+LogLine{text='Simulated reserve of LP', time=02/04/2026 13:18:34}
+LogLine{text='LP loaned: vuv0Server.model.LoanedState@2d5be5cfalse', time=02/04/2026 13:18:34}
+LogLine{text='LP loaned: vuv0Server.model.LoanedState@2d5be5cfalse', time=02/04/2026 13:18:34}
+LogLine{text='Simulated loan of LP', time=02/04/2026 13:18:54}
+LogLine{text='Simulated loan of LP', time=02/04/2026 13:18:54}
+LogLine{text='LP returned: vuv0Server.model.AvailableState@7e2b222bfalse', time=02/04/2026 13:18:54}
+LogLine{text='Simulated return of LP', time=02/04/2026 13:19:14}
+LogLine{text='Simulated return of LP', time=02/04/2026 13:19:14}
+LogLine{text='LP reserved: vuv0Server.model.ReservedState@2c31779false', time=02/04/2026 13:19:14}
+LogLine{text='LP reserved: vuv0Server.model.ReservedState@2c31779false', time=02/04/2026 13:19:14}
+LogLine{text='Simulated reserve of LP', time=02/04/2026 13:19:34}
+LogLine{text='Simulated reserve of LP', time=02/04/2026 13:19:34}
+LogLine{text='LP loaned: vuv0Server.model.LoanedState@4cab9ba9false', time=02/04/2026 13:19:34}
+LogLine{text='Simulated loan of LP', time=02/04/2026 13:19:54}
+LogLine{text='Simulated loan of LP', time=02/04/2026 13:19:54}
+LogLine{text='LP returned: vuv0Server.model.AvailableState@6323eb3efalse', time=02/04/2026 13:19:54}
+LogLine{text='Simulated return of LP', time=02/04/2026 13:20:14}
+LogLine{text='Simulated return of LP', time=02/04/2026 13:20:14}
+LogLine{text='LP reserved: vuv0Server.model.ReservedState@18a8fda3false', time=02/04/2026 13:20:14}
+LogLine{text='Simulated reserve of LP', time=02/04/2026 13:20:34}
+LogLine{text='LP loaned: vuv0Server.model.LoanedState@67a14edffalse', time=02/04/2026 13:20:34}
+LogLine{text='Simulated reserve of LP', time=02/04/2026 13:20:34}
+LogLine{text='Simulated loan of LP', time=02/04/2026 13:20:55}
+LogLine{text='Simulated loan of LP', time=02/04/2026 13:20:55}
+LogLine{text='LP returned: vuv0Server.model.AvailableState@7f416e1efalse', time=02/04/2026 13:20:55}
+LogLine{text='Simulated return of LP', time=02/04/2026 13:21:15}
+LogLine{text='LP reserved: vuv0Server.model.ReservedState@44beb70bfalse', time=02/04/2026 13:21:15}
+LogLine{text='Simulated return of LP', time=02/04/2026 13:21:15}
+LogLine{text='Simulated reserve of LP', time=02/04/2026 13:21:35}
+LogLine{text='LP loaned: vuv0Server.model.LoanedState@4c0bf307false', time=02/04/2026 13:21:35}
+LogLine{text='Simulated reserve of LP', time=02/04/2026 13:21:35}
+LogLine{text='Simulated loan of LP', time=02/04/2026 13:21:55}
+LogLine{text='Simulated loan of LP', time=02/04/2026 13:21:55}
+LogLine{text='LP returned: vuv0Server.model.AvailableState@5c6d5ffcfalse', time=02/04/2026 13:21:55}
+LogLine{text='Simulated return of LP', time=02/04/2026 13:22:15}
+LogLine{text='LP reserved: vuv0Server.model.ReservedState@6523c650false', time=02/04/2026 13:22:15}
+LogLine{text='Simulated return of LP', time=02/04/2026 13:22:15}
+LogLine{text='Simulated reserve of LP', time=02/04/2026 13:22:35}
+LogLine{text='LP loaned: vuv0Server.model.LoanedState@3ab96ab2false', time=02/04/2026 13:22:35}
+LogLine{text='Simulated reserve of LP', time=02/04/2026 13:22:35}
+LogLine{text='Simulated loan of LP', time=02/04/2026 13:22:55}
+LogLine{text='Simulated loan of LP', time=02/04/2026 13:22:55}
+LogLine{text='LP returned: vuv0Server.model.AvailableState@57831c8cfalse', time=02/04/2026 13:22:55}
+LogLine{text='Simulated return of LP', time=02/04/2026 13:23:15}
+LogLine{text='LP reserved: vuv0Server.model.ReservedState@20eb3554false', time=02/04/2026 13:23:15}
+LogLine{text='Simulated return of LP', time=02/04/2026 13:23:15}
+LogLine{text='Simulated reserve of LP', time=02/04/2026 13:23:35}
+LogLine{text='LP loaned: vuv0Server.model.LoanedState@115cc8adfalse', time=02/04/2026 13:23:35}
+LogLine{text='Simulated reserve of LP', time=02/04/2026 13:23:35}
+LogLine{text='Simulated loan of LP', time=02/04/2026 13:23:55}
+LogLine{text='LP returned: vuv0Server.model.AvailableState@2dc924afalse', time=02/04/2026 13:23:55}
+LogLine{text='Simulated loan of LP', time=02/04/2026 13:23:55}
+LogLine{text='Simulated return of LP', time=02/04/2026 13:24:15}
+LogLine{text='LP reserved: vuv0Server.model.ReservedState@3478bf52false', time=02/04/2026 13:24:15}
+LogLine{text='Simulated return of LP', time=02/04/2026 13:24:15}
+LogLine{text='Simulated reserve of LP', time=02/04/2026 13:24:35}
+LogLine{text='LP loaned: vuv0Server.model.LoanedState@4dc06d1cfalse', time=02/04/2026 13:24:35}
+LogLine{text='Simulated reserve of LP', time=02/04/2026 13:24:35}
+LogLine{text='Simulated loan of LP', time=02/04/2026 13:24:55}
+LogLine{text='LP returned: vuv0Server.model.AvailableState@3a2ecda9false', time=02/04/2026 13:24:55}
+LogLine{text='Simulated loan of LP', time=02/04/2026 13:24:55}
+LogLine{text='Simulated return of LP', time=02/04/2026 13:25:15}
+LogLine{text='Simulated return of LP', time=02/04/2026 13:25:15}
+LogLine{text='LP reserved: vuv0Server.model.ReservedState@5c864664false', time=02/04/2026 13:25:15}
+LogLine{text='LP reserved: vuv0Server.model.ReservedState@5c864664false', time=02/04/2026 13:25:15}
+LogLine{text='Simulated reserve of LP', time=02/04/2026 13:25:35}
+LogLine{text='Simulated reserve of LP', time=02/04/2026 13:25:35}
+LogLine{text='LP loaned: vuv0Server.model.LoanedState@23c6b9fcfalse', time=02/04/2026 13:25:35}
+LogLine{text='Simulated loan of LP', time=02/04/2026 13:25:55}
+LogLine{text='Simulated loan of LP', time=02/04/2026 13:25:55}
+LogLine{text='LP returned: vuv0Server.model.AvailableState@58acea92false', time=02/04/2026 13:25:55}
+LogLine{text='Simulated return of LP', time=02/04/2026 13:26:15}
+LogLine{text='Simulated return of LP', time=02/04/2026 13:26:15}
+LogLine{text='LP reserved: vuv0Server.model.ReservedState@2df5f089false', time=02/04/2026 13:26:15}
+LogLine{text='LP reserved: vuv0Server.model.ReservedState@2df5f089false', time=02/04/2026 13:26:15}
+LogLine{text='Simulated reserve of LP', time=02/04/2026 13:26:35}
+LogLine{text='Simulated reserve of LP', time=02/04/2026 13:26:35}
+LogLine{text='LP loaned: vuv0Server.model.LoanedState@2931f7cffalse', time=02/04/2026 13:26:35}
+LogLine{text='Simulated loan of LP', time=02/04/2026 13:26:55}
+LogLine{text='Simulated loan of LP', time=02/04/2026 13:26:55}
+LogLine{text='LP returned: vuv0Server.model.AvailableState@6619e919false', time=02/04/2026 13:26:55}
+LogLine{text='Simulated return of LP', time=02/04/2026 13:27:15}
+LogLine{text='LP reserved: vuv0Server.model.ReservedState@6393d0a6false', time=02/04/2026 13:27:15}
+LogLine{text='Simulated return of LP', time=02/04/2026 13:27:15}
+LogLine{text='Simulated reserve of LP', time=02/04/2026 13:27:35}
+LogLine{text='LP loaned: vuv0Server.model.LoanedState@2f9c0af8false', time=02/04/2026 13:27:35}
+LogLine{text='Simulated reserve of LP', time=02/04/2026 13:27:35}
+LogLine{text='Simulated loan of LP', time=02/04/2026 13:27:55}
+LogLine{text='Simulated loan of LP', time=02/04/2026 13:27:55}
+LogLine{text='LP returned: vuv0Server.model.AvailableState@41c7cc09false', time=02/04/2026 13:27:55}
+LogLine{text='Simulated return of LP', time=02/04/2026 13:28:15}
+LogLine{text='Simulated return of LP', time=02/04/2026 13:28:15}
+LogLine{text='LP reserved: vuv0Server.model.ReservedState@7006b57ffalse', time=02/04/2026 13:28:15}
+LogLine{text='Simulated reserve of LP', time=02/04/2026 13:29:00}
+LogLine{text='Simulated reserve of LP', time=02/04/2026 13:29:00}
+LogLine{text='Simulated loan of LP', time=02/04/2026 13:29:20}
+LogLine{text='Simulated loan of LP', time=02/04/2026 13:29:20}
+LogLine{text='Simulated return of LP', time=02/04/2026 13:29:40}
+LogLine{text='Simulated return of LP', time=02/04/2026 13:29:40}
+LogLine{text='Simulated reserve of LP', time=02/04/2026 13:30:00}
+LogLine{text='Simulated reserve of LP', time=02/04/2026 13:30:00}
+LogLine{text='Simulated loan of LP', time=02/04/2026 13:30:20}
+LogLine{text='Simulated loan of LP', time=02/04/2026 13:30:20}
+LogLine{text='Simulated return of LP', time=02/04/2026 13:30:40}
+LogLine{text='Simulated return of LP', time=02/04/2026 13:30:40}
+LogLine{text='Simulated reserve of LP', time=02/04/2026 13:31:00}
+LogLine{text='Simulated reserve of LP', time=02/04/2026 13:31:00}
+LogLine{text='Simulated loan of LP', time=02/04/2026 13:31:20}
+LogLine{text='Simulated loan of LP', time=02/04/2026 13:31:20}
+LogLine{text='Simulated return of LP', time=02/04/2026 13:31:40}
+LogLine{text='Simulated return of LP', time=02/04/2026 13:31:40}
+LogLine{text='Simulated reserve of LP', time=02/04/2026 13:32:00}
+LogLine{text='Simulated reserve of LP', time=02/04/2026 13:32:00}
+LogLine{text='Simulated loan of LP', time=02/04/2026 13:32:20}
+LogLine{text='Simulated loan of LP', time=02/04/2026 13:32:20}
+LogLine{text='Simulated return of LP', time=02/04/2026 13:32:40}
+LogLine{text='Simulated return of LP', time=02/04/2026 13:32:40}
+LogLine{text='Simulated reserve of LP', time=02/04/2026 13:33:00}
+LogLine{text='Simulated reserve of LP', time=02/04/2026 13:33:00}
+LogLine{text='Simulated loan of LP', time=02/04/2026 13:33:20}
+LogLine{text='Simulated loan of LP', time=02/04/2026 13:33:20}
+LogLine{text='Simulated return of LP', time=02/04/2026 13:33:40}
+LogLine{text='Simulated return of LP', time=02/04/2026 13:33:40}
+LogLine{text='Simulated reserve of LP', time=02/04/2026 13:34:00}
+LogLine{text='Simulated reserve of LP', time=02/04/2026 13:34:00}
+LogLine{text='Simulated loan of LP', time=02/04/2026 13:34:20}
+LogLine{text='Simulated loan of LP', time=02/04/2026 13:34:20}
+LogLine{text='Simulated return of LP', time=02/04/2026 13:34:40}
+LogLine{text='Simulated return of LP', time=02/04/2026 13:34:40}
+LogLine{text='Simulated reserve of LP', time=02/04/2026 13:35:00}
+LogLine{text='Simulated reserve of LP', time=02/04/2026 13:35:00}
+LogLine{text='Simulated loan of LP', time=02/04/2026 13:35:20}
+LogLine{text='Simulated loan of LP', time=02/04/2026 13:35:20}
+LogLine{text='Simulated return of LP', time=02/04/2026 13:35:40}
+LogLine{text='Simulated return of LP', time=02/04/2026 13:35:40}
+LogLine{text='Simulated reserve of LP', time=02/04/2026 13:36:00}
+LogLine{text='Simulated reserve of LP', time=02/04/2026 13:36:00}
+LogLine{text='Simulated loan of LP', time=02/04/2026 13:36:20}
+LogLine{text='Simulated loan of LP', time=02/04/2026 13:36:20}
+LogLine{text='Simulated return of LP', time=02/04/2026 13:36:40}
+LogLine{text='Simulated return of LP', time=02/04/2026 13:36:40}
+LogLine{text='Simulated reserve of LP', time=02/04/2026 13:37:00}
+LogLine{text='Simulated reserve of LP', time=02/04/2026 13:37:00}
+LogLine{text='Simulated loan of LP', time=02/04/2026 13:37:20}
+LogLine{text='Simulated loan of LP', time=02/04/2026 13:37:20}
+LogLine{text='Simulated reserve of LP', time=02/04/2026 13:37:50}
+LogLine{text='Simulated reserve of LP', time=02/04/2026 13:37:50}
+LogLine{text='Simulated loan of LP', time=02/04/2026 13:38:10}
+LogLine{text='Simulated loan of LP', time=02/04/2026 13:38:10}
+LogLine{text='Simulated return of LP', time=02/04/2026 13:38:30}
+LogLine{text='Simulated return of LP', time=02/04/2026 13:38:30}
+LogLine{text='Simulated reserve of LP', time=02/04/2026 13:38:50}
+LogLine{text='Simulated reserve of LP', time=02/04/2026 13:38:50}
+LogLine{text='Simulated loan of LP', time=02/04/2026 13:39:10}
+LogLine{text='Simulated loan of LP', time=02/04/2026 13:39:10}
+LogLine{text='Simulated return of LP', time=02/04/2026 13:39:30}
+LogLine{text='Simulated return of LP', time=02/04/2026 13:39:30}
+LogLine{text='Simulated reserve of LP', time=02/04/2026 13:39:50}
+LogLine{text='Simulated reserve of LP', time=02/04/2026 13:39:50}
+LogLine{text='Simulated loan of LP', time=02/04/2026 13:40:10}
+LogLine{text='Simulated loan of LP', time=02/04/2026 13:40:10}
+LogLine{text='Simulated return of LP', time=02/04/2026 13:40:30}
+LogLine{text='Simulated return of LP', time=02/04/2026 13:40:30}
+LogLine{text='LP added: 0Server.model.AvailableState@41925153false', time=02/04/2026 13:41:00}
+LogLine{text='Simulated reserve of LP', time=02/04/2026 13:41:15}
+LogLine{text='Simulated reserve of LP', time=02/04/2026 13:41:15}
+LogLine{text='LP loaned: 0Server.model.LoanedState@61e9fcb4false', time=02/04/2026 13:41:15}
+LogLine{text='LP loaned: 0Server.model.LoanedState@61e9fcb4false', time=02/04/2026 13:41:15}
+LogLine{text='Simulated loan of LP', time=02/04/2026 13:41:35}
+LogLine{text='Simulated loan of LP', time=02/04/2026 13:41:35}
+LogLine{text='LP returned: 0Server.model.AvailableState@4db28d71false', time=02/04/2026 13:41:35}
+LogLine{text='Simulated return of LP', time=02/04/2026 13:41:55}
+LogLine{text='Simulated return of LP', time=02/04/2026 13:41:55}
+LogLine{text='LP reserved: 0Server.model.ReservedState@4b85a86cfalse', time=02/04/2026 13:41:55}
+LogLine{text='LP reserved: 0Server.model.ReservedState@4b85a86cfalse', time=02/04/2026 13:41:55}
+LogLine{text='Simulated reserve of LP', time=02/04/2026 13:42:15}
+LogLine{text='Simulated reserve of LP', time=02/04/2026 13:42:15}
+LogLine{text='LP loaned: 0Server.model.LoanedState@65a7e1f4false', time=02/04/2026 13:42:15}
+LogLine{text='Simulated loan of LP', time=02/04/2026 13:42:35}
+LogLine{text='Simulated loan of LP', time=02/04/2026 13:42:35}
+LogLine{text='LP returned: 0Server.model.AvailableState@3ca72134false', time=02/04/2026 13:42:35}
+LogLine{text='Simulated return of LP', time=02/04/2026 13:42:55}
+LogLine{text='Simulated return of LP', time=02/04/2026 13:42:55}
+LogLine{text='LP reserved: 0Server.model.ReservedState@7bba7df0false', time=02/04/2026 13:42:55}
+LogLine{text='Simulated reserve of LP', time=02/04/2026 13:43:15}
+LogLine{text='Simulated reserve of LP', time=02/04/2026 13:43:15}
+LogLine{text='LP loaned: 0Server.model.LoanedState@7ec1b53efalse', time=02/04/2026 13:43:15}
+LogLine{text='Simulated reserve of LP', time=02/04/2026 13:44:07}
+LogLine{text='Simulated reserve of LP', time=02/04/2026 13:44:07}
+LogLine{text='Simulated loan of LP', time=02/04/2026 13:44:27}
+LogLine{text='Simulated loan of LP', time=02/04/2026 13:44:27}
+LogLine{text='Simulated return of LP', time=02/04/2026 13:44:47}
+LogLine{text='Simulated return of LP', time=02/04/2026 13:44:47}
+LogLine{text='Simulated reserve of LP', time=02/04/2026 13:45:07}
+LogLine{text='Simulated reserve of LP', time=02/04/2026 13:45:07}
+LogLine{text='Simulated loan of LP', time=02/04/2026 13:45:27}
+LogLine{text='Simulated loan of LP', time=02/04/2026 13:45:27}
+LogLine{text='Simulated return of LP', time=02/04/2026 13:45:47}
+LogLine{text='Simulated return of LP', time=02/04/2026 13:45:47}
+LogLine{text='Simulated reserve of LP', time=02/04/2026 13:46:07}
+LogLine{text='Simulated reserve of LP', time=02/04/2026 13:46:07}
+LogLine{text='Simulated loan of LP', time=02/04/2026 13:46:27}
+LogLine{text='Simulated loan of LP', time=02/04/2026 13:46:27}
+LogLine{text='Simulated return of LP', time=02/04/2026 13:46:47}
+LogLine{text='Simulated return of LP', time=02/04/2026 13:46:47}
+LogLine{text='Simulated reserve of LP', time=02/04/2026 13:47:07}
+LogLine{text='Simulated reserve of LP', time=02/04/2026 13:47:07}
+LogLine{text='Simulated loan of LP', time=02/04/2026 13:47:27}
+LogLine{text='Simulated loan of LP', time=02/04/2026 13:47:27}
+LogLine{text='Simulated return of LP', time=02/04/2026 13:47:47}
+LogLine{text='Simulated return of LP', time=02/04/2026 13:47:47}
+LogLine{text='Simulated reserve of LP', time=02/04/2026 13:48:07}
+LogLine{text='Simulated reserve of LP', time=02/04/2026 13:48:07}
+LogLine{text='Server started on port 6767', time=02/04/2026 13:58:08}
+LogLine{text='LP added: 0Server.model.AvailableState@76ad2d5dfalse', time=02/04/2026 13:58:24}
+LogLine{text='Simulated reserve of LP', time=02/04/2026 13:58:27}
+LogLine{text='Simulated reserve of LP', time=02/04/2026 13:58:27}
+LogLine{text='LP loaned: 0Server.model.LoanedState@487f3c72false', time=02/04/2026 13:58:27}
+LogLine{text='LP loaned: 0Server.model.LoanedState@487f3c72false', time=02/04/2026 13:58:27}
+LogLine{text='Client connected: 192.168.8.102', time=02/04/2026 13:58:31}
+LogLine{text='Simulated loan of LP', time=02/04/2026 13:58:47}
+LogLine{text='Simulated loan of LP', time=02/04/2026 13:58:47}
+LogLine{text='LP returned: 0Server.model.AvailableState@781c0ae5false', time=02/04/2026 13:58:47}
+LogLine{text='LP added: nn0Server.model.AvailableState@4d5ebafalse', time=02/04/2026 13:59:02}
+LogLine{text='Simulated return of LP', time=02/04/2026 13:59:07}
+LogLine{text='LP reserved: 0Server.model.ReservedState@7c67af7cfalse', time=02/04/2026 13:59:07}
+LogLine{text='Simulated return of LP', time=02/04/2026 13:59:07}
+LogLine{text='LP reserved: nn0Server.model.ReservedState@6b1113defalse', time=02/04/2026 13:59:07}
+LogLine{text='Simulated reserve of LP', time=02/04/2026 13:59:27}
+LogLine{text='Simulated reserve of LP', time=02/04/2026 13:59:27}
+LogLine{text='LP loaned: 0Server.model.LoanedState@18a4f612false', time=02/04/2026 13:59:27}
+LogLine{text='LP loaned: nn0Server.model.LoanedState@5abc2e62false', time=02/04/2026 13:59:27}
+LogLine{text='Simulated loan of LP', time=02/04/2026 13:59:47}
+LogLine{text='Simulated loan of LP', time=02/04/2026 13:59:47}
+LogLine{text='LP returned: 0Server.model.AvailableState@6e4ac5dfalse', time=02/04/2026 13:59:47}
+LogLine{text='LP returned: nn0Server.model.AvailableState@2142a49bfalse', time=02/04/2026 13:59:47}
+LogLine{text='Simulated return of LP', time=02/04/2026 14:00:07}
+LogLine{text='Simulated return of LP', time=02/04/2026 14:00:07}
+LogLine{text='LP reserved: 0Server.model.ReservedState@3991d974false', time=02/04/2026 14:00:07}
+LogLine{text='LP reserved: nn0Server.model.ReservedState@6aced2f5false', time=02/04/2026 14:00:07}
+LogLine{text='Server started on port 6767', time=02/04/2026 14:00:25}
+LogLine{text='LP added: 0Server.model.AvailableState@74a2824efalse', time=02/04/2026 14:00:36}
+LogLine{text='Simulated reserve of LP', time=02/04/2026 14:00:44}
+LogLine{text='Simulated reserve of LP', time=02/04/2026 14:00:44}
+LogLine{text='LP loaned: 0Server.model.LoanedState@59f6e513false', time=02/04/2026 14:00:44}
+LogLine{text='LP loaned: 0Server.model.LoanedState@59f6e513false', time=02/04/2026 14:00:44}
+LogLine{text='Simulated loan of LP', time=02/04/2026 14:01:04}
+LogLine{text='Simulated loan of LP', time=02/04/2026 14:01:04}
+LogLine{text='LP returned: 0Server.model.AvailableState@487f3c72false', time=02/04/2026 14:01:04}
+LogLine{text='Simulated return of LP', time=02/04/2026 14:01:24}
+LogLine{text='Simulated return of LP', time=02/04/2026 14:01:24}
+LogLine{text='LP reserved: 0Server.model.ReservedState@5da4d42afalse', time=02/04/2026 14:01:24}
+LogLine{text='LP reserved: 0Server.model.ReservedState@5da4d42afalse', time=02/04/2026 14:01:24}
+LogLine{text='Simulated reserve of LP', time=02/04/2026 14:01:44}
+LogLine{text='Simulated reserve of LP', time=02/04/2026 14:01:44}
+LogLine{text='LP loaned: 0Server.model.LoanedState@781c0ae5false', time=02/04/2026 14:01:44}
+LogLine{text='Simulated loan of LP', time=02/04/2026 14:02:04}
+LogLine{text='Simulated loan of LP', time=02/04/2026 14:02:04}
+LogLine{text='LP returned: 0Server.model.AvailableState@6b1113defalse', time=02/04/2026 14:02:04}

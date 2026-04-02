@@ -27,78 +27,75 @@ public class ModelManager implements Model , PropertyChangeListener{
 
     @Override
     public ArrayList<LP> getAllLPs() {
-        return library.getAllLPs();
+
+        return lpClient.getAllLPs();
     }
 
     @Override
     public LP getLP(String title, String artist) {
-        return library.getLP(title,artist);
+
+        return lpClient.getLP(title,artist);
     }
 
     @Override
     public void addLP(LP lp) {
-        library.add(lp);
-        property.firePropertyChange("lpAdded", null, lp);
+        lpClient.addLP(lp);
     }
 
     @Override
     public void removeLP(LP lp) {
-        lp.getState().remove(lp);
-        property.firePropertyChange("lpFlagged", null, lp);
+        lpClient.removeLP(lp);
+
     }
 
     @Override
     public void remove(int index) {
-        LP lp = library.getLP(index);
-        library.remove(index);
-        property.firePropertyChange("remove", null, lp);
+        lpClient.remove(index);
+
     }
 
     @Override
     public void reserve(LP lp, String person) {
-        String oldState = lp.getStateString();
-        library.reserve(lp, person);
-        property.firePropertyChange("lpReserved", oldState, lp.getStateString());
+        lpClient.reserve(lp, person);
+
     }
 
     @Override
     public void cancel(LP lp) {
-        String oldState = lp.getStateString();
-        library.cancel(lp);
-        property.firePropertyChange("lpStateCanceled", oldState, lp.getStateString());
+
+        lpClient.cancel(lp);
+
     }
 
     @Override
     public void loan(LP lp, String person) {
-        String oldState = lp.getStateString();
-        library.loan(lp,person);
-        property.firePropertyChange("lpLoaned", oldState, lp.getStateString());
+        lpClient.loan(lp,person);
+
     }
 
     @Override
     public void returnLP(LP lp) {
-        String oldState = lp.getStateString();
-        library.returnLP(lp);
-        property.firePropertyChange("lpReturned", oldState, lp.getStateString());
+        lpClient.returnLP(lp);
+
 
     }
 
     @Override
     public void flagForRemove(LP lp) {
-        library.flagRemoveLP(lp);
-        property.firePropertyChange("lpFlagged", false, true);
+        lpClient.flagForRemove(lp);
+
     }
 
     @Override
     public void unflag(LP lp) {
-        library.unflag(lp);
-        property.firePropertyChange("lpUnFlagged", true, false);
+        lpClient.unflag(lp);
+
     }
 
     @Override
     public void flagFoeRemove(int index) {
-        library.flagRemoveLP(index);
-        property.firePropertyChange("lpFlagged", false, true);
+        lpClient.flagFoeRemove(index);
+
     }
 
 
@@ -114,6 +111,29 @@ public class ModelManager implements Model , PropertyChangeListener{
 
     @Override
     public void propertyChange(PropertyChangeEvent evt) {
-
+        switch(evt.getPropertyName())
+        {
+            case "Add":
+                property.firePropertyChange("add", null, evt.getNewValue());
+                break;
+            case "Remove":
+                property.firePropertyChange("remove", null, evt.getNewValue());
+                break;
+            case "Loan":
+                property.firePropertyChange("loan", evt.getOldValue(), evt.getNewValue());
+                break;
+            case "Reserve":
+                property.firePropertyChange("reserve", evt.getOldValue(), evt.getNewValue());
+                break;
+            case "Cancel":
+                property.firePropertyChange("cancel", null, evt.getNewValue());
+                break;
+            case "Return":
+                property.firePropertyChange("return", null, evt.getNewValue());
+                break;
+            case "Flag":
+                property.firePropertyChange("flag", null, evt.getNewValue());
+                break;
+        }
     }
 }

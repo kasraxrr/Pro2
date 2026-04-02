@@ -1,5 +1,6 @@
 package Server;
 
+import Server.mediator.LPServer;
 import Server.model.Model;
 import Server.model.ModelManager;
 import Server.model.UserSimulator;
@@ -8,10 +9,11 @@ import Server.viewmodel.ViewModelFactory;
 import javafx.application.Application;
 import javafx.stage.Stage;
 
+import java.io.IOException;
+
 public class MyApplication extends Application
 {
-    public void start(Stage primaryStage)
-    {
+    public void start(Stage primaryStage) throws IOException {
         Model model = new ModelManager();
         ViewModelFactory viewModelFactory = new ViewModelFactory(model);
         ViewHandler view = new ViewHandler(viewModelFactory);
@@ -24,6 +26,8 @@ public class MyApplication extends Application
         simThread.start();
         simThread2.start();
         view.start(primaryStage);
+        LPServer server = new LPServer(model);
+
 
 
     }
