@@ -12,6 +12,7 @@ public class SimpleLPViewModel
     private StringProperty reservedByProperty;
     private StringProperty loanedToProperty;
     private BooleanProperty flaggedProperty;
+    private LP originalLP;
 
     public SimpleLPViewModel(LP lp)
     {
@@ -22,6 +23,11 @@ public class SimpleLPViewModel
         reservedByProperty = new SimpleStringProperty(lp.getState().getReservedBy());
         loanedToProperty = new SimpleStringProperty(lp.getState().getLoanedTo());
         flaggedProperty = new SimpleBooleanProperty(lp.getState().getFlag());
+        this.originalLP=lp;
+    }
+
+    public LP getOriginalLP() {
+        return originalLP;
     }
 
     public StringProperty getTitleProperty()

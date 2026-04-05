@@ -42,13 +42,18 @@ public class MainViewModel implements PropertyChangeListener {
     {
         list.clear();
     }
-    public void loadFromModel()
-    {
+
+    public void loadFromModel() {
+        ArrayList<LP> modelList = model.getAllLPs();
+
         Platform.runLater(() -> {
-            ArrayList<LP> modelList = model.getAllLPs();
-            list.clear();
-            for (LP lp : modelList) {
-                list.add(new SimpleLPViewModel(lp));
+            if (modelList != null) {
+                list.clear();
+                for (LP lp : modelList) {
+                    list.add(new SimpleLPViewModel(lp));
+                }
+            } else {
+                System.out.println("ERROR: The Model returned a null list!");
             }
         });
     }
@@ -57,17 +62,13 @@ public class MainViewModel implements PropertyChangeListener {
     {
         try
         {
-            LP lp = model.getLP(selectedLPProperty.get().getTitleProperty().get(),
-                    selectedLPProperty.get().getArtistProperty().get());
+            LP lp = selectedLPProperty.get().getOriginalLP();
+
             if (selectedLPProperty.get().getFlaggedProperty().get()) {
                 model.unflag(lp);
-            }
-
-            else if (lp.getStateString().equals("AvailableState"))
-            {
+            } else if (lp.getStateString().equals("AvailableState")) {
                 model.removeLP(lp);
-            }else
-            {
+            } else {
                 model.flagForRemove(lp);
             }
         }
@@ -86,8 +87,7 @@ public class MainViewModel implements PropertyChangeListener {
             dialog.setContentText("Enter name of loaner:");
             Optional<String> result = dialog.showAndWait();
             result.ifPresent(s -> model.loan(
-                    model.getLP(selectedLPProperty.get().getTitleProperty().get(),
-                            selectedLPProperty.get().getArtistProperty().get()),s));
+                    selectedLPProperty.get().getOriginalLP(), s));
         }
         catch (Exception e)
         {
@@ -104,8 +104,7 @@ public class MainViewModel implements PropertyChangeListener {
             dialog.setContentText("Enter name of reserver:");
             Optional<String> result = dialog.showAndWait();
             result.ifPresent(s -> model.reserve(
-                    model.getLP(selectedLPProperty.get().getTitleProperty().get(),
-                            selectedLPProperty.get().getArtistProperty().get()),s));
+                    selectedLPProperty.get().getOriginalLP(), s));
         }
         catch (Exception e)
         {
@@ -117,8 +116,7 @@ public class MainViewModel implements PropertyChangeListener {
     {
         try
         {
-            model.returnLP(model.getLP(selectedLPProperty.get().getTitleProperty().get(),
-                    selectedLPProperty.get().getArtistProperty().get()));
+            model.returnLP(selectedLPProperty.get().getOriginalLP());
         }
         catch (Exception e)
         {
@@ -130,8 +128,7 @@ public class MainViewModel implements PropertyChangeListener {
     {
         try
         {
-            model.cancel(model.getLP(selectedLPProperty.get().getTitleProperty().get(),
-                    selectedLPProperty.get().getArtistProperty().get()));
+            model.cancel(selectedLPProperty.get().getOriginalLP());
         }
         catch (Exception e)
         {
@@ -180,13 +177,13 @@ public class MainViewModel implements PropertyChangeListener {
             System.out.println("Received event from Model: " + evt.getPropertyName());
             switch(evt.getPropertyName())
             {
-                case "lpRemoved":
+                case "remove":
                     removeSimpleLP((LP) evt.getNewValue());
                     break;
-                case "lpAdded":
+                case "add":
                     addSimpleLP((LP) evt.getNewValue());
                     break;
-                case "lpLoaned", "lpReserved", "lpFlagged","lpUnFlagged", "lpReturned", "lpStateCanceled":
+                case "loan", "reserve", "flag","lpUnFlagged", "return", "cancel":
                     System.out.println("loading model");
                     loadFromModel();
                     break;

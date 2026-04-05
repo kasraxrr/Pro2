@@ -1,30 +1,24 @@
 package Server.model;
 
 public class LoanedState extends LPState{
-    private String loanedTo;
 
 
     public LoanedState(LP lp,String person,boolean flag){
         super(flag);
-        this.loanedTo=person;
+        super.setLoanedTo(person);
 
     }
     public void returnLP(LP lp){
-        if (this.getFlag()) {
+        if (super.getFlag()) {
             lp.setState(new RemovingState(lp));
         } else {
-            lp.setState(new AvailableState(lp, false));
+            lp.setState(new AvailableState(lp, super.getFlag()));
         }
     }
 
     @Override
     public void cancelReservation(LP lp) {
 
-    }
-
-    @Override
-    public String getStatusString() {
-        return getClass().getSimpleName();
     }
 
 
@@ -34,26 +28,23 @@ public class LoanedState extends LPState{
     public void remove(LP lp){
         super.setFlag(true);
     }
+
     @Override
     public void reserve(LP lp, String person) {
         if (!super.getFlag() && super.getReservedBy() == null) {
-            lp.setState(new LoanedAndReservedState(lp, this.getLoanedTo(), person, false));
+            lp.setState(new LoanedAndReservedState(lp, super.getLoanedTo(), person, super.getFlag()));
         } else {
             throw new IllegalStateException("Cannot reserve this LP");
         }
     }
 
-    public void setLoanedTo(String person ){
-        this.loanedTo=person;
-    }
+
 
     @Override
     public void loan(LP lp, String person) {
 
     }
 
-    public String getLoanedTo(){
-        return loanedTo;
-    }
+
 
 }

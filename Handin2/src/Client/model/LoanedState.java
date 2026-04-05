@@ -3,16 +3,15 @@ package Client.model;
 import Client.model.LP;
 
 public class LoanedState extends LPState{
-    private String loanedTo;
 
 
     public LoanedState(LP lp, String person, boolean flag){
         super(flag);
-        this.loanedTo=person;
+        super.setLoanedTo(person);
 
     }
     public void returnLP(LP lp){
-        if (this.getFlag()) {
+        if (super.getFlag()) {
             lp.setState(new RemovingState(lp));
         } else {
             lp.setState(new AvailableState(lp, false));
@@ -39,23 +38,18 @@ public class LoanedState extends LPState{
     @Override
     public void reserve(LP lp, String person) {
         if (!super.getFlag() && super.getReservedBy() == null) {
-            lp.setState(new LoanedAndReservedState(lp, this.getLoanedTo(), person, false));
+            lp.setState(new LoanedAndReservedState(lp, this.getLoanedTo(), person, super.getFlag()));
         } else {
             throw new IllegalStateException("Cannot reserve this LP");
         }
     }
 
-    public void setLoanedTo(String person ){
-        this.loanedTo=person;
-    }
 
     @Override
     public void loan(LP lp, String person) {
 
     }
 
-    public String getLoanedTo(){
-        return loanedTo;
-    }
+
 
 }

@@ -76,19 +76,19 @@ public class LPClient implements Model {
     @Override
     public synchronized ArrayList<LP> getAllLPs() {
         try {
-            System.out.println("1. Client is preparing to build the JSON message...");
+
             String jsonMessage = xmlJsonParser.toJson(new LPPackage("All", null, null, null, null), false);
 
-            System.out.println("2. Client successfully built JSON: " + jsonMessage);
+
             out.println(jsonMessage);
 
-            System.out.println("3. Message sent! Freezing UI and waiting for server reply...");
+
             while (receivedListPackage == null) {
                 waiting = true;
                 wait();
             }
 
-            System.out.println("4. Server replied! Waking up UI!");
+
             ArrayList<LP> lpArrayList = receivedListPackage.getLps();
             waiting = false;
             receivedListPackage = null;

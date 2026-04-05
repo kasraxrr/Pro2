@@ -510,3 +510,266 @@ LogLine{text='LP reserved: abc0Server.model.LoanedAndReservedState@4fda3df0false
 LogLine{text='Simulated reserve of LP', time=05/04/2026 13:31:08}
 LogLine{text='Simulated reserve of LP', time=05/04/2026 13:31:08}
 LogLine{text='LP returned: abc0Server.model.ReservedState@2577dbbfalse', time=05/04/2026 13:31:12}
+LogLine{text='Server started on port 8080', time=05/04/2026 14:46:03}
+LogLine{text='LP added: mhv0Server.model.AvailableState@6dc75c4cfalse', time=05/04/2026 14:46:15}
+LogLine{text='Simulated reserve of LP', time=05/04/2026 14:46:22}
+LogLine{text='Simulated reserve of LP', time=05/04/2026 14:46:22}
+LogLine{text='LP loaned: mhv0Server.model.LoanedState@5418d0efalse', time=05/04/2026 14:46:22}
+LogLine{text='LP loaned: mhv0Server.model.LoanedState@5418d0efalse', time=05/04/2026 14:46:22}
+LogLine{text='Simulated loan of LP', time=05/04/2026 14:46:42}
+LogLine{text='Simulated loan of LP', time=05/04/2026 14:46:42}
+LogLine{text='LP returned: mhv0Server.model.AvailableState@530c6c60false', time=05/04/2026 14:46:42}
+LogLine{text='Simulated return of LP', time=05/04/2026 14:47:02}
+LogLine{text='Simulated return of LP', time=05/04/2026 14:47:02}
+LogLine{text='LP reserved: mhv0Server.model.ReservedState@17ecd5a7false', time=05/04/2026 14:47:02}
+LogLine{text='LP reserved: mhv0Server.model.ReservedState@17ecd5a7false', time=05/04/2026 14:47:02}
+LogLine{text='Simulated reserve of LP', time=05/04/2026 14:47:22}
+LogLine{text='Simulated reserve of LP', time=05/04/2026 14:47:22}
+LogLine{text='LP loaned: mhv0Server.model.LoanedState@3fdcae79false', time=05/04/2026 14:47:22}
+LogLine{text='Server started on port 8080', time=05/04/2026 14:49:13}
+LogLine{text='LP added: yviyc0Server.model.AvailableState@6dc75c4cfalse', time=05/04/2026 14:49:21}
+LogLine{text='Simulated reserve of LP', time=05/04/2026 14:49:32}
+LogLine{text='Simulated reserve of LP', time=05/04/2026 14:49:32}
+LogLine{text='LP loaned: yviyc0Server.model.LoanedState@3b927142false', time=05/04/2026 14:49:32}
+LogLine{text='LP loaned: yviyc0Server.model.LoanedState@3b927142false', time=05/04/2026 14:49:32}
+LogLine{text='Server started on port 8080', time=05/04/2026 14:51:44}
+LogLine{text='LP added: ebnfoje0Server.model.AvailableState@6dc75c4cfalse', time=05/04/2026 14:51:53}
+LogLine{text='Simulated reserve of LP', time=05/04/2026 14:52:03}
+LogLine{text='Simulated reserve of LP', time=05/04/2026 14:52:03}
+LogLine{text='LP loaned: ebnfoje0Server.model.LoanedState@ce85b34false', time=05/04/2026 14:52:03}
+LogLine{text='LP loaned: ebnfoje0Server.model.LoanedState@430541b1false', time=05/04/2026 14:52:03}
+LogLine{text='Simulated loan of LP', time=05/04/2026 14:52:23}
+LogLine{text='Simulated loan of LP', time=05/04/2026 14:52:23}
+LogLine{text='LP returned: ebnfoje0Server.model.AvailableState@3b927142false', time=05/04/2026 14:52:23}
+LogLine{text='Simulated return of LP', time=05/04/2026 14:52:43}
+LogLine{text='Simulated return of LP', time=05/04/2026 14:52:43}
+LogLine{text='LP reserved: ebnfoje0Server.model.ReservedState@530c6c60false', time=05/04/2026 14:52:43}
+LogLine{text='LP reserved: ebnfoje0Server.model.ReservedState@530c6c60false', time=05/04/2026 14:52:43}
+LogLine{text='Simulated reserve of LP', time=05/04/2026 14:53:03}
+LogLine{text='Simulated reserve of LP', time=05/04/2026 14:53:03}
+LogLine{text='LP loaned: ebnfoje0Server.model.LoanedState@5993145afalse', time=05/04/2026 14:53:03}
+LogLine{text='Client connected: 192.168.8.102', time=05/04/2026 14:53:12}
+LogLine{text='Simulated loan of LP', time=05/04/2026 14:53:23}
+LogLine{text='Simulated loan of LP', time=05/04/2026 14:53:23}
+LogLine{text='LP returned: ebnfoje0Server.model.AvailableState@654d02effalse', time=05/04/2026 14:53:23}
+LogLine{text='Server started on port 8080', time=05/04/2026 15:08:01}
+LogLine{text='Client connected: 192.168.8.102', time=05/04/2026 15:08:07}
+LogLine{text='Simulated reserve of LP', time=05/04/2026 15:08:20}
+LogLine{text='Simulated reserve of LP', time=05/04/2026 15:08:20}
+LogLine{text='LP added: jvhvj0Server.model.AvailableState@37d58000false', time=05/04/2026 15:08:23}
+LogLine{text='Server started on port 8080', time=05/04/2026 15:08:41}
+LogLine{text='Simulated reserve of LP', time=05/04/2026 15:09:00}
+LogLine{text='Simulated reserve of LP', time=05/04/2026 15:09:00}
+LogLine{text='LP added: vueivw0Server.model.AvailableState@6dc75c4cfalse', time=05/04/2026 15:09:04}
+LogLine{text='Client connected: 192.168.8.102', time=05/04/2026 15:09:08}
+LogLine{text='Simulated loan of LP', time=05/04/2026 15:09:20}
+LogLine{text='Simulated loan of LP', time=05/04/2026 15:09:20}
+LogLine{text='Server started on port 8080', time=05/04/2026 15:30:09}
+LogLine{text='LP added: gffoyttjfbi37668Server.model.AvailableState@6dc75c4cfalse', time=05/04/2026 15:30:19}
+LogLine{text='Simulated reserve of LP', time=05/04/2026 15:30:28}
+LogLine{text='Simulated reserve of LP', time=05/04/2026 15:30:28}
+LogLine{text='LP loaned: gffoyttjfbi37668Server.model.LoanedState@430541b1false', time=05/04/2026 15:30:28}
+LogLine{text='LP loaned: gffoyttjfbi37668Server.model.LoanedState@6aac172cfalse', time=05/04/2026 15:30:28}
+LogLine{text='LP added: jgcuiuyg234567Server.model.AvailableState@614c4980false', time=05/04/2026 15:30:32}
+LogLine{text='Simulated loan of LP', time=05/04/2026 15:30:48}
+LogLine{text='Simulated loan of LP', time=05/04/2026 15:30:48}
+LogLine{text='LP returned: gffoyttjfbi37668Server.model.AvailableState@ce85b34false', time=05/04/2026 15:30:48}
+LogLine{text='Simulated return of LP', time=05/04/2026 15:31:08}
+LogLine{text='Simulated return of LP', time=05/04/2026 15:31:08}
+LogLine{text='LP reserved: gffoyttjfbi37668Server.model.ReservedState@10ff4eefalse', time=05/04/2026 15:31:08}
+LogLine{text='LP reserved: gffoyttjfbi37668Server.model.ReservedState@10ff4eefalse', time=05/04/2026 15:31:08}
+LogLine{text='Simulated reserve of LP', time=05/04/2026 15:31:28}
+LogLine{text='Simulated reserve of LP', time=05/04/2026 15:31:28}
+LogLine{text='LP loaned: jgcuiuyg234567Server.model.LoanedState@3b927142false', time=05/04/2026 15:31:28}
+LogLine{text='LP loaned: gffoyttjfbi37668Server.model.LoanedState@6d774732false', time=05/04/2026 15:31:28}
+LogLine{text='Simulated loan of LP', time=05/04/2026 15:31:48}
+LogLine{text='Simulated loan of LP', time=05/04/2026 15:31:48}
+LogLine{text='LP returned: jgcuiuyg234567Server.model.AvailableState@530c6c60false', time=05/04/2026 15:31:48}
+LogLine{text='LP returned: gffoyttjfbi37668Server.model.AvailableState@4169be4false', time=05/04/2026 15:31:48}
+LogLine{text='Client connected: 192.168.8.102', time=05/04/2026 15:32:07}
+LogLine{text='Simulated return of LP', time=05/04/2026 15:32:08}
+LogLine{text='Simulated return of LP', time=05/04/2026 15:32:08}
+LogLine{text='LP reserved: gffoyttjfbi37668Server.model.ReservedState@d2c8d79false', time=05/04/2026 15:32:08}
+LogLine{text='LP reserved: gffoyttjfbi37668Server.model.ReservedState@d2c8d79false', time=05/04/2026 15:32:08}
+LogLine{text='LP added: mhhvk0Server.model.AvailableState@1c44d10ffalse', time=05/04/2026 15:32:23}
+LogLine{text='Simulated reserve of LP', time=05/04/2026 15:32:28}
+LogLine{text='Simulated reserve of LP', time=05/04/2026 15:32:28}
+LogLine{text='LP loaned: gffoyttjfbi37668Server.model.LoanedState@58f2341false', time=05/04/2026 15:32:28}
+LogLine{text='LP loaned: jgcuiuyg234567Server.model.LoanedState@3ff1735ffalse', time=05/04/2026 15:32:28}
+LogLine{text='LP reserved: mhhvk0Server.model.ReservedState@2a1066bffalse', time=05/04/2026 15:32:44}
+LogLine{text='Simulated loan of LP', time=05/04/2026 15:32:48}
+LogLine{text='Simulated loan of LP', time=05/04/2026 15:32:48}
+LogLine{text='LP returned: gffoyttjfbi37668Server.model.AvailableState@78f4cbb5false', time=05/04/2026 15:32:48}
+LogLine{text='LP returned: jgcuiuyg234567Server.model.AvailableState@c680bafalse', time=05/04/2026 15:32:48}
+LogLine{text='LP loaned: jgcuiuyg234567Server.model.LoanedState@3c9f0fe0false', time=05/04/2026 15:32:55}
+LogLine{text='Client connected: 192.168.8.102', time=05/04/2026 15:33:07}
+LogLine{text='Simulated return of LP', time=05/04/2026 15:33:08}
+LogLine{text='Simulated return of LP', time=05/04/2026 15:33:08}
+LogLine{text='LP reserved: gffoyttjfbi37668Server.model.ReservedState@771168b4false', time=05/04/2026 15:33:08}
+LogLine{text='Client connected: 192.168.8.102', time=05/04/2026 15:33:23}
+LogLine{text='Simulated reserve of LP', time=05/04/2026 15:33:28}
+LogLine{text='Simulated reserve of LP', time=05/04/2026 15:33:28}
+LogLine{text='LP loaned: gffoyttjfbi37668Server.model.LoanedState@145f6b03false', time=05/04/2026 15:33:28}
+LogLine{text='Simulated loan of LP', time=05/04/2026 15:33:48}
+LogLine{text='Simulated loan of LP', time=05/04/2026 15:33:48}
+LogLine{text='LP returned: gffoyttjfbi37668Server.model.AvailableState@6836c7e2false', time=05/04/2026 15:33:48}
+LogLine{text='Simulated return of LP', time=05/04/2026 15:34:08}
+LogLine{text='LP reserved: gffoyttjfbi37668Server.model.ReservedState@36d18e3bfalse', time=05/04/2026 15:34:08}
+LogLine{text='Simulated return of LP', time=05/04/2026 15:34:08}
+LogLine{text='Server started on port 8080', time=05/04/2026 22:54:49}
+LogLine{text='LP added: deubffdd0Server.model.AvailableState@73f58ba3false', time=05/04/2026 22:55:02}
+LogLine{text='Simulated reserve of LP', time=05/04/2026 22:55:08}
+LogLine{text='Simulated reserve of LP', time=05/04/2026 22:55:08}
+LogLine{text='LP loaned: deubffdd0Server.model.LoanedState@ce85b34false', time=05/04/2026 22:55:08}
+LogLine{text='LP loaned: deubffdd0Server.model.LoanedState@ce85b34false', time=05/04/2026 22:55:08}
+LogLine{text='LP added: kbdskk0Server.model.AvailableState@614c4980false', time=05/04/2026 22:55:10}
+LogLine{text='LP added: dsfhemnbv0Server.model.AvailableState@8a62fcbfalse', time=05/04/2026 22:55:18}
+LogLine{text='Simulated loan of LP', time=05/04/2026 22:55:28}
+LogLine{text='Simulated loan of LP', time=05/04/2026 22:55:28}
+LogLine{text='LP returned: deubffdd0Server.model.AvailableState@3b927142false', time=05/04/2026 22:55:28}
+LogLine{text='Client connected: 192.168.8.102', time=05/04/2026 22:55:30}
+LogLine{text='LP reserved: dsfhemnbv0Server.model.ReservedState@517e2d1afalse', time=05/04/2026 22:55:42}
+LogLine{text='Simulated return of LP', time=05/04/2026 22:55:48}
+LogLine{text='Simulated return of LP', time=05/04/2026 22:55:48}
+LogLine{text='LP reserved: deubffdd0Server.model.ReservedState@430541b1false', time=05/04/2026 22:55:48}
+LogLine{text='LP reserved: deubffdd0Server.model.ReservedState@430541b1false', time=05/04/2026 22:55:48}
+LogLine{text='LP loaned: dsfhemnbv0Server.model.LoanedState@7679c8eefalse', time=05/04/2026 22:56:05}
+LogLine{text='Simulated reserve of LP', time=05/04/2026 22:56:08}
+LogLine{text='Simulated reserve of LP', time=05/04/2026 22:56:08}
+LogLine{text='LP loaned: kbdskk0Server.model.LoanedState@82f3118false', time=05/04/2026 22:56:08}
+LogLine{text='LP loaned: deubffdd0Server.model.LoanedState@530c6c60false', time=05/04/2026 22:56:09}
+LogLine{text='LP added: vhk0Server.model.AvailableState@69396ac8false', time=05/04/2026 22:56:13}
+LogLine{text='LP reserved: vhk0Server.model.ReservedState@4f185bf7false', time=05/04/2026 22:56:23}
+LogLine{text='Simulated loan of LP', time=05/04/2026 22:56:29}
+LogLine{text='Simulated loan of LP', time=05/04/2026 22:56:29}
+LogLine{text='LP returned: kbdskk0Server.model.AvailableState@10ff4eefalse', time=05/04/2026 22:56:29}
+LogLine{text='LP returned: deubffdd0Server.model.AvailableState@5993145afalse', time=05/04/2026 22:56:29}
+LogLine{text='Server started on port 8080', time=05/04/2026 23:04:41}
+LogLine{text='LP added: dkhs 0Server.model.AvailableState@6dc75c4cfalse', time=05/04/2026 23:04:47}
+LogLine{text='LP added: jsdh cks0Server.model.AvailableState@5145e067false', time=05/04/2026 23:04:50}
+LogLine{text='LP added: skdhb0Server.model.AvailableState@400e866afalse', time=05/04/2026 23:04:54}
+LogLine{text='LP loaned: skdhb0Server.model.LoanedState@63b30ca8false', time=05/04/2026 23:04:59}
+LogLine{text='Simulated reserve of LP', time=05/04/2026 23:05:00}
+LogLine{text='Simulated reserve of LP', time=05/04/2026 23:05:00}
+LogLine{text='LP loaned: dkhs 0Server.model.LoanedState@530c6c60false', time=05/04/2026 23:05:00}
+LogLine{text='LP loaned: dkhs 0Server.model.LoanedState@530c6c60false', time=05/04/2026 23:05:00}
+LogLine{text='LP removed: jsdh cks0Server.model.RemovingState@517e2d1atrue', time=05/04/2026 23:05:06}
+LogLine{text='LP flagged: jsdh cks0Server.model.RemovingState@517e2d1atrue', time=05/04/2026 23:05:09}
+LogLine{text='Simulated loan of LP', time=05/04/2026 23:05:21}
+LogLine{text='Simulated loan of LP', time=05/04/2026 23:05:21}
+LogLine{text='LP returned: dkhs 0Server.model.AvailableState@5993145afalse', time=05/04/2026 23:05:21}
+LogLine{text='Client connected: 192.168.8.102', time=05/04/2026 23:05:30}
+LogLine{text='Simulated return of LP', time=05/04/2026 23:05:41}
+LogLine{text='Simulated return of LP', time=05/04/2026 23:05:41}
+LogLine{text='LP reserved: dkhs 0Server.model.ReservedState@132b1950false', time=05/04/2026 23:05:41}
+LogLine{text='LP reserved: dkhs 0Server.model.ReservedState@132b1950false', time=05/04/2026 23:05:41}
+LogLine{text='LP added: kasraAkbar2004Server.model.AvailableState@b4e4ec1false', time=05/04/2026 23:05:49}
+LogLine{text='Simulated reserve of LP', time=05/04/2026 23:06:01}
+LogLine{text='Simulated reserve of LP', time=05/04/2026 23:06:01}
+LogLine{text='LP loaned: dkhs 0Server.model.LoanedState@5418d0efalse', time=05/04/2026 23:06:01}
+LogLine{text='LP loaned: kasraAkbar2004Server.model.LoanedState@3fdcae79false', time=05/04/2026 23:06:01}
+LogLine{text='LP added: Miladahmad1990Server.model.AvailableState@1e693dbdfalse', time=05/04/2026 23:06:05}
+LogLine{text='LP loaned: Miladahmad1990Server.model.LoanedState@3e8ee2e9false', time=05/04/2026 23:06:15}
+LogLine{text='Simulated loan of LP', time=05/04/2026 23:06:21}
+LogLine{text='Simulated loan of LP', time=05/04/2026 23:06:21}
+LogLine{text='LP returned: dkhs 0Server.model.AvailableState@1b2ee74afalse', time=05/04/2026 23:06:21}
+LogLine{text='LP returned: kasraAkbar2004Server.model.AvailableState@f03aa8efalse', time=05/04/2026 23:06:21}
+LogLine{text='LP reserved: Miladahmad1990Server.model.LoanedAndReservedState@439c3d0afalse', time=05/04/2026 23:06:32}
+LogLine{text='LP returned: Miladahmad1990Server.model.ReservedState@5fec3bc5false', time=05/04/2026 23:06:37}
+LogLine{text='Simulated return of LP', time=05/04/2026 23:06:41}
+LogLine{text='Simulated return of LP', time=05/04/2026 23:06:41}
+LogLine{text='LP reserved: dkhs 0Server.model.ReservedState@430541b1false', time=05/04/2026 23:06:41}
+LogLine{text='LP reserved: dkhs 0Server.model.ReservedState@430541b1false', time=05/04/2026 23:06:41}
+LogLine{text='LP loaned: Miladahmad1990Server.model.LoanedState@183ab227false', time=05/04/2026 23:06:47}
+LogLine{text='LP flagged: Miladahmad1990Server.model.LoanedState@183ab227true', time=05/04/2026 23:06:51}
+LogLine{text='Simulated reserve of LP', time=05/04/2026 23:07:01}
+LogLine{text='Simulated reserve of LP', time=05/04/2026 23:07:01}
+LogLine{text='LP loaned: dkhs 0Server.model.LoanedState@4ef34ef0false', time=05/04/2026 23:07:01}
+LogLine{text='LP loaned: kasraAkbar2004Server.model.LoanedState@82f3118false', time=05/04/2026 23:07:01}
+LogLine{text='LP returned: Miladahmad1990Server.model.RemovingState@4e3a6a6true', time=05/04/2026 23:07:15}
+LogLine{text='Simulated loan of LP', time=05/04/2026 23:07:21}
+LogLine{text='Simulated loan of LP', time=05/04/2026 23:07:21}
+LogLine{text='LP returned: dkhs 0Server.model.AvailableState@3fc3eb64false', time=05/04/2026 23:07:21}
+LogLine{text='LP returned: kasraAkbar2004Server.model.AvailableState@10ff4eefalse', time=05/04/2026 23:07:21}
+LogLine{text='LP flagged: skdhb0Server.model.LoanedState@63b30ca8true', time=05/04/2026 23:07:24}
+LogLine{text='Simulated return of LP', time=05/04/2026 23:07:41}
+LogLine{text='Simulated return of LP', time=05/04/2026 23:07:41}
+LogLine{text='LP reserved: kasraAkbar2004Server.model.ReservedState@6d774732false', time=05/04/2026 23:07:41}
+LogLine{text='LP reserved: dkhs 0Server.model.ReservedState@65b62583false', time=05/04/2026 23:07:41}
+LogLine{text='LP unflagged: skdhb0Server.model.LoanedState@63b30ca8false', time=05/04/2026 23:07:49}
+LogLine{text='LP added: xx0Server.model.AvailableState@585a481false', time=05/04/2026 23:07:54}
+LogLine{text='Simulated reserve of LP', time=05/04/2026 23:08:01}
+LogLine{text='Simulated reserve of LP', time=05/04/2026 23:08:01}
+LogLine{text='LP loaned: kasraAkbar2004Server.model.LoanedState@4169be4false', time=05/04/2026 23:08:01}
+LogLine{text='LP loaned: dkhs 0Server.model.LoanedState@7773b461false', time=05/04/2026 23:08:01}
+LogLine{text='Simulated loan of LP', time=05/04/2026 23:08:21}
+LogLine{text='Simulated loan of LP', time=05/04/2026 23:08:21}
+LogLine{text='LP returned: kasraAkbar2004Server.model.AvailableState@7540dd8ffalse', time=05/04/2026 23:08:21}
+LogLine{text='LP returned: dkhs 0Server.model.AvailableState@2323f0b1false', time=05/04/2026 23:08:21}
+LogLine{text='LP added: jj0Server.model.AvailableState@2b2932b0false', time=05/04/2026 23:08:24}
+LogLine{text='Simulated return of LP', time=05/04/2026 23:08:41}
+LogLine{text='Simulated return of LP', time=05/04/2026 23:08:41}
+LogLine{text='LP reserved: dkhs 0Server.model.ReservedState@b16ff4dfalse', time=05/04/2026 23:08:41}
+LogLine{text='LP reserved: dkhs 0Server.model.ReservedState@b16ff4dfalse', time=05/04/2026 23:08:41}
+LogLine{text='Simulated reserve of LP', time=05/04/2026 23:09:01}
+LogLine{text='Simulated reserve of LP', time=05/04/2026 23:09:01}
+LogLine{text='LP loaned: dkhs 0Server.model.LoanedState@5c0f77cafalse', time=05/04/2026 23:09:01}
+LogLine{text='LP loaned: kasraAkbar2004Server.model.LoanedState@39bb77afalse', time=05/04/2026 23:09:01}
+LogLine{text='Simulated loan of LP', time=05/04/2026 23:09:21}
+LogLine{text='Simulated loan of LP', time=05/04/2026 23:09:21}
+LogLine{text='LP returned: dkhs 0Server.model.AvailableState@6cf61e14false', time=05/04/2026 23:09:21}
+LogLine{text='LP returned: kasraAkbar2004Server.model.AvailableState@575500b7false', time=05/04/2026 23:09:21}
+LogLine{text='LP reserved: xx0Server.model.ReservedState@598d26affalse', time=05/04/2026 23:09:27}
+LogLine{text='Simulated return of LP', time=05/04/2026 23:09:41}
+LogLine{text='Simulated return of LP', time=05/04/2026 23:09:41}
+LogLine{text='LP reserved: kasraAkbar2004Server.model.ReservedState@1f290aa0false', time=05/04/2026 23:09:41}
+LogLine{text='LP reserved: dkhs 0Server.model.ReservedState@3d6f7680false', time=05/04/2026 23:09:41}
+LogLine{text='Simulated reserve of LP', time=05/04/2026 23:10:01}
+LogLine{text='Simulated reserve of LP', time=05/04/2026 23:10:01}
+LogLine{text='LP loaned: kasraAkbar2004Server.model.LoanedState@23f9629ffalse', time=05/04/2026 23:10:01}
+LogLine{text='LP loaned: dkhs 0Server.model.LoanedState@175afe4false', time=05/04/2026 23:10:01}
+LogLine{text='Simulated loan of LP', time=05/04/2026 23:10:21}
+LogLine{text='Simulated loan of LP', time=05/04/2026 23:10:21}
+LogLine{text='LP returned: kasraAkbar2004Server.model.AvailableState@4efe00dfalse', time=05/04/2026 23:10:21}
+LogLine{text='LP returned: dkhs 0Server.model.AvailableState@5f0bf8d7false', time=05/04/2026 23:10:21}
+LogLine{text='Simulated return of LP', time=05/04/2026 23:10:41}
+LogLine{text='Simulated return of LP', time=05/04/2026 23:10:41}
+LogLine{text='LP reserved: dkhs 0Server.model.ReservedState@20240b39false', time=05/04/2026 23:10:41}
+LogLine{text='LP reserved: kasraAkbar2004Server.model.ReservedState@58b5583afalse', time=05/04/2026 23:10:41}
+LogLine{text='Simulated reserve of LP', time=05/04/2026 23:11:01}
+LogLine{text='Simulated reserve of LP', time=05/04/2026 23:11:01}
+LogLine{text='LP loaned: dkhs 0Server.model.LoanedState@66b9b2cbfalse', time=05/04/2026 23:11:01}
+LogLine{text='LP loaned: kasraAkbar2004Server.model.LoanedState@f1e2586false', time=05/04/2026 23:11:01}
+LogLine{text='Server started on port 8080', time=05/04/2026 23:21:11}
+LogLine{text='LP added: hsavc0Server.model.AvailableState@6dc75c4cfalse', time=05/04/2026 23:21:16}
+LogLine{text='LP added: hsgx0Server.model.AvailableState@38b08e28false', time=05/04/2026 23:21:22}
+LogLine{text='Client connected: 192.168.8.102', time=05/04/2026 23:21:23}
+LogLine{text='Simulated reserve of LP', time=05/04/2026 23:21:29}
+LogLine{text='Simulated reserve of LP', time=05/04/2026 23:21:29}
+LogLine{text='LP loaned: hsavc0Server.model.LoanedState@3b927142false', time=05/04/2026 23:21:29}
+LogLine{text='LP loaned: hsavc0Server.model.LoanedState@3b927142false', time=05/04/2026 23:21:29}
+LogLine{text='LP added: mbg s0Server.model.AvailableState@6779dcd8false', time=05/04/2026 23:21:30}
+LogLine{text='LP added: ,ms x0Server.model.AvailableState@3c176808false', time=05/04/2026 23:21:37}
+LogLine{text='LP reserved: hsgx0Server.model.ReservedState@6ac3af39false', time=05/04/2026 23:21:42}
+LogLine{text='LP removed: mbg s0Server.model.RemovingState@49895784true', time=05/04/2026 23:21:46}
+LogLine{text='LP flagged: mbg s0Server.model.RemovingState@49895784true', time=05/04/2026 23:21:49}
+LogLine{text='Simulated loan of LP', time=05/04/2026 23:21:49}
+LogLine{text='Simulated loan of LP', time=05/04/2026 23:21:49}
+LogLine{text='LP returned: hsavc0Server.model.AvailableState@530c6c60false', time=05/04/2026 23:21:49}
+LogLine{text='LP added: nsns0Server.model.AvailableState@3551e0aafalse', time=05/04/2026 23:21:55}
+LogLine{text='LP added: ,m k0Server.model.AvailableState@e2a7a87false', time=05/04/2026 23:22:04}
+LogLine{text='Simulated return of LP', time=05/04/2026 23:22:09}
+LogLine{text='Simulated return of LP', time=05/04/2026 23:22:09}
+LogLine{text='LP reserved: ,ms x0Server.model.ReservedState@5993145afalse', time=05/04/2026 23:22:09}
+LogLine{text='LP reserved: hsavc0Server.model.ReservedState@1b2ee74afalse', time=05/04/2026 23:22:09}
+LogLine{text='Simulated reserve of LP', time=05/04/2026 23:22:29}
+LogLine{text='Simulated reserve of LP', time=05/04/2026 23:22:29}
+LogLine{text='LP loaned: ,ms x0Server.model.LoanedState@17ecd5a7false', time=05/04/2026 23:22:29}
+LogLine{text='LP loaned: hsavc0Server.model.LoanedState@430541b1false', time=05/04/2026 23:22:29}
+LogLine{text='LP reserved: nsns0Server.model.AvailableState@4136b250false', time=05/04/2026 23:22:30}
+LogLine{text='LP loaned: hsgx0Server.model.ReservedState@74ceaa23false', time=05/04/2026 23:22:47}
+LogLine{text='Simulated loan of LP', time=05/04/2026 23:22:49}
+LogLine{text='Simulated loan of LP', time=05/04/2026 23:22:49}
+LogLine{text='LP returned: ,ms x0Server.model.AvailableState@3fdcae79false', time=05/04/2026 23:22:49}
+LogLine{text='LP returned: hsavc0Server.model.AvailableState@82f3118false', time=05/04/2026 23:22:49}
+LogLine{text='LP reserved: ,ms x0Server.model.AvailableState@347a0847false', time=05/04/2026 23:22:55}

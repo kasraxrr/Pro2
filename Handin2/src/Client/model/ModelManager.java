@@ -12,7 +12,7 @@ import java.util.ArrayList;
 public class ModelManager implements Model , PropertyChangeListener{
     private LPLibrary library;
     private PropertyChangeSupport property;
-    private final static String HOST = "localhost";
+    private final static String HOST = "192.168.4.108";
     private final static int PORT=8080;
     private LPClient lpClient;
 
