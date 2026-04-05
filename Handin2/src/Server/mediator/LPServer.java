@@ -9,7 +9,7 @@ import java.net.ServerSocket;
 import java.net.Socket;
 
 public class LPServer implements Runnable{
-    private static final int PORT=6767;
+    private static final int PORT=8080;
     private boolean running;
     private ServerSocket welcomeSocket;
     private Model model;

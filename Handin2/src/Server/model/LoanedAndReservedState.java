@@ -1,19 +1,14 @@
 package Server.model;
 
 public class LoanedAndReservedState extends LPState{
-    private String loanedTo;
-    private String reservedBy;
+
 
 
     public LoanedAndReservedState(LP lp,String loanedTo,String reservedBy,boolean flag){
         super(flag);
-    this.reservedBy=reservedBy;
-    this.loanedTo=loanedTo;
-    }
+        super.setLoanedTo(loanedTo);
+        super.setReservedBy(reservedBy);
 
-    @Override
-    public String getStatusString() {
-        return getClass().getSimpleName();
     }
 
     @Override
@@ -26,9 +21,6 @@ public class LoanedAndReservedState extends LPState{
     super.setFlag(true);
     }
 
-    public void setLoanedTo(String loanedTo) {
-        this.loanedTo = loanedTo;
-    }
 
     @Override
     public void loan(LP lp, String person) {
@@ -40,27 +32,16 @@ public class LoanedAndReservedState extends LPState{
 
     }
 
-    public String getLoanedTo() {
-        return loanedTo;
-    }
-
-    public void setReservedBy(String reservedBy) {
-        this.reservedBy = reservedBy;
-    }
-
-    public String getReservedBy() {
-        return reservedBy;
-    }
     @Override
     public void returnLP(LP lp){
-       AvailableState a1=new AvailableState(lp,super.getFlag());
-        lp.setState(a1);
-       a1.reserve(lp,reservedBy);
+       ReservedState r1=new ReservedState(lp,super.getReservedBy(),super.getFlag());
+        lp.setState(r1);
 
     }
 
     @Override
     public void cancelReservation(LP lp) {
-
+    LoanedState l1=new LoanedState(lp,super.getLoanedTo(),super.getFlag());
+    lp.setState(l1);
     }
 }

@@ -10,10 +10,10 @@ public class AvailableState extends LPState {
     public AvailableState(LP lp , boolean flag){
         super(flag);
 
-
     }
     @Override
     public void loan(LP lp,String person){
+
         lp.setState(new LoanedState(lp,person,super.getFlag()));
     }
     @Override
@@ -40,10 +40,6 @@ public class AvailableState extends LPState {
     }
 
 
-    @Override
-    public String getStatusString(){
-        return getClass().getSimpleName();
-    }
     public boolean getFlag(){
         return super.getFlag();
     }

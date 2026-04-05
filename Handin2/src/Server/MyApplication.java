@@ -27,8 +27,10 @@ public class MyApplication extends Application
         simThread2.start();
         view.start(primaryStage);
         LPServer server = new LPServer(model);
-
-
+        Thread serverThread=new Thread(server);
+        serverThread.setDaemon(true);
+        serverThread.start();
 
     }
+
 }

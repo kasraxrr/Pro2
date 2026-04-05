@@ -6,11 +6,11 @@ import Server.model.LPState;
 import Server.model.LoanedState;
 
 public class ReservedState extends LPState {
-    private String reservedBy;
+
 
     public ReservedState(LP lp, String person, boolean flag){
         super(flag);
-        this.reservedBy=person;
+        super.setReservedBy(person);
 
     }
 
@@ -18,30 +18,16 @@ public class ReservedState extends LPState {
     lp.setState(new AvailableState(lp,super.getFlag()));
     }
 
-    @Override
-    public String getStatusString() {
-        return getClass().getSimpleName();
-    }
-
-    @Override
-    public boolean getFlag() {
-        return super.getFlag();
-    }
 
     public void remove(LP lp){
     super.setFlag(true);
     }
 
-    public void setReservedBy(String reservedBy) {
-        this.reservedBy = reservedBy;
-    }
-
-    public String getReservedBy() {
-        return reservedBy;
-    }
     public void loan(LP lp,String person){
-        if (person.equals(reservedBy)){
+        if (person.equals(super.getReservedBy())){
             lp.setState(new LoanedState(lp,person,super.getFlag()));
+        } else {
+            lp.setState(new LoanedAndReservedState(lp,person,super.getReservedBy(),super.getFlag()));
         }
     }
 

@@ -1,0 +1,512 @@
+LogLine{text='Server started on port 8080', time=05/04/2026 12:47:11}
+LogLine{text='LP added: ffxyf0Server.model.AvailableState@8c747b9false', time=05/04/2026 12:47:21}
+LogLine{text='Simulated reserve of LP', time=05/04/2026 12:47:29}
+LogLine{text='Simulated reserve of LP', time=05/04/2026 12:47:29}
+LogLine{text='LP loaned: ffxyf0Server.model.LoanedState@54c19648false', time=05/04/2026 12:47:29}
+LogLine{text='LP loaned: ffxyf0Server.model.LoanedState@54c19648false', time=05/04/2026 12:47:29}
+LogLine{text='Simulated loan of LP', time=05/04/2026 12:47:49}
+LogLine{text='Simulated loan of LP', time=05/04/2026 12:47:49}
+LogLine{text='LP returned: ffxyf0Server.model.AvailableState@67ec6ee5false', time=05/04/2026 12:47:49}
+LogLine{text='Server started on port 8080', time=05/04/2026 12:48:54}
+LogLine{text='Simulated reserve of LP', time=05/04/2026 12:49:13}
+LogLine{text='Simulated reserve of LP', time=05/04/2026 12:49:13}
+LogLine{text='Server started on port 8080', time=05/04/2026 12:56:26}
+LogLine{text='Simulated reserve of LP', time=05/04/2026 12:56:45}
+LogLine{text='Simulated reserve of LP', time=05/04/2026 12:56:45}
+LogLine{text='Server started on port 8080', time=05/04/2026 12:57:53}
+LogLine{text='Client connected: 192.168.8.102', time=05/04/2026 12:58:01}
+LogLine{text='Simulated reserve of LP', time=05/04/2026 12:58:12}
+LogLine{text='Simulated reserve of LP', time=05/04/2026 12:58:12}
+LogLine{text='Server started on port 8080', time=05/04/2026 12:58:22}
+LogLine{text='LP added: ahvdcxu0Server.model.AvailableState@6dc75c4cfalse', time=05/04/2026 12:58:27}
+LogLine{text='LP added: sxcscs0Server.model.AvailableState@5145e067false', time=05/04/2026 12:58:34}
+LogLine{text='Client connected: 192.168.8.102', time=05/04/2026 12:58:39}
+LogLine{text='LP reserved: ahvdcxu0Server.model.AvailableState@4136b250false', time=05/04/2026 12:58:40}
+LogLine{text='LP reserved: ahvdcxu0Server.model.AvailableState@74ceaa23false', time=05/04/2026 12:58:40}
+LogLine{text='Simulated reserve of LP', time=05/04/2026 12:58:41}
+LogLine{text='Simulated reserve of LP', time=05/04/2026 12:58:41}
+LogLine{text='Error: java.lang.IllegalArgumentException: Class Server.model.LoanedState declares multiple JSON fields named 'loanedTo'; conflict is caused by fields Server.model.LoanedState#loanedTo and Server.model.LPState#loanedTo
+See https://github.com/google/gson/blob/main/Troubleshooting.md#duplicate-fields', time=05/04/2026 12:58:41}
+LogLine{text='LP loaned: ahvdcxu0Server.model.LoanedState@3b927142false', time=05/04/2026 12:58:41}
+LogLine{text='Error: java.lang.IllegalArgumentException: Class Server.model.LoanedState declares multiple JSON fields named 'loanedTo'; conflict is caused by fields Server.model.LoanedState#loanedTo and Server.model.LPState#loanedTo
+See https://github.com/google/gson/blob/main/Troubleshooting.md#duplicate-fields', time=05/04/2026 12:58:41}
+LogLine{text='LP loaned: sxcscs0Server.model.LoanedState@1b2ee74afalse', time=05/04/2026 12:58:41}
+LogLine{text='Simulated loan of LP', time=05/04/2026 12:59:01}
+LogLine{text='Simulated loan of LP', time=05/04/2026 12:59:01}
+LogLine{text='LP returned: ahvdcxu0Server.model.AvailableState@530c6c60false', time=05/04/2026 12:59:01}
+LogLine{text='LP returned: sxcscs0Server.model.AvailableState@430541b1false', time=05/04/2026 12:59:01}
+LogLine{text='Simulated return of LP', time=05/04/2026 12:59:21}
+LogLine{text='Simulated return of LP', time=05/04/2026 12:59:21}
+LogLine{text='Error: java.lang.IllegalArgumentException: Class Server.model.ReservedState declares multiple JSON fields named 'reservedBy'; conflict is caused by fields Server.model.ReservedState#reservedBy and Server.model.LPState#reservedBy
+See https://github.com/google/gson/blob/main/Troubleshooting.md#duplicate-fields', time=05/04/2026 12:59:21}
+LogLine{text='LP reserved: ahvdcxu0Server.model.ReservedState@5993145afalse', time=05/04/2026 12:59:21}
+LogLine{text='Error: java.lang.IllegalArgumentException: Class Server.model.ReservedState declares multiple JSON fields named 'reservedBy'; conflict is caused by fields Server.model.ReservedState#reservedBy and Server.model.LPState#reservedBy
+See https://github.com/google/gson/blob/main/Troubleshooting.md#duplicate-fields', time=05/04/2026 12:59:21}
+LogLine{text='LP reserved: ahvdcxu0Server.model.ReservedState@5993145afalse', time=05/04/2026 12:59:21}
+LogLine{text='LP added: jbvj0Server.model.AvailableState@4a6b1ab9false', time=05/04/2026 12:59:34}
+LogLine{text='Simulated reserve of LP', time=05/04/2026 12:59:41}
+LogLine{text='Simulated reserve of LP', time=05/04/2026 12:59:41}
+LogLine{text='Error: java.lang.IllegalArgumentException: Class Server.model.LoanedState declares multiple JSON fields named 'loanedTo'; conflict is caused by fields Server.model.LoanedState#loanedTo and Server.model.LPState#loanedTo
+See https://github.com/google/gson/blob/main/Troubleshooting.md#duplicate-fields', time=05/04/2026 12:59:41}
+LogLine{text='LP loaned: sxcscs0Server.model.LoanedState@17ecd5a7false', time=05/04/2026 12:59:41}
+LogLine{text='Error: java.lang.IllegalArgumentException: Class Server.model.LoanedState declares multiple JSON fields named 'loanedTo'; conflict is caused by fields Server.model.LoanedState#loanedTo and Server.model.LPState#loanedTo
+See https://github.com/google/gson/blob/main/Troubleshooting.md#duplicate-fields', time=05/04/2026 12:59:41}
+LogLine{text='LP loaned: ahvdcxu0Server.model.LoanedState@82f3118false', time=05/04/2026 12:59:41}
+LogLine{text='Server started on port 8080', time=05/04/2026 13:06:00}
+LogLine{text='Simulated reserve of LP', time=05/04/2026 13:06:19}
+LogLine{text='Simulated reserve of LP', time=05/04/2026 13:06:19}
+LogLine{text='LP added: khvyifiy0Server.model.AvailableState@6dc75c4cfalse', time=05/04/2026 13:06:26}
+LogLine{text='LP added: hcvck0Server.model.AvailableState@5145e067false', time=05/04/2026 13:06:30}
+LogLine{text='Simulated loan of LP', time=05/04/2026 13:06:39}
+LogLine{text='Simulated loan of LP', time=05/04/2026 13:06:39}
+LogLine{text='Simulated return of LP', time=05/04/2026 13:06:59}
+LogLine{text='Simulated return of LP', time=05/04/2026 13:06:59}
+LogLine{text='LP reserved: khvyifiy0Server.model.ReservedState@3b927142false', time=05/04/2026 13:06:59}
+LogLine{text='LP reserved: khvyifiy0Server.model.ReservedState@3b927142false', time=05/04/2026 13:06:59}
+LogLine{text='Simulated reserve of LP', time=05/04/2026 13:07:19}
+LogLine{text='Simulated reserve of LP', time=05/04/2026 13:07:19}
+LogLine{text='LP loaned: hcvck0Server.model.LoanedState@5993145afalse', time=05/04/2026 13:07:19}
+LogLine{text='LP loaned: khvyifiy0Server.model.LoanedState@1b2ee74afalse', time=05/04/2026 13:07:19}
+LogLine{text='Simulated loan of LP', time=05/04/2026 13:07:39}
+LogLine{text='Simulated loan of LP', time=05/04/2026 13:07:39}
+LogLine{text='LP returned: khvyifiy0Server.model.AvailableState@430541b1false', time=05/04/2026 13:07:39}
+LogLine{text='LP returned: hcvck0Server.model.AvailableState@17ecd5a7false', time=05/04/2026 13:07:39}
+LogLine{text='Simulated return of LP', time=05/04/2026 13:07:59}
+LogLine{text='Simulated return of LP', time=05/04/2026 13:07:59}
+LogLine{text='LP reserved: khvyifiy0Server.model.ReservedState@82f3118false', time=05/04/2026 13:07:59}
+LogLine{text='LP reserved: khvyifiy0Server.model.ReservedState@82f3118false', time=05/04/2026 13:07:59}
+LogLine{text='Client connected: 192.168.8.102', time=05/04/2026 13:08:16}
+LogLine{text='Simulated reserve of LP', time=05/04/2026 13:08:19}
+LogLine{text='Simulated reserve of LP', time=05/04/2026 13:08:19}
+LogLine{text='Error: java.lang.IllegalArgumentException: Class Server.model.LoanedState declares multiple JSON fields named 'loanedTo'; conflict is caused by fields Server.model.LoanedState#loanedTo and Server.model.LPState#loanedTo
+See https://github.com/google/gson/blob/main/Troubleshooting.md#duplicate-fields', time=05/04/2026 13:08:19}
+LogLine{text='Error: java.lang.IllegalArgumentException: Class Server.model.LoanedState declares multiple JSON fields named 'loanedTo'; conflict is caused by fields Server.model.LoanedState#loanedTo and Server.model.LPState#loanedTo
+See https://github.com/google/gson/blob/main/Troubleshooting.md#duplicate-fields', time=05/04/2026 13:08:19}
+LogLine{text='LP loaned: hcvck0Server.model.LoanedState@3fdcae79false', time=05/04/2026 13:08:19}
+LogLine{text='LP loaned: khvyifiy0Server.model.LoanedState@10ff4eefalse', time=05/04/2026 13:08:19}
+LogLine{text='Simulated loan of LP', time=05/04/2026 13:08:39}
+LogLine{text='Simulated loan of LP', time=05/04/2026 13:08:39}
+LogLine{text='LP returned: hcvck0Server.model.AvailableState@66b9b2cbfalse', time=05/04/2026 13:08:40}
+LogLine{text='LP returned: khvyifiy0Server.model.AvailableState@2d783c5cfalse', time=05/04/2026 13:08:40}
+LogLine{text='Simulated return of LP', time=05/04/2026 13:09:00}
+LogLine{text='Error: java.lang.IllegalArgumentException: Class Server.model.ReservedState declares multiple JSON fields named 'reservedBy'; conflict is caused by fields Server.model.ReservedState#reservedBy and Server.model.LPState#reservedBy
+See https://github.com/google/gson/blob/main/Troubleshooting.md#duplicate-fields', time=05/04/2026 13:09:00}
+LogLine{text='LP reserved: khvyifiy0Server.model.ReservedState@4a9f2b77false', time=05/04/2026 13:09:00}
+LogLine{text='Simulated return of LP', time=05/04/2026 13:09:00}
+LogLine{text='Error: java.lang.IllegalArgumentException: Class Server.model.ReservedState declares multiple JSON fields named 'reservedBy'; conflict is caused by fields Server.model.ReservedState#reservedBy and Server.model.LPState#reservedBy
+See https://github.com/google/gson/blob/main/Troubleshooting.md#duplicate-fields', time=05/04/2026 13:09:00}
+LogLine{text='LP reserved: hcvck0Server.model.ReservedState@48527e6dfalse', time=05/04/2026 13:09:00}
+LogLine{text='Simulated reserve of LP', time=05/04/2026 13:09:20}
+LogLine{text='Error: java.lang.IllegalArgumentException: Class Server.model.LoanedState declares multiple JSON fields named 'loanedTo'; conflict is caused by fields Server.model.LoanedState#loanedTo and Server.model.LPState#loanedTo
+See https://github.com/google/gson/blob/main/Troubleshooting.md#duplicate-fields', time=05/04/2026 13:09:20}
+LogLine{text='Simulated reserve of LP', time=05/04/2026 13:09:20}
+LogLine{text='LP loaned: khvyifiy0Server.model.LoanedState@4ad2bfb3false', time=05/04/2026 13:09:20}
+LogLine{text='Error: java.lang.IllegalArgumentException: Class Server.model.LoanedState declares multiple JSON fields named 'loanedTo'; conflict is caused by fields Server.model.LoanedState#loanedTo and Server.model.LPState#loanedTo
+See https://github.com/google/gson/blob/main/Troubleshooting.md#duplicate-fields', time=05/04/2026 13:09:20}
+LogLine{text='LP loaned: hcvck0Server.model.LoanedState@6842a8bdfalse', time=05/04/2026 13:09:20}
+LogLine{text='Simulated loan of LP', time=05/04/2026 13:09:40}
+LogLine{text='LP returned: khvyifiy0Server.model.AvailableState@4a2f0813false', time=05/04/2026 13:09:40}
+LogLine{text='Simulated loan of LP', time=05/04/2026 13:09:40}
+LogLine{text='LP returned: hcvck0Server.model.AvailableState@57535e17false', time=05/04/2026 13:09:40}
+LogLine{text='Simulated return of LP', time=05/04/2026 13:10:00}
+LogLine{text='Error: java.lang.IllegalArgumentException: Class Server.model.ReservedState declares multiple JSON fields named 'reservedBy'; conflict is caused by fields Server.model.ReservedState#reservedBy and Server.model.LPState#reservedBy
+See https://github.com/google/gson/blob/main/Troubleshooting.md#duplicate-fields', time=05/04/2026 13:10:00}
+LogLine{text='LP reserved: khvyifiy0Server.model.ReservedState@612bd477false', time=05/04/2026 13:10:00}
+LogLine{text='Simulated return of LP', time=05/04/2026 13:10:00}
+LogLine{text='Error: java.lang.IllegalArgumentException: Class Server.model.ReservedState declares multiple JSON fields named 'reservedBy'; conflict is caused by fields Server.model.ReservedState#reservedBy and Server.model.LPState#reservedBy
+See https://github.com/google/gson/blob/main/Troubleshooting.md#duplicate-fields', time=05/04/2026 13:10:00}
+LogLine{text='LP reserved: hcvck0Server.model.ReservedState@3b25027dfalse', time=05/04/2026 13:10:00}
+LogLine{text='Simulated reserve of LP', time=05/04/2026 13:10:20}
+LogLine{text='Error: java.lang.IllegalArgumentException: Class Server.model.LoanedState declares multiple JSON fields named 'loanedTo'; conflict is caused by fields Server.model.LoanedState#loanedTo and Server.model.LPState#loanedTo
+See https://github.com/google/gson/blob/main/Troubleshooting.md#duplicate-fields', time=05/04/2026 13:10:20}
+LogLine{text='LP loaned: khvyifiy0Server.model.LoanedState@52dc9fb6false', time=05/04/2026 13:10:20}
+LogLine{text='Simulated reserve of LP', time=05/04/2026 13:10:20}
+LogLine{text='Error: java.lang.IllegalArgumentException: Class Server.model.LoanedState declares multiple JSON fields named 'loanedTo'; conflict is caused by fields Server.model.LoanedState#loanedTo and Server.model.LPState#loanedTo
+See https://github.com/google/gson/blob/main/Troubleshooting.md#duplicate-fields', time=05/04/2026 13:10:20}
+LogLine{text='LP loaned: hcvck0Server.model.LoanedState@60dfb262false', time=05/04/2026 13:10:20}
+LogLine{text='Simulated loan of LP', time=05/04/2026 13:10:40}
+LogLine{text='LP returned: khvyifiy0Server.model.AvailableState@d2c8d79false', time=05/04/2026 13:10:40}
+LogLine{text='Simulated loan of LP', time=05/04/2026 13:10:40}
+LogLine{text='LP returned: hcvck0Server.model.AvailableState@1d25f984false', time=05/04/2026 13:10:40}
+LogLine{text='Simulated return of LP', time=05/04/2026 13:11:00}
+LogLine{text='Simulated return of LP', time=05/04/2026 13:11:00}
+LogLine{text='Error: java.lang.IllegalArgumentException: Class Server.model.ReservedState declares multiple JSON fields named 'reservedBy'; conflict is caused by fields Server.model.ReservedState#reservedBy and Server.model.LPState#reservedBy
+See https://github.com/google/gson/blob/main/Troubleshooting.md#duplicate-fields', time=05/04/2026 13:11:00}
+LogLine{text='Error: java.lang.IllegalArgumentException: Class Server.model.ReservedState declares multiple JSON fields named 'reservedBy'; conflict is caused by fields Server.model.ReservedState#reservedBy and Server.model.LPState#reservedBy
+See https://github.com/google/gson/blob/main/Troubleshooting.md#duplicate-fields', time=05/04/2026 13:11:00}
+LogLine{text='LP reserved: hcvck0Server.model.ReservedState@50cbafd1false', time=05/04/2026 13:11:00}
+LogLine{text='LP reserved: khvyifiy0Server.model.ReservedState@3ff1735ffalse', time=05/04/2026 13:11:00}
+LogLine{text='Simulated reserve of LP', time=05/04/2026 13:11:20}
+LogLine{text='Simulated reserve of LP', time=05/04/2026 13:11:20}
+LogLine{text='Error: java.lang.IllegalArgumentException: Class Server.model.LoanedState declares multiple JSON fields named 'loanedTo'; conflict is caused by fields Server.model.LoanedState#loanedTo and Server.model.LPState#loanedTo
+See https://github.com/google/gson/blob/main/Troubleshooting.md#duplicate-fields', time=05/04/2026 13:11:20}
+LogLine{text='Error: java.lang.IllegalArgumentException: Class Server.model.LoanedState declares multiple JSON fields named 'loanedTo'; conflict is caused by fields Server.model.LoanedState#loanedTo and Server.model.LPState#loanedTo
+See https://github.com/google/gson/blob/main/Troubleshooting.md#duplicate-fields', time=05/04/2026 13:11:20}
+LogLine{text='LP loaned: khvyifiy0Server.model.LoanedState@c680bafalse', time=05/04/2026 13:11:20}
+LogLine{text='LP loaned: hcvck0Server.model.LoanedState@43ee695ffalse', time=05/04/2026 13:11:20}
+LogLine{text='Simulated loan of LP', time=05/04/2026 13:11:40}
+LogLine{text='Simulated loan of LP', time=05/04/2026 13:11:40}
+LogLine{text='LP returned: hcvck0Server.model.AvailableState@5e3f9fe2false', time=05/04/2026 13:11:40}
+LogLine{text='LP returned: khvyifiy0Server.model.AvailableState@36d18e3bfalse', time=05/04/2026 13:11:40}
+LogLine{text='Simulated return of LP', time=05/04/2026 13:12:00}
+LogLine{text='Simulated return of LP', time=05/04/2026 13:12:00}
+LogLine{text='Error: java.lang.IllegalArgumentException: Class Server.model.ReservedState declares multiple JSON fields named 'reservedBy'; conflict is caused by fields Server.model.ReservedState#reservedBy and Server.model.LPState#reservedBy
+See https://github.com/google/gson/blob/main/Troubleshooting.md#duplicate-fields', time=05/04/2026 13:12:00}
+LogLine{text='LP reserved: khvyifiy0Server.model.ReservedState@5fff8addfalse', time=05/04/2026 13:12:00}
+LogLine{text='Error: java.lang.IllegalArgumentException: Class Server.model.ReservedState declares multiple JSON fields named 'reservedBy'; conflict is caused by fields Server.model.ReservedState#reservedBy and Server.model.LPState#reservedBy
+See https://github.com/google/gson/blob/main/Troubleshooting.md#duplicate-fields', time=05/04/2026 13:12:00}
+LogLine{text='LP reserved: khvyifiy0Server.model.ReservedState@5fff8addfalse', time=05/04/2026 13:12:00}
+LogLine{text='Simulated reserve of LP', time=05/04/2026 13:12:20}
+LogLine{text='Error: java.lang.IllegalArgumentException: Class Server.model.LoanedState declares multiple JSON fields named 'loanedTo'; conflict is caused by fields Server.model.LoanedState#loanedTo and Server.model.LPState#loanedTo
+See https://github.com/google/gson/blob/main/Troubleshooting.md#duplicate-fields', time=05/04/2026 13:12:20}
+LogLine{text='LP loaned: khvyifiy0Server.model.LoanedState@6ba061f6false', time=05/04/2026 13:12:20}
+LogLine{text='Simulated reserve of LP', time=05/04/2026 13:12:20}
+LogLine{text='Error: java.lang.IllegalArgumentException: Class Server.model.LoanedState declares multiple JSON fields named 'loanedTo'; conflict is caused by fields Server.model.LoanedState#loanedTo and Server.model.LPState#loanedTo
+See https://github.com/google/gson/blob/main/Troubleshooting.md#duplicate-fields', time=05/04/2026 13:12:20}
+LogLine{text='LP loaned: hcvck0Server.model.LoanedState@6c64a478false', time=05/04/2026 13:12:20}
+LogLine{text='Simulated loan of LP', time=05/04/2026 13:12:40}
+LogLine{text='Simulated loan of LP', time=05/04/2026 13:12:40}
+LogLine{text='LP returned: khvyifiy0Server.model.AvailableState@5f57ff68false', time=05/04/2026 13:12:40}
+LogLine{text='LP returned: hcvck0Server.model.AvailableState@615c2b02false', time=05/04/2026 13:12:40}
+LogLine{text='Simulated return of LP', time=05/04/2026 13:13:00}
+LogLine{text='Error: java.lang.IllegalArgumentException: Class Server.model.ReservedState declares multiple JSON fields named 'reservedBy'; conflict is caused by fields Server.model.ReservedState#reservedBy and Server.model.LPState#reservedBy
+See https://github.com/google/gson/blob/main/Troubleshooting.md#duplicate-fields', time=05/04/2026 13:13:00}
+LogLine{text='LP reserved: khvyifiy0Server.model.ReservedState@654d02effalse', time=05/04/2026 13:13:00}
+LogLine{text='Simulated return of LP', time=05/04/2026 13:13:00}
+LogLine{text='Error: java.lang.IllegalArgumentException: Class Server.model.ReservedState declares multiple JSON fields named 'reservedBy'; conflict is caused by fields Server.model.ReservedState#reservedBy and Server.model.LPState#reservedBy
+See https://github.com/google/gson/blob/main/Troubleshooting.md#duplicate-fields', time=05/04/2026 13:13:00}
+LogLine{text='LP reserved: hcvck0Server.model.ReservedState@514812e7false', time=05/04/2026 13:13:00}
+LogLine{text='Simulated reserve of LP', time=05/04/2026 13:13:20}
+LogLine{text='Error: java.lang.IllegalArgumentException: Class Server.model.LoanedState declares multiple JSON fields named 'loanedTo'; conflict is caused by fields Server.model.LoanedState#loanedTo and Server.model.LPState#loanedTo
+See https://github.com/google/gson/blob/main/Troubleshooting.md#duplicate-fields', time=05/04/2026 13:13:20}
+LogLine{text='LP loaned: khvyifiy0Server.model.LoanedState@4647d5f9false', time=05/04/2026 13:13:20}
+LogLine{text='Simulated reserve of LP', time=05/04/2026 13:13:20}
+LogLine{text='Error: java.lang.IllegalArgumentException: Class Server.model.LoanedState declares multiple JSON fields named 'loanedTo'; conflict is caused by fields Server.model.LoanedState#loanedTo and Server.model.LPState#loanedTo
+See https://github.com/google/gson/blob/main/Troubleshooting.md#duplicate-fields', time=05/04/2026 13:13:20}
+LogLine{text='LP loaned: hcvck0Server.model.LoanedState@732a47a3false', time=05/04/2026 13:13:20}
+LogLine{text='Simulated loan of LP', time=05/04/2026 13:13:40}
+LogLine{text='LP returned: khvyifiy0Server.model.AvailableState@2e80a316false', time=05/04/2026 13:13:40}
+LogLine{text='Simulated loan of LP', time=05/04/2026 13:13:40}
+LogLine{text='LP returned: hcvck0Server.model.AvailableState@3aa46adafalse', time=05/04/2026 13:13:40}
+LogLine{text='Simulated return of LP', time=05/04/2026 13:14:00}
+LogLine{text='Simulated return of LP', time=05/04/2026 13:14:00}
+LogLine{text='Error: java.lang.IllegalArgumentException: Class Server.model.ReservedState declares multiple JSON fields named 'reservedBy'; conflict is caused by fields Server.model.ReservedState#reservedBy and Server.model.LPState#reservedBy
+See https://github.com/google/gson/blob/main/Troubleshooting.md#duplicate-fields', time=05/04/2026 13:14:00}
+LogLine{text='LP reserved: khvyifiy0Server.model.ReservedState@4eccb511false', time=05/04/2026 13:14:00}
+LogLine{text='Error: java.lang.IllegalArgumentException: Class Server.model.ReservedState declares multiple JSON fields named 'reservedBy'; conflict is caused by fields Server.model.ReservedState#reservedBy and Server.model.LPState#reservedBy
+See https://github.com/google/gson/blob/main/Troubleshooting.md#duplicate-fields', time=05/04/2026 13:14:00}
+LogLine{text='LP reserved: hcvck0Server.model.ReservedState@3a2042b7false', time=05/04/2026 13:14:00}
+LogLine{text='Simulated reserve of LP', time=05/04/2026 13:14:20}
+LogLine{text='Simulated reserve of LP', time=05/04/2026 13:14:20}
+LogLine{text='Error: java.lang.IllegalArgumentException: Class Server.model.LoanedState declares multiple JSON fields named 'loanedTo'; conflict is caused by fields Server.model.LoanedState#loanedTo and Server.model.LPState#loanedTo
+See https://github.com/google/gson/blob/main/Troubleshooting.md#duplicate-fields', time=05/04/2026 13:14:20}
+LogLine{text='Error: java.lang.IllegalArgumentException: Class Server.model.LoanedState declares multiple JSON fields named 'loanedTo'; conflict is caused by fields Server.model.LoanedState#loanedTo and Server.model.LPState#loanedTo
+See https://github.com/google/gson/blob/main/Troubleshooting.md#duplicate-fields', time=05/04/2026 13:14:20}
+LogLine{text='LP loaned: khvyifiy0Server.model.LoanedState@431b8c5dfalse', time=05/04/2026 13:14:20}
+LogLine{text='LP loaned: hcvck0Server.model.LoanedState@2b6eb03efalse', time=05/04/2026 13:14:20}
+LogLine{text='Simulated loan of LP', time=05/04/2026 13:14:40}
+LogLine{text='Simulated loan of LP', time=05/04/2026 13:14:40}
+LogLine{text='LP returned: hcvck0Server.model.AvailableState@a58edaffalse', time=05/04/2026 13:14:40}
+LogLine{text='LP returned: khvyifiy0Server.model.AvailableState@3b8b71dafalse', time=05/04/2026 13:14:40}
+LogLine{text='Simulated return of LP', time=05/04/2026 13:15:00}
+LogLine{text='Simulated return of LP', time=05/04/2026 13:15:00}
+LogLine{text='Error: java.lang.IllegalArgumentException: Class Server.model.ReservedState declares multiple JSON fields named 'reservedBy'; conflict is caused by fields Server.model.ReservedState#reservedBy and Server.model.LPState#reservedBy
+See https://github.com/google/gson/blob/main/Troubleshooting.md#duplicate-fields', time=05/04/2026 13:15:00}
+LogLine{text='Error: java.lang.IllegalArgumentException: Class Server.model.ReservedState declares multiple JSON fields named 'reservedBy'; conflict is caused by fields Server.model.ReservedState#reservedBy and Server.model.LPState#reservedBy
+See https://github.com/google/gson/blob/main/Troubleshooting.md#duplicate-fields', time=05/04/2026 13:15:00}
+LogLine{text='LP reserved: hcvck0Server.model.ReservedState@1038fdaefalse', time=05/04/2026 13:15:00}
+LogLine{text='LP reserved: khvyifiy0Server.model.ReservedState@1333b484false', time=05/04/2026 13:15:00}
+LogLine{text='Simulated reserve of LP', time=05/04/2026 13:15:20}
+LogLine{text='Error: java.lang.IllegalArgumentException: Class Server.model.LoanedState declares multiple JSON fields named 'loanedTo'; conflict is caused by fields Server.model.LoanedState#loanedTo and Server.model.LPState#loanedTo
+See https://github.com/google/gson/blob/main/Troubleshooting.md#duplicate-fields', time=05/04/2026 13:15:20}
+LogLine{text='LP loaned: hcvck0Server.model.LoanedState@3bf7a685false', time=05/04/2026 13:15:20}
+LogLine{text='Simulated reserve of LP', time=05/04/2026 13:15:20}
+LogLine{text='Error: java.lang.IllegalArgumentException: Class Server.model.LoanedState declares multiple JSON fields named 'loanedTo'; conflict is caused by fields Server.model.LoanedState#loanedTo and Server.model.LPState#loanedTo
+See https://github.com/google/gson/blob/main/Troubleshooting.md#duplicate-fields', time=05/04/2026 13:15:20}
+LogLine{text='LP loaned: khvyifiy0Server.model.LoanedState@2b3e79affalse', time=05/04/2026 13:15:20}
+LogLine{text='Simulated loan of LP', time=05/04/2026 13:15:40}
+LogLine{text='Simulated loan of LP', time=05/04/2026 13:15:40}
+LogLine{text='LP returned: khvyifiy0Server.model.AvailableState@750fd3b6false', time=05/04/2026 13:15:40}
+LogLine{text='LP returned: hcvck0Server.model.AvailableState@2411acc2false', time=05/04/2026 13:15:40}
+LogLine{text='Simulated return of LP', time=05/04/2026 13:16:00}
+LogLine{text='Simulated return of LP', time=05/04/2026 13:16:00}
+LogLine{text='Error: java.lang.IllegalArgumentException: Class Server.model.ReservedState declares multiple JSON fields named 'reservedBy'; conflict is caused by fields Server.model.ReservedState#reservedBy and Server.model.LPState#reservedBy
+See https://github.com/google/gson/blob/main/Troubleshooting.md#duplicate-fields', time=05/04/2026 13:16:00}
+LogLine{text='Error: java.lang.IllegalArgumentException: Class Server.model.ReservedState declares multiple JSON fields named 'reservedBy'; conflict is caused by fields Server.model.ReservedState#reservedBy and Server.model.LPState#reservedBy
+See https://github.com/google/gson/blob/main/Troubleshooting.md#duplicate-fields', time=05/04/2026 13:16:00}
+LogLine{text='LP reserved: hcvck0Server.model.ReservedState@44740c3bfalse', time=05/04/2026 13:16:00}
+LogLine{text='LP reserved: khvyifiy0Server.model.ReservedState@38776d2dfalse', time=05/04/2026 13:16:00}
+LogLine{text='Simulated reserve of LP', time=05/04/2026 13:16:20}
+LogLine{text='Simulated reserve of LP', time=05/04/2026 13:16:20}
+LogLine{text='Error: java.lang.IllegalArgumentException: Class Server.model.LoanedState declares multiple JSON fields named 'loanedTo'; conflict is caused by fields Server.model.LoanedState#loanedTo and Server.model.LPState#loanedTo
+See https://github.com/google/gson/blob/main/Troubleshooting.md#duplicate-fields', time=05/04/2026 13:16:20}
+LogLine{text='Error: java.lang.IllegalArgumentException: Class Server.model.LoanedState declares multiple JSON fields named 'loanedTo'; conflict is caused by fields Server.model.LoanedState#loanedTo and Server.model.LPState#loanedTo
+See https://github.com/google/gson/blob/main/Troubleshooting.md#duplicate-fields', time=05/04/2026 13:16:20}
+LogLine{text='LP loaned: khvyifiy0Server.model.LoanedState@366e7933false', time=05/04/2026 13:16:20}
+LogLine{text='LP loaned: hcvck0Server.model.LoanedState@13765c96false', time=05/04/2026 13:16:20}
+LogLine{text='Simulated loan of LP', time=05/04/2026 13:16:40}
+LogLine{text='Simulated loan of LP', time=05/04/2026 13:16:40}
+LogLine{text='LP returned: hcvck0Server.model.AvailableState@15b303f3false', time=05/04/2026 13:16:40}
+LogLine{text='LP returned: khvyifiy0Server.model.AvailableState@6e458d50false', time=05/04/2026 13:16:40}
+LogLine{text='Simulated return of LP', time=05/04/2026 13:17:00}
+LogLine{text='Simulated return of LP', time=05/04/2026 13:17:00}
+LogLine{text='Error: java.lang.IllegalArgumentException: Class Server.model.ReservedState declares multiple JSON fields named 'reservedBy'; conflict is caused by fields Server.model.ReservedState#reservedBy and Server.model.LPState#reservedBy
+See https://github.com/google/gson/blob/main/Troubleshooting.md#duplicate-fields', time=05/04/2026 13:17:00}
+LogLine{text='LP reserved: khvyifiy0Server.model.ReservedState@3c6dda3bfalse', time=05/04/2026 13:17:00}
+LogLine{text='Error: java.lang.IllegalArgumentException: Class Server.model.ReservedState declares multiple JSON fields named 'reservedBy'; conflict is caused by fields Server.model.ReservedState#reservedBy and Server.model.LPState#reservedBy
+See https://github.com/google/gson/blob/main/Troubleshooting.md#duplicate-fields', time=05/04/2026 13:17:00}
+LogLine{text='LP reserved: hcvck0Server.model.ReservedState@655c614dfalse', time=05/04/2026 13:17:00}
+LogLine{text='Simulated reserve of LP', time=05/04/2026 13:17:20}
+LogLine{text='Simulated reserve of LP', time=05/04/2026 13:17:20}
+LogLine{text='Error: java.lang.IllegalArgumentException: Class Server.model.LoanedState declares multiple JSON fields named 'loanedTo'; conflict is caused by fields Server.model.LoanedState#loanedTo and Server.model.LPState#loanedTo
+See https://github.com/google/gson/blob/main/Troubleshooting.md#duplicate-fields', time=05/04/2026 13:17:20}
+LogLine{text='Error: java.lang.IllegalArgumentException: Class Server.model.LoanedState declares multiple JSON fields named 'loanedTo'; conflict is caused by fields Server.model.LoanedState#loanedTo and Server.model.LPState#loanedTo
+See https://github.com/google/gson/blob/main/Troubleshooting.md#duplicate-fields', time=05/04/2026 13:17:20}
+LogLine{text='LP loaned: hcvck0Server.model.LoanedState@664176cefalse', time=05/04/2026 13:17:20}
+LogLine{text='LP loaned: khvyifiy0Server.model.LoanedState@589c1c59false', time=05/04/2026 13:17:20}
+LogLine{text='Simulated loan of LP', time=05/04/2026 13:17:40}
+LogLine{text='Simulated loan of LP', time=05/04/2026 13:17:40}
+LogLine{text='LP returned: khvyifiy0Server.model.AvailableState@792f7930false', time=05/04/2026 13:17:40}
+LogLine{text='LP returned: hcvck0Server.model.AvailableState@23a33cd4false', time=05/04/2026 13:17:40}
+LogLine{text='Simulated return of LP', time=05/04/2026 13:18:00}
+LogLine{text='Simulated return of LP', time=05/04/2026 13:18:00}
+LogLine{text='Error: java.lang.IllegalArgumentException: Class Server.model.ReservedState declares multiple JSON fields named 'reservedBy'; conflict is caused by fields Server.model.ReservedState#reservedBy and Server.model.LPState#reservedBy
+See https://github.com/google/gson/blob/main/Troubleshooting.md#duplicate-fields', time=05/04/2026 13:18:00}
+LogLine{text='Error: java.lang.IllegalArgumentException: Class Server.model.ReservedState declares multiple JSON fields named 'reservedBy'; conflict is caused by fields Server.model.ReservedState#reservedBy and Server.model.LPState#reservedBy
+See https://github.com/google/gson/blob/main/Troubleshooting.md#duplicate-fields', time=05/04/2026 13:18:00}
+LogLine{text='LP reserved: khvyifiy0Server.model.ReservedState@614e1afdfalse', time=05/04/2026 13:18:00}
+LogLine{text='LP reserved: hcvck0Server.model.ReservedState@748e517dfalse', time=05/04/2026 13:18:00}
+LogLine{text='Simulated reserve of LP', time=05/04/2026 13:18:20}
+LogLine{text='Simulated reserve of LP', time=05/04/2026 13:18:20}
+LogLine{text='Error: java.lang.IllegalArgumentException: Class Server.model.LoanedState declares multiple JSON fields named 'loanedTo'; conflict is caused by fields Server.model.LoanedState#loanedTo and Server.model.LPState#loanedTo
+See https://github.com/google/gson/blob/main/Troubleshooting.md#duplicate-fields', time=05/04/2026 13:18:20}
+LogLine{text='Error: java.lang.IllegalArgumentException: Class Server.model.LoanedState declares multiple JSON fields named 'loanedTo'; conflict is caused by fields Server.model.LoanedState#loanedTo and Server.model.LPState#loanedTo
+See https://github.com/google/gson/blob/main/Troubleshooting.md#duplicate-fields', time=05/04/2026 13:18:20}
+LogLine{text='LP loaned: khvyifiy0Server.model.LoanedState@679e5990false', time=05/04/2026 13:18:20}
+LogLine{text='LP loaned: hcvck0Server.model.LoanedState@2660f1d5false', time=05/04/2026 13:18:20}
+LogLine{text='Simulated loan of LP', time=05/04/2026 13:18:40}
+LogLine{text='Simulated loan of LP', time=05/04/2026 13:18:40}
+LogLine{text='LP returned: hcvck0Server.model.AvailableState@1e264f94false', time=05/04/2026 13:18:40}
+LogLine{text='LP returned: khvyifiy0Server.model.AvailableState@a04a4abfalse', time=05/04/2026 13:18:40}
+LogLine{text='Simulated return of LP', time=05/04/2026 13:19:00}
+LogLine{text='Simulated return of LP', time=05/04/2026 13:19:00}
+LogLine{text='Error: java.lang.IllegalArgumentException: Class Server.model.ReservedState declares multiple JSON fields named 'reservedBy'; conflict is caused by fields Server.model.ReservedState#reservedBy and Server.model.LPState#reservedBy
+See https://github.com/google/gson/blob/main/Troubleshooting.md#duplicate-fields', time=05/04/2026 13:19:00}
+LogLine{text='Error: java.lang.IllegalArgumentException: Class Server.model.ReservedState declares multiple JSON fields named 'reservedBy'; conflict is caused by fields Server.model.ReservedState#reservedBy and Server.model.LPState#reservedBy
+See https://github.com/google/gson/blob/main/Troubleshooting.md#duplicate-fields', time=05/04/2026 13:19:00}
+LogLine{text='LP reserved: khvyifiy0Server.model.ReservedState@307b7ca3false', time=05/04/2026 13:19:00}
+LogLine{text='LP reserved: hcvck0Server.model.ReservedState@1c424399false', time=05/04/2026 13:19:00}
+LogLine{text='Simulated reserve of LP', time=05/04/2026 13:19:20}
+LogLine{text='Simulated reserve of LP', time=05/04/2026 13:19:20}
+LogLine{text='Error: java.lang.IllegalArgumentException: Class Server.model.LoanedState declares multiple JSON fields named 'loanedTo'; conflict is caused by fields Server.model.LoanedState#loanedTo and Server.model.LPState#loanedTo
+See https://github.com/google/gson/blob/main/Troubleshooting.md#duplicate-fields', time=05/04/2026 13:19:20}
+LogLine{text='Error: java.lang.IllegalArgumentException: Class Server.model.LoanedState declares multiple JSON fields named 'loanedTo'; conflict is caused by fields Server.model.LoanedState#loanedTo and Server.model.LPState#loanedTo
+See https://github.com/google/gson/blob/main/Troubleshooting.md#duplicate-fields', time=05/04/2026 13:19:20}
+LogLine{text='LP loaned: hcvck0Server.model.LoanedState@1ac1fcd5false', time=05/04/2026 13:19:20}
+LogLine{text='LP loaned: khvyifiy0Server.model.LoanedState@217311a3false', time=05/04/2026 13:19:20}
+LogLine{text='Simulated loan of LP', time=05/04/2026 13:19:40}
+LogLine{text='Simulated loan of LP', time=05/04/2026 13:19:40}
+LogLine{text='LP returned: hcvck0Server.model.AvailableState@3b8e5801false', time=05/04/2026 13:19:40}
+LogLine{text='LP returned: khvyifiy0Server.model.AvailableState@34b48ec4false', time=05/04/2026 13:19:40}
+LogLine{text='Simulated return of LP', time=05/04/2026 13:20:00}
+LogLine{text='Error: java.lang.IllegalArgumentException: Class Server.model.ReservedState declares multiple JSON fields named 'reservedBy'; conflict is caused by fields Server.model.ReservedState#reservedBy and Server.model.LPState#reservedBy
+See https://github.com/google/gson/blob/main/Troubleshooting.md#duplicate-fields', time=05/04/2026 13:20:00}
+LogLine{text='Simulated return of LP', time=05/04/2026 13:20:00}
+LogLine{text='LP reserved: khvyifiy0Server.model.ReservedState@1778ea0bfalse', time=05/04/2026 13:20:00}
+LogLine{text='Error: java.lang.IllegalArgumentException: Class Server.model.ReservedState declares multiple JSON fields named 'reservedBy'; conflict is caused by fields Server.model.ReservedState#reservedBy and Server.model.LPState#reservedBy
+See https://github.com/google/gson/blob/main/Troubleshooting.md#duplicate-fields', time=05/04/2026 13:20:00}
+LogLine{text='LP reserved: hcvck0Server.model.ReservedState@1bba5505false', time=05/04/2026 13:20:00}
+LogLine{text='Simulated reserve of LP', time=05/04/2026 13:20:20}
+LogLine{text='Simulated reserve of LP', time=05/04/2026 13:20:20}
+LogLine{text='Error: java.lang.IllegalArgumentException: Class Server.model.LoanedState declares multiple JSON fields named 'loanedTo'; conflict is caused by fields Server.model.LoanedState#loanedTo and Server.model.LPState#loanedTo
+See https://github.com/google/gson/blob/main/Troubleshooting.md#duplicate-fields', time=05/04/2026 13:20:20}
+LogLine{text='Error: java.lang.IllegalArgumentException: Class Server.model.LoanedState declares multiple JSON fields named 'loanedTo'; conflict is caused by fields Server.model.LoanedState#loanedTo and Server.model.LPState#loanedTo
+See https://github.com/google/gson/blob/main/Troubleshooting.md#duplicate-fields', time=05/04/2026 13:20:20}
+LogLine{text='LP loaned: khvyifiy0Server.model.LoanedState@19282df6false', time=05/04/2026 13:20:20}
+LogLine{text='LP loaned: hcvck0Server.model.LoanedState@70cfacb5false', time=05/04/2026 13:20:20}
+LogLine{text='Simulated loan of LP', time=05/04/2026 13:20:40}
+LogLine{text='Simulated loan of LP', time=05/04/2026 13:20:40}
+LogLine{text='LP returned: hcvck0Server.model.AvailableState@49084506false', time=05/04/2026 13:20:40}
+LogLine{text='LP returned: khvyifiy0Server.model.AvailableState@c9a4d52false', time=05/04/2026 13:20:40}
+LogLine{text='Simulated return of LP', time=05/04/2026 13:21:00}
+LogLine{text='Simulated return of LP', time=05/04/2026 13:21:00}
+LogLine{text='Error: java.lang.IllegalArgumentException: Class Server.model.ReservedState declares multiple JSON fields named 'reservedBy'; conflict is caused by fields Server.model.ReservedState#reservedBy and Server.model.LPState#reservedBy
+See https://github.com/google/gson/blob/main/Troubleshooting.md#duplicate-fields', time=05/04/2026 13:21:00}
+LogLine{text='Error: java.lang.IllegalArgumentException: Class Server.model.ReservedState declares multiple JSON fields named 'reservedBy'; conflict is caused by fields Server.model.ReservedState#reservedBy and Server.model.LPState#reservedBy
+See https://github.com/google/gson/blob/main/Troubleshooting.md#duplicate-fields', time=05/04/2026 13:21:00}
+LogLine{text='LP reserved: khvyifiy0Server.model.ReservedState@595a304dfalse', time=05/04/2026 13:21:00}
+LogLine{text='LP reserved: hcvck0Server.model.ReservedState@459d5290false', time=05/04/2026 13:21:00}
+LogLine{text='Simulated reserve of LP', time=05/04/2026 13:21:20}
+LogLine{text='Simulated reserve of LP', time=05/04/2026 13:21:20}
+LogLine{text='Error: java.lang.IllegalArgumentException: Class Server.model.LoanedState declares multiple JSON fields named 'loanedTo'; conflict is caused by fields Server.model.LoanedState#loanedTo and Server.model.LPState#loanedTo
+See https://github.com/google/gson/blob/main/Troubleshooting.md#duplicate-fields', time=05/04/2026 13:21:20}
+LogLine{text='Error: java.lang.IllegalArgumentException: Class Server.model.LoanedState declares multiple JSON fields named 'loanedTo'; conflict is caused by fields Server.model.LoanedState#loanedTo and Server.model.LPState#loanedTo
+See https://github.com/google/gson/blob/main/Troubleshooting.md#duplicate-fields', time=05/04/2026 13:21:20}
+LogLine{text='LP loaned: hcvck0Server.model.LoanedState@15e5c09afalse', time=05/04/2026 13:21:20}
+LogLine{text='LP loaned: khvyifiy0Server.model.LoanedState@1081541efalse', time=05/04/2026 13:21:20}
+LogLine{text='Simulated loan of LP', time=05/04/2026 13:21:40}
+LogLine{text='Simulated loan of LP', time=05/04/2026 13:21:40}
+LogLine{text='LP returned: khvyifiy0Server.model.AvailableState@1da6e8bffalse', time=05/04/2026 13:21:40}
+LogLine{text='LP returned: hcvck0Server.model.AvailableState@4d7a184dfalse', time=05/04/2026 13:21:40}
+LogLine{text='Simulated return of LP', time=05/04/2026 13:22:00}
+LogLine{text='Simulated return of LP', time=05/04/2026 13:22:00}
+LogLine{text='Error: java.lang.IllegalArgumentException: Class Server.model.ReservedState declares multiple JSON fields named 'reservedBy'; conflict is caused by fields Server.model.ReservedState#reservedBy and Server.model.LPState#reservedBy
+See https://github.com/google/gson/blob/main/Troubleshooting.md#duplicate-fields', time=05/04/2026 13:22:00}
+LogLine{text='Error: java.lang.IllegalArgumentException: Class Server.model.ReservedState declares multiple JSON fields named 'reservedBy'; conflict is caused by fields Server.model.ReservedState#reservedBy and Server.model.LPState#reservedBy
+See https://github.com/google/gson/blob/main/Troubleshooting.md#duplicate-fields', time=05/04/2026 13:22:00}
+LogLine{text='LP reserved: khvyifiy0Server.model.ReservedState@13542c6dfalse', time=05/04/2026 13:22:00}
+LogLine{text='LP reserved: hcvck0Server.model.ReservedState@160dbe78false', time=05/04/2026 13:22:00}
+LogLine{text='Simulated reserve of LP', time=05/04/2026 13:22:20}
+LogLine{text='Simulated reserve of LP', time=05/04/2026 13:22:20}
+LogLine{text='Error: java.lang.IllegalArgumentException: Class Server.model.LoanedState declares multiple JSON fields named 'loanedTo'; conflict is caused by fields Server.model.LoanedState#loanedTo and Server.model.LPState#loanedTo
+See https://github.com/google/gson/blob/main/Troubleshooting.md#duplicate-fields', time=05/04/2026 13:22:20}
+LogLine{text='Error: java.lang.IllegalArgumentException: Class Server.model.LoanedState declares multiple JSON fields named 'loanedTo'; conflict is caused by fields Server.model.LoanedState#loanedTo and Server.model.LPState#loanedTo
+See https://github.com/google/gson/blob/main/Troubleshooting.md#duplicate-fields', time=05/04/2026 13:22:20}
+LogLine{text='LP loaned: hcvck0Server.model.LoanedState@1e5d2cacfalse', time=05/04/2026 13:22:20}
+LogLine{text='LP loaned: khvyifiy0Server.model.LoanedState@3cf2f545false', time=05/04/2026 13:22:20}
+LogLine{text='Simulated loan of LP', time=05/04/2026 13:22:40}
+LogLine{text='Simulated loan of LP', time=05/04/2026 13:22:40}
+LogLine{text='LP returned: hcvck0Server.model.AvailableState@4e6aaddfalse', time=05/04/2026 13:22:40}
+LogLine{text='LP returned: khvyifiy0Server.model.AvailableState@7281351false', time=05/04/2026 13:22:40}
+LogLine{text='Simulated return of LP', time=05/04/2026 13:23:00}
+LogLine{text='Simulated return of LP', time=05/04/2026 13:23:00}
+LogLine{text='Error: java.lang.IllegalArgumentException: Class Server.model.ReservedState declares multiple JSON fields named 'reservedBy'; conflict is caused by fields Server.model.ReservedState#reservedBy and Server.model.LPState#reservedBy
+See https://github.com/google/gson/blob/main/Troubleshooting.md#duplicate-fields', time=05/04/2026 13:23:00}
+LogLine{text='LP reserved: khvyifiy0Server.model.ReservedState@2e2f49eefalse', time=05/04/2026 13:23:00}
+LogLine{text='Error: java.lang.IllegalArgumentException: Class Server.model.ReservedState declares multiple JSON fields named 'reservedBy'; conflict is caused by fields Server.model.ReservedState#reservedBy and Server.model.LPState#reservedBy
+See https://github.com/google/gson/blob/main/Troubleshooting.md#duplicate-fields', time=05/04/2026 13:23:00}
+LogLine{text='LP reserved: khvyifiy0Server.model.ReservedState@2e2f49eefalse', time=05/04/2026 13:23:00}
+LogLine{text='Simulated reserve of LP', time=05/04/2026 13:23:20}
+LogLine{text='Error: java.lang.IllegalArgumentException: Class Server.model.LoanedState declares multiple JSON fields named 'loanedTo'; conflict is caused by fields Server.model.LoanedState#loanedTo and Server.model.LPState#loanedTo
+See https://github.com/google/gson/blob/main/Troubleshooting.md#duplicate-fields', time=05/04/2026 13:23:20}
+LogLine{text='LP loaned: hcvck0Server.model.LoanedState@552adc2dfalse', time=05/04/2026 13:23:20}
+LogLine{text='Simulated reserve of LP', time=05/04/2026 13:23:20}
+LogLine{text='Error: java.lang.IllegalArgumentException: Class Server.model.LoanedState declares multiple JSON fields named 'loanedTo'; conflict is caused by fields Server.model.LoanedState#loanedTo and Server.model.LPState#loanedTo
+See https://github.com/google/gson/blob/main/Troubleshooting.md#duplicate-fields', time=05/04/2026 13:23:20}
+LogLine{text='LP loaned: khvyifiy0Server.model.LoanedState@1a8dcb89false', time=05/04/2026 13:23:21}
+LogLine{text='Simulated loan of LP', time=05/04/2026 13:23:40}
+LogLine{text='LP returned: hcvck0Server.model.AvailableState@22e5a268false', time=05/04/2026 13:23:40}
+LogLine{text='Simulated loan of LP', time=05/04/2026 13:23:41}
+LogLine{text='LP returned: khvyifiy0Server.model.AvailableState@2808abf1false', time=05/04/2026 13:23:41}
+LogLine{text='Simulated return of LP', time=05/04/2026 13:24:00}
+LogLine{text='Error: java.lang.IllegalArgumentException: Class Server.model.ReservedState declares multiple JSON fields named 'reservedBy'; conflict is caused by fields Server.model.ReservedState#reservedBy and Server.model.LPState#reservedBy
+See https://github.com/google/gson/blob/main/Troubleshooting.md#duplicate-fields', time=05/04/2026 13:24:01}
+LogLine{text='LP reserved: khvyifiy0Server.model.ReservedState@13e444abfalse', time=05/04/2026 13:24:01}
+LogLine{text='Simulated return of LP', time=05/04/2026 13:24:01}
+LogLine{text='Error: java.lang.IllegalArgumentException: Class Server.model.ReservedState declares multiple JSON fields named 'reservedBy'; conflict is caused by fields Server.model.ReservedState#reservedBy and Server.model.LPState#reservedBy
+See https://github.com/google/gson/blob/main/Troubleshooting.md#duplicate-fields', time=05/04/2026 13:24:01}
+LogLine{text='LP reserved: hcvck0Server.model.ReservedState@37b2b68false', time=05/04/2026 13:24:01}
+LogLine{text='Simulated reserve of LP', time=05/04/2026 13:24:21}
+LogLine{text='Error: java.lang.IllegalArgumentException: Class Server.model.LoanedState declares multiple JSON fields named 'loanedTo'; conflict is caused by fields Server.model.LoanedState#loanedTo and Server.model.LPState#loanedTo
+See https://github.com/google/gson/blob/main/Troubleshooting.md#duplicate-fields', time=05/04/2026 13:24:21}
+LogLine{text='LP loaned: khvyifiy0Server.model.LoanedState@47501f00false', time=05/04/2026 13:24:21}
+LogLine{text='Simulated reserve of LP', time=05/04/2026 13:24:21}
+LogLine{text='Error: java.lang.IllegalArgumentException: Class Server.model.LoanedState declares multiple JSON fields named 'loanedTo'; conflict is caused by fields Server.model.LoanedState#loanedTo and Server.model.LPState#loanedTo
+See https://github.com/google/gson/blob/main/Troubleshooting.md#duplicate-fields', time=05/04/2026 13:24:21}
+LogLine{text='LP loaned: hcvck0Server.model.LoanedState@440e02cdfalse', time=05/04/2026 13:24:21}
+LogLine{text='Simulated loan of LP', time=05/04/2026 13:24:41}
+LogLine{text='LP returned: khvyifiy0Server.model.AvailableState@44987873false', time=05/04/2026 13:24:41}
+LogLine{text='Simulated loan of LP', time=05/04/2026 13:24:41}
+LogLine{text='LP returned: hcvck0Server.model.AvailableState@302b4846false', time=05/04/2026 13:24:41}
+LogLine{text='Simulated return of LP', time=05/04/2026 13:25:01}
+LogLine{text='Error: java.lang.IllegalArgumentException: Class Server.model.ReservedState declares multiple JSON fields named 'reservedBy'; conflict is caused by fields Server.model.ReservedState#reservedBy and Server.model.LPState#reservedBy
+See https://github.com/google/gson/blob/main/Troubleshooting.md#duplicate-fields', time=05/04/2026 13:25:01}
+LogLine{text='LP reserved: khvyifiy0Server.model.ReservedState@4be1746afalse', time=05/04/2026 13:25:01}
+LogLine{text='Simulated return of LP', time=05/04/2026 13:25:01}
+LogLine{text='Error: java.lang.IllegalArgumentException: Class Server.model.ReservedState declares multiple JSON fields named 'reservedBy'; conflict is caused by fields Server.model.ReservedState#reservedBy and Server.model.LPState#reservedBy
+See https://github.com/google/gson/blob/main/Troubleshooting.md#duplicate-fields', time=05/04/2026 13:25:01}
+LogLine{text='LP reserved: hcvck0Server.model.ReservedState@5d113a91false', time=05/04/2026 13:25:01}
+LogLine{text='Simulated reserve of LP', time=05/04/2026 13:25:21}
+LogLine{text='Error: java.lang.IllegalArgumentException: Class Server.model.LoanedState declares multiple JSON fields named 'loanedTo'; conflict is caused by fields Server.model.LoanedState#loanedTo and Server.model.LPState#loanedTo
+See https://github.com/google/gson/blob/main/Troubleshooting.md#duplicate-fields', time=05/04/2026 13:25:21}
+LogLine{text='LP loaned: khvyifiy0Server.model.LoanedState@7a11a0a1false', time=05/04/2026 13:25:21}
+LogLine{text='Simulated reserve of LP', time=05/04/2026 13:25:21}
+LogLine{text='Error: java.lang.IllegalArgumentException: Class Server.model.LoanedState declares multiple JSON fields named 'loanedTo'; conflict is caused by fields Server.model.LoanedState#loanedTo and Server.model.LPState#loanedTo
+See https://github.com/google/gson/blob/main/Troubleshooting.md#duplicate-fields', time=05/04/2026 13:25:21}
+LogLine{text='LP loaned: hcvck0Server.model.LoanedState@7eb7a30false', time=05/04/2026 13:25:21}
+LogLine{text='Simulated loan of LP', time=05/04/2026 13:25:41}
+LogLine{text='LP returned: khvyifiy0Server.model.AvailableState@3dfe18fcfalse', time=05/04/2026 13:25:41}
+LogLine{text='Simulated loan of LP', time=05/04/2026 13:25:41}
+LogLine{text='LP returned: hcvck0Server.model.AvailableState@3347186afalse', time=05/04/2026 13:25:41}
+LogLine{text='Simulated return of LP', time=05/04/2026 13:26:01}
+LogLine{text='Error: java.lang.IllegalArgumentException: Class Server.model.ReservedState declares multiple JSON fields named 'reservedBy'; conflict is caused by fields Server.model.ReservedState#reservedBy and Server.model.LPState#reservedBy
+See https://github.com/google/gson/blob/main/Troubleshooting.md#duplicate-fields', time=05/04/2026 13:26:01}
+LogLine{text='Simulated return of LP', time=05/04/2026 13:26:01}
+LogLine{text='LP reserved: khvyifiy0Server.model.ReservedState@3aa2a4d0false', time=05/04/2026 13:26:01}
+LogLine{text='Error: java.lang.IllegalArgumentException: Class Server.model.ReservedState declares multiple JSON fields named 'reservedBy'; conflict is caused by fields Server.model.ReservedState#reservedBy and Server.model.LPState#reservedBy
+See https://github.com/google/gson/blob/main/Troubleshooting.md#duplicate-fields', time=05/04/2026 13:26:01}
+LogLine{text='LP reserved: hcvck0Server.model.ReservedState@59440f3cfalse', time=05/04/2026 13:26:01}
+LogLine{text='Simulated reserve of LP', time=05/04/2026 13:26:21}
+LogLine{text='Simulated reserve of LP', time=05/04/2026 13:26:21}
+LogLine{text='Error: java.lang.IllegalArgumentException: Class Server.model.LoanedState declares multiple JSON fields named 'loanedTo'; conflict is caused by fields Server.model.LoanedState#loanedTo and Server.model.LPState#loanedTo
+See https://github.com/google/gson/blob/main/Troubleshooting.md#duplicate-fields', time=05/04/2026 13:26:21}
+LogLine{text='LP loaned: hcvck0Server.model.LoanedState@d557337false', time=05/04/2026 13:26:21}
+LogLine{text='Error: java.lang.IllegalArgumentException: Class Server.model.LoanedState declares multiple JSON fields named 'loanedTo'; conflict is caused by fields Server.model.LoanedState#loanedTo and Server.model.LPState#loanedTo
+See https://github.com/google/gson/blob/main/Troubleshooting.md#duplicate-fields', time=05/04/2026 13:26:21}
+LogLine{text='LP loaned: khvyifiy0Server.model.LoanedState@7aa0c5cafalse', time=05/04/2026 13:26:21}
+LogLine{text='Simulated loan of LP', time=05/04/2026 13:26:41}
+LogLine{text='LP returned: hcvck0Server.model.AvailableState@51b3a257false', time=05/04/2026 13:26:41}
+LogLine{text='Simulated loan of LP', time=05/04/2026 13:26:41}
+LogLine{text='LP returned: khvyifiy0Server.model.AvailableState@d437697false', time=05/04/2026 13:26:41}
+LogLine{text='Simulated return of LP', time=05/04/2026 13:27:01}
+LogLine{text='Error: java.lang.IllegalArgumentException: Class Server.model.ReservedState declares multiple JSON fields named 'reservedBy'; conflict is caused by fields Server.model.ReservedState#reservedBy and Server.model.LPState#reservedBy
+See https://github.com/google/gson/blob/main/Troubleshooting.md#duplicate-fields', time=05/04/2026 13:27:01}
+LogLine{text='LP reserved: khvyifiy0Server.model.ReservedState@5a3c6443false', time=05/04/2026 13:27:01}
+LogLine{text='Simulated return of LP', time=05/04/2026 13:27:01}
+LogLine{text='Error: java.lang.IllegalArgumentException: Class Server.model.ReservedState declares multiple JSON fields named 'reservedBy'; conflict is caused by fields Server.model.ReservedState#reservedBy and Server.model.LPState#reservedBy
+See https://github.com/google/gson/blob/main/Troubleshooting.md#duplicate-fields', time=05/04/2026 13:27:01}
+LogLine{text='LP reserved: hcvck0Server.model.ReservedState@40b7a63bfalse', time=05/04/2026 13:27:01}
+LogLine{text='Simulated reserve of LP', time=05/04/2026 13:27:21}
+LogLine{text='Error: java.lang.IllegalArgumentException: Class Server.model.LoanedState declares multiple JSON fields named 'loanedTo'; conflict is caused by fields Server.model.LoanedState#loanedTo and Server.model.LPState#loanedTo
+See https://github.com/google/gson/blob/main/Troubleshooting.md#duplicate-fields', time=05/04/2026 13:27:21}
+LogLine{text='LP loaned: khvyifiy0Server.model.LoanedState@2378bdd7false', time=05/04/2026 13:27:21}
+LogLine{text='Simulated reserve of LP', time=05/04/2026 13:27:21}
+LogLine{text='Error: java.lang.IllegalArgumentException: Class Server.model.LoanedState declares multiple JSON fields named 'loanedTo'; conflict is caused by fields Server.model.LoanedState#loanedTo and Server.model.LPState#loanedTo
+See https://github.com/google/gson/blob/main/Troubleshooting.md#duplicate-fields', time=05/04/2026 13:27:21}
+LogLine{text='LP loaned: hcvck0Server.model.LoanedState@6f1c0ed9false', time=05/04/2026 13:27:21}
+LogLine{text='Simulated loan of LP', time=05/04/2026 13:27:41}
+LogLine{text='LP returned: khvyifiy0Server.model.AvailableState@592be44false', time=05/04/2026 13:27:41}
+LogLine{text='Simulated loan of LP', time=05/04/2026 13:27:41}
+LogLine{text='LP returned: hcvck0Server.model.AvailableState@13ee1865false', time=05/04/2026 13:27:41}
+LogLine{text='Simulated return of LP', time=05/04/2026 13:28:01}
+LogLine{text='Error: java.lang.IllegalArgumentException: Class Server.model.ReservedState declares multiple JSON fields named 'reservedBy'; conflict is caused by fields Server.model.ReservedState#reservedBy and Server.model.LPState#reservedBy
+See https://github.com/google/gson/blob/main/Troubleshooting.md#duplicate-fields', time=05/04/2026 13:28:01}
+LogLine{text='LP reserved: khvyifiy0Server.model.ReservedState@49ff05bbfalse', time=05/04/2026 13:28:01}
+LogLine{text='Simulated return of LP', time=05/04/2026 13:28:01}
+LogLine{text='Error: java.lang.IllegalArgumentException: Class Server.model.ReservedState declares multiple JSON fields named 'reservedBy'; conflict is caused by fields Server.model.ReservedState#reservedBy and Server.model.LPState#reservedBy
+See https://github.com/google/gson/blob/main/Troubleshooting.md#duplicate-fields', time=05/04/2026 13:28:01}
+LogLine{text='LP reserved: hcvck0Server.model.ReservedState@58f2341false', time=05/04/2026 13:28:01}
+LogLine{text='Simulated reserve of LP', time=05/04/2026 13:28:21}
+LogLine{text='Error: java.lang.IllegalArgumentException: Class Server.model.LoanedState declares multiple JSON fields named 'loanedTo'; conflict is caused by fields Server.model.LoanedState#loanedTo and Server.model.LPState#loanedTo
+See https://github.com/google/gson/blob/main/Troubleshooting.md#duplicate-fields', time=05/04/2026 13:28:21}
+LogLine{text='LP loaned: khvyifiy0Server.model.LoanedState@70587ebbfalse', time=05/04/2026 13:28:21}
+LogLine{text='Simulated reserve of LP', time=05/04/2026 13:28:21}
+LogLine{text='Error: java.lang.IllegalArgumentException: Class Server.model.LoanedState declares multiple JSON fields named 'loanedTo'; conflict is caused by fields Server.model.LoanedState#loanedTo and Server.model.LPState#loanedTo
+See https://github.com/google/gson/blob/main/Troubleshooting.md#duplicate-fields', time=05/04/2026 13:28:21}
+LogLine{text='LP loaned: hcvck0Server.model.LoanedState@78f4cbb5false', time=05/04/2026 13:28:21}
+LogLine{text='Simulated loan of LP', time=05/04/2026 13:28:41}
+LogLine{text='LP returned: khvyifiy0Server.model.AvailableState@1628e362false', time=05/04/2026 13:28:41}
+LogLine{text='Simulated loan of LP', time=05/04/2026 13:28:41}
+LogLine{text='LP returned: hcvck0Server.model.AvailableState@771168b4false', time=05/04/2026 13:28:41}
+LogLine{text='Simulated return of LP', time=05/04/2026 13:29:01}
+LogLine{text='Simulated return of LP', time=05/04/2026 13:29:01}
+LogLine{text='Error: java.lang.IllegalArgumentException: Class Server.model.ReservedState declares multiple JSON fields named 'reservedBy'; conflict is caused by fields Server.model.ReservedState#reservedBy and Server.model.LPState#reservedBy
+See https://github.com/google/gson/blob/main/Troubleshooting.md#duplicate-fields', time=05/04/2026 13:29:01}
+LogLine{text='LP reserved: hcvck0Server.model.ReservedState@145f6b03false', time=05/04/2026 13:29:01}
+LogLine{text='Error: java.lang.IllegalArgumentException: Class Server.model.ReservedState declares multiple JSON fields named 'reservedBy'; conflict is caused by fields Server.model.ReservedState#reservedBy and Server.model.LPState#reservedBy
+See https://github.com/google/gson/blob/main/Troubleshooting.md#duplicate-fields', time=05/04/2026 13:29:01}
+LogLine{text='LP reserved: khvyifiy0Server.model.ReservedState@373b00c0false', time=05/04/2026 13:29:01}
+LogLine{text='Server started on port 8080', time=05/04/2026 13:29:23}
+LogLine{text='LP added: ab0Server.model.AvailableState@6dc75c4cfalse', time=05/04/2026 13:29:28}
+LogLine{text='LP loaned: ab0Server.model.LoanedState@35d6478efalse', time=05/04/2026 13:29:36}
+LogLine{text='Simulated reserve of LP', time=05/04/2026 13:29:41}
+LogLine{text='Simulated reserve of LP', time=05/04/2026 13:29:41}
+LogLine{text='LP reserved: ab0Server.model.LoanedAndReservedState@765da185false', time=05/04/2026 13:29:43}
+LogLine{text='LP returned: ab0Server.model.AvailableState@2bf98a2efalse', time=05/04/2026 13:29:48}
+LogLine{text='Server started on port 8080', time=05/04/2026 13:30:50}
+LogLine{text='LP added: abc0Server.model.AvailableState@6dc75c4cfalse', time=05/04/2026 13:30:56}
+LogLine{text='LP loaned: abc0Server.model.LoanedState@5fbf0b10false', time=05/04/2026 13:31:02}
+LogLine{text='LP reserved: abc0Server.model.LoanedAndReservedState@4fda3df0false', time=05/04/2026 13:31:08}
+LogLine{text='Simulated reserve of LP', time=05/04/2026 13:31:08}
+LogLine{text='Simulated reserve of LP', time=05/04/2026 13:31:08}
+LogLine{text='LP returned: abc0Server.model.ReservedState@2577dbbfalse', time=05/04/2026 13:31:12}

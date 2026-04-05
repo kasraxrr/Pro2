@@ -51,6 +51,7 @@ public class LPClientHandler implements PropertyChangeListener,Runnable {
         {
             while (true)
             {
+                System.out.println("Waitins for clients");
                 String messageIn = in.readLine();
                 System.out.println(messageIn);
                 LPPackage lpPackage = xmlJsonParser.fromJson(messageIn,
@@ -86,10 +87,10 @@ public class LPClientHandler implements PropertyChangeListener,Runnable {
                     case "Add":
                         model.addLP(lpPackage.getLP());
                         break;
-                    case "Reserve":
+                    case "reserve":
                         model.reserve( lpPackage.getLP(),lpPackage.getName());
                         break;
-                    case "Loan":
+                    case "loan":
                         model.loan(lpPackage.getLP(),lpPackage.getName());
                         break;
                     case "Return":
@@ -123,13 +124,13 @@ public class LPClientHandler implements PropertyChangeListener,Runnable {
 
     @Override public void propertyChange(PropertyChangeEvent evt)
     {
-        Platform.runLater(() -> {
+
             LP lp = (LP) evt.getNewValue();
             try
             {
                 switch (evt.getPropertyName())
                 {
-                    case "add":
+                    case "lpAdded":
                         if (lp == null)
                         {
                             out.println(xmlJsonParser.toJson(
@@ -143,7 +144,7 @@ public class LPClientHandler implements PropertyChangeListener,Runnable {
                                     LPPackage.class, false));
                         }
                         break;
-                    case "reserve":
+                    case "lpReserved":
                         if (lp == null)
                         {
                             out.println(xmlJsonParser.toJson(
@@ -157,7 +158,7 @@ public class LPClientHandler implements PropertyChangeListener,Runnable {
                                     LPPackage.class, false));
                         }
                         break;
-                    case "loan":
+                    case "lpLoaned":
                         if (lp == null)
                         {
                             out.println(xmlJsonParser.toJson(
@@ -171,7 +172,7 @@ public class LPClientHandler implements PropertyChangeListener,Runnable {
                                     LPPackage.class, false));
                         }
                         break;
-                    case "return":
+                    case "lpReturned":
                         if (lp == null)
                         {
                             out.println(xmlJsonParser.toJson(
@@ -185,7 +186,7 @@ public class LPClientHandler implements PropertyChangeListener,Runnable {
                                     LPPackage.class, false));
                         }
                         break;
-                    case "cancel":
+                    case "lpStateCanceled":
                         if (lp == null)
                         {
                             out.println(xmlJsonParser.toJson(
@@ -222,7 +223,7 @@ public class LPClientHandler implements PropertyChangeListener,Runnable {
                 Log.getInstance("errors").addLog("Error: " + e.getMessage());
 
             }
-        });
+        ;
     }
 
 }

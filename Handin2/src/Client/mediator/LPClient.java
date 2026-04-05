@@ -30,7 +30,7 @@ public class LPClient implements Model {
         this.socket=new Socket(host,port);
         this.model=model;
         in=new BufferedReader(new InputStreamReader(socket.getInputStream()));
-        out=new PrintWriter(socket.getOutputStream());
+        out=new PrintWriter(socket.getOutputStream(),true);
         this.xmlJsonParser=new XmlJsonParser();
         xmlJsonParser.registerPolymorphicAdapter(
                 LPState.class, List.of(AvailableState.class, LoanedState.class, LoanedAndReservedState.class, ReservedState.class,RemovingState.class));
@@ -52,40 +52,50 @@ public class LPClient implements Model {
         socket.close();
     }
 
-    public synchronized void receive(String message) throws ParserException {
-        {
-            System.out.println("Client received " + message);
-            LPPackage lpPackage = xmlJsonParser.fromJson(message, LPPackage.class);
+    public synchronized void receive(String replyString) throws ParserException
+    {
+        System.out.println("Client received "+replyString);
+        LPPackage lpPackage = xmlJsonParser.fromJson(replyString, LPPackage.class);
 
-            if (waiting && xmlJsonParser.fromJson(message, Map.class).get("type").equals("All")) {
-                receivedListPackage = xmlJsonParser.fromJson(message, LPListPackage.class);
-                notifyAll();
-            } else if (waiting) {
-                receivedLPPackage.add(lpPackage);
-                notifyAll();
-            } else {
-                property.firePropertyChange(lpPackage.getType(), lpPackage.getName(), lpPackage.getLP());
-            }
+        if(waiting && xmlJsonParser.fromJson(replyString, Map.class).get("type").equals("All"))
+        {
+            receivedListPackage = xmlJsonParser.fromJson(replyString, LPListPackage.class);
+            notifyAll();
+        }
+        else if(waiting)
+        {
+            receivedLPPackage.add(lpPackage);
+            notifyAll();
+        }else
+        {
+            property.firePropertyChange(lpPackage.getType(), lpPackage.getName(), lpPackage.getLP());
         }
     }
 
+
     @Override
     public synchronized ArrayList<LP> getAllLPs() {
-        try
-        {
-            out.println(xmlJsonParser.toJson(new LPPackage("All", null, null, null, null), false));
-            while (receivedListPackage == null)
-            {
+        try {
+            System.out.println("1. Client is preparing to build the JSON message...");
+            String jsonMessage = xmlJsonParser.toJson(new LPPackage("All", null, null, null, null), false);
+
+            System.out.println("2. Client successfully built JSON: " + jsonMessage);
+            out.println(jsonMessage);
+
+            System.out.println("3. Message sent! Freezing UI and waiting for server reply...");
+            while (receivedListPackage == null) {
                 waiting = true;
                 wait();
             }
+
+            System.out.println("4. Server replied! Waking up UI!");
             ArrayList<LP> lpArrayList = receivedListPackage.getLps();
             waiting = false;
             receivedListPackage = null;
             return lpArrayList;
         }
-        catch (ParserException | InterruptedException e)
-        {
+        catch (Exception e) {
+            System.out.println("CRASH IN GET ALL LPS: " + e.getMessage());
             throw new RuntimeException(e);
         }
     }

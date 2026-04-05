@@ -38,7 +38,7 @@ public class ModelManager implements Model,PropertyChangeListener{
     @Override
     public void removeLP(LP lp) {
         lp.getState().remove(lp);
-        property.firePropertyChange("lpFlagged", null, lp);
+        property.firePropertyChange("remove", null, lp);
         Log.getInstance("server").addLog("LP removed: " + lp);
     }
 
@@ -54,7 +54,7 @@ public class ModelManager implements Model,PropertyChangeListener{
     public void reserve(LP lp, String person) {
         String oldState = lp.getStateString();
         library.reserve(lp, person);
-        property.firePropertyChange("lpReserved", oldState, lp.getStateString());
+        property.firePropertyChange("lpReserved", oldState, lp);
         Log.getInstance("server").addLog("LP reserved: " + lp);
     }
 
@@ -62,7 +62,7 @@ public class ModelManager implements Model,PropertyChangeListener{
     public void cancel(LP lp) {
         String oldState = lp.getStateString();
         library.cancel(lp);
-        property.firePropertyChange("lpStateCanceled", oldState, lp.getStateString());
+        property.firePropertyChange("lpStateCanceled", oldState, lp);
         Log.getInstance("server").addLog("LP canceled: " + lp);
     }
 
@@ -70,7 +70,7 @@ public class ModelManager implements Model,PropertyChangeListener{
     public void loan(LP lp, String person) {
         String oldState = lp.getStateString();
         library.loan(lp,person);
-        property.firePropertyChange("lpLoaned", oldState, lp.getStateString());
+        property.firePropertyChange("lpLoaned", null, lp);
         Log.getInstance("server").addLog("LP loaned: " + lp);
     }
 
@@ -78,7 +78,7 @@ public class ModelManager implements Model,PropertyChangeListener{
     public void returnLP(LP lp) {
         String oldState = lp.getStateString();
         library.returnLP(lp);
-        property.firePropertyChange("lpReturned", oldState, lp.getStateString());
+        property.firePropertyChange("lpReturned", oldState, lp);
         Log.getInstance("server").addLog("LP returned: " + lp);
 
     }
@@ -86,21 +86,22 @@ public class ModelManager implements Model,PropertyChangeListener{
     @Override
     public void flagForRemove(LP lp) {
         library.flagRemoveLP(lp);
-        property.firePropertyChange("lpFlagged", false, true);
+        property.firePropertyChange("lpFlagged", null, lp);
         Log.getInstance("server").addLog("LP flagged: " + lp);
     }
 
     @Override
     public void unflag(LP lp) {
         library.unflag(lp);
-        property.firePropertyChange("lpUnFlagged", true, false);
+        property.firePropertyChange("lpUnFlagged", null, lp);
         Log.getInstance("server").addLog("LP unflagged: " + lp);
     }
 
     @Override
     public void flagFoeRemove(int index) {
         library.flagRemoveLP(index);
-        property.firePropertyChange("lpFlagged", false, true);
+        LP lp =library.getLP(index);
+        property.firePropertyChange("lpFlagged", null, lp);
         Log.getInstance("server").addLog("LP flagged: " );
     }
 
