@@ -11,6 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/Observer-Football/Observer-Football.iml" filepath="$PROJECT_DIR$/Observer-Football/Observer-Football.iml" />
       <module fileurl="file://$PROJECT_DIR$/Observer-TempratureConverter/Observer-TempratureConverter.iml" filepath="$PROJECT_DIR$/Observer-TempratureConverter/Observer-TempratureConverter.iml" />
       <module fileurl="file://$PROJECT_DIR$/Pro2.iml" filepath="$PROJECT_DIR$/Pro2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Proxy-ListADT/Proxy-ListADT.iml" filepath="$PROJECT_DIR$/Proxy-ListADT/Proxy-ListADT.iml" />
       <module fileurl="file://$PROJECT_DIR$/Singleton-Counter/Singleton-Counter.iml" filepath="$PROJECT_DIR$/Singleton-Counter/Singleton-Counter.iml" />
       <module fileurl="file://$PROJECT_DIR$/Singleton-Multiton-Counter/Singleton-Multiton-Counter.iml" filepath="$PROJECT_DIR$/Singleton-Multiton-Counter/Singleton-Multiton-Counter.iml" />
       <module fileurl="file://$PROJECT_DIR$/Socket-Json-Login/Socket-Json-Login.iml" filepath="$PROJECT_DIR$/Socket-Json-Login/Socket-Json-Login.iml" />

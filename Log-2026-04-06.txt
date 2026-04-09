@@ -1,0 +1,19 @@
+LogLine{text='Server started on port 8080', time=06/04/2026 17:49:08}
+LogLine{text='LP added: LPllp0Server.model.AvailableState@191620fcfalse', time=06/04/2026 17:49:17}
+LogLine{text='Simulated reserve of LP', time=06/04/2026 17:49:27}
+LogLine{text='Simulated reserve of LP', time=06/04/2026 17:49:27}
+LogLine{text='LP loaned: LPllp0Server.model.LoanedState@3b927142false', time=06/04/2026 17:49:27}
+LogLine{text='LP loaned: LPllp0Server.model.LoanedState@3b927142false', time=06/04/2026 17:49:27}
+LogLine{text='Client connected: 192.168.8.102', time=06/04/2026 17:49:28}
+LogLine{text='Simulated loan of LP', time=06/04/2026 17:49:47}
+LogLine{text='Simulated loan of LP', time=06/04/2026 17:49:47}
+LogLine{text='LP returned: LPllp0Server.model.AvailableState@1b2ee74afalse', time=06/04/2026 17:49:47}
+LogLine{text='Server started on port 8080', time=06/04/2026 18:00:46}
+LogLine{text='LP added: sjncl0Server.model.AvailableState@6dc75c4cfalse', time=06/04/2026 18:00:51}
+LogLine{text='Client connected: 192.168.8.102', time=06/04/2026 18:00:57}
+LogLine{text='Simulated reserve of LP', time=06/04/2026 18:01:05}
+LogLine{text='Simulated reserve of LP', time=06/04/2026 18:01:05}
+LogLine{text='LP loaned: sjncl0Server.model.LoanedState@530c6c60false', time=06/04/2026 18:01:05}
+LogLine{text='LP loaned: sjncl0Server.model.LoanedState@530c6c60false', time=06/04/2026 18:01:05}
+LogLine{text='LP added: ljkn0Server.model.AvailableState@6cde4babfalse', time=06/04/2026 18:01:12}
+LogLine{text='LP loaned: ljkn0Server.model.AvailableState@15068a4cfalse', time=06/04/2026 18:01:18}
