@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/BasicUnitTest/BasicUnitTest.iml" filepath="$PROJECT_DIR$/BasicUnitTest/BasicUnitTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/Handin1/Handin1.iml" filepath="$PROJECT_DIR$/Handin1/Handin1.iml" />
       <module fileurl="file://$PROJECT_DIR$/Handin2/Handin2.iml" filepath="$PROJECT_DIR$/Handin2/Handin2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Handin3/Handin3.iml" filepath="$PROJECT_DIR$/Handin3/Handin3.iml" />
       <module fileurl="file://$PROJECT_DIR$/MVVM-Auction/MVVM-Auction.iml" filepath="$PROJECT_DIR$/MVVM-Auction/MVVM-Auction.iml" />
       <module fileurl="file://$PROJECT_DIR$/MVVM-Exercises/MVVM-Exercises.iml" filepath="$PROJECT_DIR$/MVVM-Exercises/MVVM-Exercises.iml" />
       <module fileurl="file://$PROJECT_DIR$/MVVM-Uppercase/MVVM-Uppercase.iml" filepath="$PROJECT_DIR$/MVVM-Uppercase/MVVM-Uppercase.iml" />
