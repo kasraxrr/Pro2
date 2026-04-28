@@ -77,4 +77,6 @@ public class AList<T> implements ListADT<T> {
     public int size() {
         return elements.size();
     }
+
+
 }
