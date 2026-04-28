@@ -4,7 +4,7 @@ public class Log {
     private static Log instance;
 
     private Log(){
-        instance=new Log();
+
     }
 
     public static Log getInstance()

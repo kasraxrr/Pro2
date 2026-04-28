@@ -7,7 +7,10 @@ public class AList<T> implements ListADT<T> {
     private int size;
     private ArrayList<T>elements;
 
-
+    public AList() {
+        this.elements = new ArrayList<>();
+        this.size = 0;
+    }
 
 
     @Override
